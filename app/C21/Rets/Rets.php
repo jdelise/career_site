@@ -14,13 +14,16 @@ use phrets\phRETS;
 class Rets
 {
     protected $rets;
-    protected $rets_login_url = "http://matrixrets.miborblc.com/rets/login.ashx";
-    protected $rets_username = "32383";
-    protected $rets_password = "Sta1234k";
+    protected $rets_login_url;
+    protected $rets_username;
+    protected $rets_password;
 
     public function __construct(phRETS $rets)
     {
         $this->rets = $rets;
+        $this->rets_login_url = env('Rets_Login_Url');
+        $this->rets_username = env('Rets_Username');
+        $this->rets_password = env('Rets_Password');
 
     }
 
