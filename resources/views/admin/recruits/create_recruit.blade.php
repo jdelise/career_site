@@ -26,7 +26,7 @@
                             <div class="col-md-4">
                                 <div class="form-group">
                                     <label for="first_name">Phone Number:</label>
-                                    <input type="text" name="phone" class="form-control" placeholder="e.g. (317)555-5555"/>
+                                    <input type="text" name="phone_1" class="form-control" placeholder="e.g. (317)555-5555"/>
                                 </div>
                             </div>
                         </div>
