@@ -64,7 +64,7 @@
                             </div>
                             <div class="col-md-4">
                                 <label for="brokerage">Brokerage</label>
-                                <input type="text" class="form-control" name="brokerage_name" placeholder="e.g. F.C. Tucker"/>
+                                <input type="text" class="form-control" name="brokerage_code" placeholder="e.g. F.C. Tucker"/>
                             </div>
                             <div class="col-md-4">
                                 <div class="form-group">
