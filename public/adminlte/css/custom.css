@@ -1,0 +1,21 @@
+.note{
+    border-left: 3px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.task-list{
+    margin: 0;
+    padding: 0;
+}
+.task-list li{
+    list-style: none;
+}
+.datepicker{
+    z-index: 10000!important;
+}
+.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {
+    padding: 13px;
+    line-height: 1.42857143;
+    vertical-align: middle;
+    border-top: 1px solid #ddd;
+}

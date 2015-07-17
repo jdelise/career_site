@@ -1,0 +1,63 @@
+/*
+ * Globals
+ */
+
+
+
+/*
+ * Base structure
+ */
+
+html,
+body {
+
+}
+body.bg {
+  /* text-shadow: 0 1px 3px rgba(0,0,0,.5); */
+  background-image: url(../images/girl_big.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 100%;
+  background-attachment: fixed;
+}
+body.no_bg{
+  
+}
+#webinar_bullets li{
+ font-size: 27px;
+color: #F1B412;
+line-height: 61px;
+}
+/* =================  Generic Styles ===================== */
+.center{
+  text-align: center;
+}
+.left{
+  text-align: left;
+}
+.right{
+  text-align: right;
+}
+.margin-10{
+  margin-top: 10px;
+}
+.margin-20{
+  margin-top: 20px;
+}
+.margin-40{
+  margin-top: 40px;
+}
+/* ===== Header ======= */
+#top_bar{
+  min-width: 100%;
+  padding: 10px 0;
+  background: #000;
+  color: #fff;
+}
+/* footer */
+footer{
+  margin-top: 20px;
+  min-width: 100%;
+  background: #000;
+  color: #fff;
+}

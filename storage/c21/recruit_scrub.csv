@@ -1,0 +1,434 @@
+#,AgentID,FirstName,LastName,OfficeID,Phone1,Phone1Type,Phone2,Phone2Type,EMail,Address,City,Zip
+324,29855,Tiffany,Hill,RLTS01,317-350-2177,Hm,317-750-2537,Cell,tiffany@therealresultsteam.com,10232 Soaring Heights Circle,Indianapolis,46234
+325,12855,Carolyn,Sanders,SANG01,317-337-0484,Hm,317-716-1436,Cell,carolynsanders@thesandersgroup.net,3905 Vincennes Rd Suite 303,Indianapolis,46278
+326,32591,Ronda,Peetz,LICO01,812-593-9742,Hm,812-593-9742,Cell,rhpeetz@gmail.com,1201 N. Lincoln St Suite B,Greensburg,47240
+327,37,Patty,Morton,BHHS01,317-558-7804,Bus,,,patty@pattymorton.com,3801 E. 82nd St.,Indianapolis,46240
+328,8350,Tammy,Springman,BHHS05,765-565-6330,Hm,317-908-5931,Cell,tspringman@bhhsIN.com,1890 W Main St,Greenfield,46140
+329,24926,Bill,Foxworthy,CARP02,317-842-1000,Hm,317-374-2462,Cell,bfoxworthy@callcarpenter.com,6945 E 77th St,Indianapolis,46250
+330,25231,Jeffrey,Mitchell,MSWS01,317-845-0038,Hm,317-496-0027,Cell,mitchell@mswoods.com,4111 Wythe Lane,Indianapolis,46250
+331,29127,Jennifer,Pyatt,PYAT01,317-645-3688,Hm,317-645-3688,Cell,jennifer@pyattbuilders.com,804 E. Main St.,Carmel,46032
+332,30349,Christopher,Chabenne,KKRI01,317-225-9969,Hm,317-225-9969,Cell,cc@koseneandkosene.com,"1500 W. Oak St, Suite 400",Zionsville,46077
+333,23479,Douglas,Jones,JONR01,317-849-0977,Hm,317-331-0618,Cell,JustCallJones@gmail.com,14132 Knightstown Way,Carmel,46033
+334,5589,Joe,Farley,TOM 01,888-571-2122,Hm,,,jfarleyrealestate@gmail.com,441 W Main St,Greenwood,46142
+335,32110,Whitney,Kesler,BHHS02,317-845-0997,Hm,317-508-6518,Cell,wkesler@bhhsIN.com,8402 East 116th St.,Fishers,46038
+336,25424,Mariam,Rahmani,NTHM01,317-414-9770,Bus,317-414-9770,Cell,mariam@mrahmani.com,230 E. 16th Street,Indianapolis,46202
+337,2585,Amy,Englert,CARP21,317-523-8887,Bus,317-523-8887,Cell,aenglert@callcarpenter.com,2270 Greenfield Ave,Noblesville,46060
+338,6955,Mary,Rose,ROSE01,317-445-9941,Hm,317-445-9941,Cell,MaryRose@RealPropertyHomes.net,Po Box 2065,Noblesville,46061
+339,26385,Curt,Mikulla,URE 01,317-201-7676,Hm,317-201-7676,Cell,homes@curtmikulla.com,31 1st St Sw,Carmel,46032
+340,17631,Rebecca,Glazier,ECOR01,317-582-1488,Hm,317-289-6601,Cell,rebecca.glazier@encoresir.com,"9510 N. Meridian, Suite 200",Indianapolis,46260
+341,1704,Jeff,Davis,BHHS03,317-862-9265,Hm,317-658-2972,Cell,jdwilbury@comcast.net,1680 W Main St,Greenwood,46142
+342,28281,Steven,Custis,CERL01,,,765-720-2755,Cell,steve_custis@yahoo.com,600 S Bloomington St,Greencastle,46135
+343,18333,Brittany,Woods,MSWS01,317-442-5509,Hm,317-442-5509,Cell,bwoods@mswoods.com,4111 Wythe Lane,Indianapolis,46250
+344,24230,Nadine,Coombs,CARP22,317-512-6924,Hm,,,nadine7971@aol.com,2750 W. Main Street,Greenfield,46140
+345,24286,Sarah,Waddell,CARP16,317-878-5395,Hm,317-771-2156,Cell,swaddell@callcarpenter.com,3 E Monroe St,Franklin,46131
+346,28260,Edward,Neu,JTMN01,317-710-9743,Hm,317-710-9743,Cell,ed.neu75@gmail.com,12979 Water Ridge Drive,Mccordsville,46055
+347,26180,Brigette,Nolting,BRRD01,812-372-3766,Bus,,,bnolting@c21br.com,700 Washington St,Columbus,47201
+348,3865,Amanda,Cottingham,COTT01,317-201-7753,Hm,317-201-7753,Cell,adc1336@aol.com,1336 W Stones Crossing Rd,Greenwood,46143
+349,9194,Marty,Matlock,MTCR01,317-863-6666,Bus,317-538-1498,Cell,marty@matlockgroup.net,9997 Allisonville Rd Ste A,Fishers,46038
+350,31086,Ronda,Shrewsbury Weybri,GRDI01,317-815-5929,Hm,,,ronda@realamericadev.com,10711 American Way #200,Fishers,46038
+351,15700,Penny,Akers,HRLS01,,,317-835-8720,Cell,penny@hoosier-realtors.com,11839 Maze Creek Drive,Indianapolis,46259
+352,24880,Donald,Cook,NEWS01,317-203-9101,Hm,317-491-2150,Cell,doncook@doncooksold.com,320 W. Mitchell St.,Martinsville,46151
+353,25603,Jerry,Lee,BHHS01,317-431-5699,Hm,317-431-5699,Cell,jerrylee@bhhsin.com,3801 E. 82nd St.,Indianapolis,46240
+354,11048,Andrea Lynn,Hutson,BHHS03,317-883-3303,Hm,,,andreahutson@msn.com,1680 W Main St,Greenwood,46142
+355,25174,Mike,Cole,MICL01,317-446-4433,Hm,317-446-4433,Cell,mikecole2@gmail.com,2680 East Main St Ste 310,Plainfield,46168
+356,30250,John,Long,CBKA01,317-578-0067,Hm,317-750-9698,Cell,john.long@coldwellbanker.com,12401 Old Meridian St,Carmel,46032
+357,23721,Cali,Bridges,CARP25,765-366-8005,Bus,765-366-8005,Cell,cbridges@callcarpenter.com,1801 Lafayette Rd,Crawfordsville,47933
+358,24813,Linda,Harms,RHAL01,812-448-1552,Hm,812-239-1721,Cell,linda@hoosierhomesandland.com,33 W National Avenue,Brazil,47834
+359,5611,Lejo,Harmeson,WALL01,317-858-1785,Hm,,,lejo@wallandassociates.com,9020 Crawfordsville Rd.,Indianapolis,46234
+360,10826,Michelle,Byrer,RHOD01,765-524-5108,Bus,765-779-4853,Hm,byrerbigbyrer@aol.com,905 W. Mill Street,Middletown,47356
+361,29444,Michael,Ellis,MIEL01,317-440-5604,Hm,317-440-5604,Cell,mikeellisrealty@gmail.com,1020 Creekside Lane,Plainfield,46168
+362,34446,Deborah,Cramer,CARP07,317-443-1147,Hm,317-443-1147,Cell,dcramer@callcarpenter.com,40 Spring Mill Ct,Mooresville,46158
+363,25292,Sean,Carney,MSRY01,317-703-9519,Hm,317-703-9519,Cell,sean@mainstreetrealtyllc.com,11650 Olio Road #1000-129,Fishers,46037
+364,17228,Constance,Marten,BHHS02,317-485-4040,Hm,317-409-9206,Cell,cmarten@bhhsIN.com,8402 East 116th St.,Fishers,46038
+365,16362,Todd,Schneider,IREH01,317-300-0430,Bus,317-670-2022,Cell,todds@indianareohomes.com,3209 W Smith Valley Rd #201,Greenwood,46142
+366,34846,Lisa,Hicks,CARP12,317-289-1562,Hm,317-289-1562,Cell,lisahicks@callcarpenter.com,301 Northfield Dr,Brownsburg,46112
+367,25122,Mallorie,Wilson,CEDR01,317-590-3434,Hm,317-590-3434,Cell,malloriewilsonrealty@gmail.com,8310 Allison Pointe Blvd # 201,Indianapolis,46250
+368,26859,Ema,Boykova,CARP11,317-531-4022,Hm,317-531-4022,Cell,eboykova@callcarpenter.com,2152 E. County Line Rd,Indianapolis,46227
+369,26796,Deborah,Minth,CARP31,317-439-3739,Hm,317-439-3739,Cell,dminth@gmail.com,302 W. Main,Westfield,46074
+370,23445,Matthew,Mielke,SCBA01,317-538-3957,Bus,317-538-3957,Cell,matthewmielke@sbcglobal.net,6330 E 75th Street Suite 168,Indianapolis,46250
+371,6202,Robert,Lane,CARP08,317-441-4810,Hm,317-441-4810,Cell,rlane@callcarpenter.com,8901 S Meridian St,Indianapolis,46217
+372,12864,Sue,Wilson,URE 01,317-696-7253,Bus,317-696-7253,Cell,Sue@LarryandSueWilson.com,31 1st St Sw,Carmel,46032
+373,16037,Christine,Krause,CRRL01,317-513-7137,Bus,317-513-7137,Cell,christineckrause@yahoo.com,17943 Phillip Drive,Noblesville,46060
+374,6045,Donald,Kohler,KOHL01,317-702-8939,Hm,317-748-0807,Cell,indyrealestate@aol.com,1010 3rd Ave Sw Ste 107,Carmel,46032
+375,5789,Debbie,Konter,LANE01,317-225-9085,Hm,317-225-9085,Cell,debbiekonter@gmail.com,291 E Main Street,Danville,46122
+376,92,Michael,Crafton,CELT01,317-888-1205,Hm,317-507-6453,Cell,craftonc21@aol.com,1570  W. Main St.,Greenwood,46142
+377,26261,Kelly,Mclaughlin,MDCR01,317-534-7010,Hm,317-534-7010,Cell,kelly-m-mclaughlin@hotmail.com,548 Euclid Avenue,Greenwood,46142
+378,18613,Catherine,Burris,CARP12,,,317-696-4015,Cell,cburris@callcarpenter.com,301 Northfield Dr,Brownsburg,46112
+379,21828,Crystal,Bolin,MSWS01,317-216-8588,Bus,317-502-7704,Cell,crystal@mswoods.com,4111 Wythe Lane,Indianapolis,46250
+380,19019,Carolyn,Rudicel,BHHS13,,,812-343-3876,Cell,rudicel@bhhsin.com,1015 Third St,Columbus,47201
+381,32172,Sandy,Thomas,CARP21,,,317-693-4382,Cell,SandyT@callCarpenter.com,2270 Greenfield Ave,Noblesville,46060
+382,31100,Kassie,Reynolds,BRRD01,812-378-1728,Bus,812-552-6461,Cell,kreynolds@c21br.com,700 Washington St,Columbus,47201
+383,16346,Suzi,Hilgedag Oden,NOBI01,317-698-0944,Bus,317-698-0944,Cell,suzi@nobilityrealty.com,5545 W Pr Highland Hills Dr.,Edinburgh,46124
+384,1864,John,Lewis,BHHS12,317-253-0949,Hm,317-753-7922,Cell,johnlewis@bhhsIN.com,12315 Hancock St #29,Carmel,46032
+385,24605,Jeffrey,Boller,CBKA01,317-490-3206,Hm,317-490-3206,Cell,jeff.boller@coldwellbanker.com,12401 Old Meridian St,Carmel,46032
+386,21729,Dan,Davis,BRRD01,812-378-7941,Bus,812-343-3640,Cell,ddavis@c21br.com,700 Washington St,Columbus,47201
+387,33312,Lauren,Masur,ECOR01,619-964-6180,Hm,,,lauren.masur@encoresir.com,"9510 N. Meridian, Suite 200",Indianapolis,46260
+388,31531,Cindy,Stockhaus,CARP16,317-517-8407,Hm,317-517-8407,Cell,cindystockhaus@gmail.com,3 E Monroe St,Franklin,46131
+389,19328,Sarabjit,Sikand,BHHS03,317-670-1055,Bus,317-670-1055,Cell,bsikand@yahoo.com,1680 W Main St,Greenwood,46142
+390,21346,Stephen,Kirk,HFEX01,,,317-965-2621,Cell,steve@cmsrealestate.net,"6801 Lake Plaza Dr, Ste A112",Indianapolis,46220
+391,17623,Joel,Mcwaters,BHHS01,317-558-5809,Bus,317-289-7200,Cell,jmcwaters@bhhsIN.com,3801 E. 82nd St.,Indianapolis,46240
+392,3170,Jayne,Moore,BHHS04,317-831-6816,Hm,317-796-2834,Cell,jmoore@bhhsIN.com,13969 N State Rd 67,Camby,46113
+393,2857,Richard,Schulte,SCHU01,317-253-5015,Hm,317-698-7456,Cell,richardeschulte@gmail.com,1402 W. 52nd Street,Indianapolis,46228
+394,32380,Morgan,Lathery,SREI02,317-694-6503,Hm,317-694-6503,Cell,thelatheryteam@yahoo.com,125 N Sr 267,Avon,46123
+395,18760,Mindy,Garcia,ECOR01,317-538-9416,Hm,317-538-9416,Cell,mindy.garcia@encoresir.com,"9510 N. Meridian, Suite 200",Indianapolis,46260
+396,291,Joseph,Bowling,JBG 01,317-842-0400,Bus,,,HOOPINJB@aol.com,7098 N Shadeland Ave Suite I,Indianapolis,46220
+397,5774,Larry,Swickheimer,CARP11,317-862-6202,Hm,317-694-4116,Cell,lswickheimer@callcarpenter.com,2152 E. County Line Rd,Indianapolis,46227
+398,26944,Bev,Roberts,BRRD01,812-378-1715,Bus,812-343-9486,Cell,broberts@c21br.com,700 Washington St,Columbus,47201
+399,23755,Debra,Altman-Foley,NEWK01,317-418-4599,Bus,317-418-4599,Cell,debra@newkirkrealtypc.com,8606 Allisonville Rd Ste 116,Indianapolis,46250
+400,2737,G.B.,Landrigan,LACO01,317-255-0255,Bus,317-255-0255,Cell,gb@landrigan.com,55 Monument Circle #810,Indianapolis,46204
+401,22621,Vic,Holley,VICH01,317-485-6079,Hm,317-442-5938,Cell,vicholley4@yahoo.com,600 E. Broadway,Fortville,46040
+402,23318,Ryan,Ebener,BHHS13,812-371-0123,Hm,812-371-0123,Cell,ebener@bhhsin.com,1015 Third St,Columbus,47201
+403,16323,Joe,Gradison,ERC 01,317-258-8348,Bus,317-258-8348,Cell,jgradison@gradison.net,6330 E 75th St Suite 156,Indianapolis,46250
+404,8956,Cheryl,Martinez,HBYC01,317-838-9217,Hm,317-536-7325,Cell,cmartinez@mibor.net,219 Krewson Street #150,Plainfield,46168
+405,1564,Bruce,Bright,URE 01,317-293-9177,Hm,317-293-9177,Cell,bruce@BrightSideTeam.com,31 1st St Sw,Carmel,46032
+406,21591,Sharlene,Teng,VITA01,317-815-6669,Hm,317-258-7265,Cell,sxteng@gmail.com,15434 Kilburn Court,Westfield,46074
+407,31460,Tessa,Robbins,CEDR01,317-840-1506,Hm,317-840-1506,Cell,tessa.century21@gmail.com,8310 Allison Pointe Blvd # 201,Indianapolis,46250
+408,6084,Elizabeth,Richardson,BHHS08,765-676-5070,Hm,317-440-0020,Cell,brichardson@bhhsIN.com,1338 S Lebanon St,Lebanon,46052
+409,21840,Jake,Stiles,STIL01,317-883-9461,Hm,317-201-4092,Cell,jakestiles@gmail.com,4922 Pebble Lane,Greenwood,46142
+410,27708,Joseph,Gray,GRTR01,317-538-6481,Hm,317-538-6481,Cell,jcgray54@gmail.com,6685 Karyn Drive,Avon,46123
+411,4336,Joseph,Cirillo,PRIO01,317-724-5518,Hm,,,josephwcirillo@aol.com,650 N. Girl School Rd Ste E60,Indianapolis,46214
+412,12614,Judy,Bastnagel,CARP19,317-858-7866,Hm,317-372-2472,Cell,judy@forsalebyjudy.com,5491 E. Main Street,Avon,46123
+413,33099,Kathleen,Cordial,RELL01,317-519-2576,Hm,,,kcordial@realestatelinks.com,4630 Lisborn Drive,Carmel,46033
+414,21042,Sara,Syberg,MASP01,317-496-5846,Bus,317-496-5846,Hm,sara@masproperties.net,929 Briarwood Dr,Greenwood,46142
+415,28415,Linda,Mcclure,BHHS02,317-841-6380,Hm,317-697-8258,Cell,lmcclure@bhhsIN.com,8402 East 116th St.,Fishers,46038
+416,14984,Sandra,Roach,ASRL01,317-571-9296,Hm,317-339-3197,Cell,roachhomes@aol.com,314 W. 107th Street,Carmel,46032
+417,29143,Reinhard,Pollach,CARP14,317-251-5849,Hm,317-518-0544,Cell,rpollach@callcarpenter.com,6101 N College Ave,Indianapolis,46220
+418,6768,Harry,Mclaughlin,MCLA01,317-727-5979,Bus,317-727-5979,Cell,macmcL620@aol.com,4952 Waterhaven Drive,Noblesville,46062
+419,5251,Andy,Sandler,SAND01,317-575-9121,Hm,317-331-8121,Cell,andy@amsandler.com,11533 Blossom Way,Carmel,46032
+420,471,James,Canull,AMRE01,317-507-4431,Hm,317-507-4431,Cell,jimcanull@amrelo.com,510 W Carmel Drive,Carmel,46032
+421,5596,Mark,Fox,TFGR01,317-506-5069,Hm,317-506-5069,Cell,homesforfriends@yahoo.com,"7443 Somerset Bay, Ste B",Indianapolis,46240
+422,30493,Matthew,Meyers,ECOR01,,,317-372-6621,Cell,matt.meyers@encoresothebysrealty.com,"9510 N. Meridian, Suite 200",Indianapolis,46260
+423,25213,Lynda,Lambert,TRDR01,765-481-9210,Hm,765-481-9210,Cell,lynda@mytraditionsrealty.com,920 Jackson St.,Lebanon,46052
+424,17189,Lisa,Hubbard,CARP10,317-626-5019,Hm,317-626-5019,Cell,soldwithlisa@yahoo.com,1011 N. Riley Hwy.,Shelbyville,46176
+425,5622,Daniel,Shine,DJSB01,317-403-5135,Bus,317-403-5135,Cell,danshine47@gmail.com,3101 S Meridian St,Indianapolis,46217
+426,18961,Luanna,Albrecht,PLAT01,317-289-1751,Hm,317-289-1751,Cell,luanna@newplace2callhome.com,610 N. Rangeline Rd,Carmel,46032
+427,968,Joseph,Faulkner,URE 01,317-590-6425,Hm,317-590-6425,Cell,faulkner@mibor.net,31 1st St Sw,Carmel,46032
+428,8169,Penni,Mayes,BHHS04,317-831-4921,Bus,317-714-4770,Cell,pdmayes81@gmail.com,13969 N State Rd 67,Camby,46113
+429,1590,Vicky,Peters,CARP19,317-745-1212,Bus,317-745-1212,Hm,vicky@callcarpenter.com,5491 E. Main Street,Avon,46123
+430,12080,Debora,Graham,CARP07,317-370-7103,Hm,,,dgraham63@comcast.net,40 Spring Mill Ct,Mooresville,46158
+431,5675,Janis,Bradley,JBRC01,317-251-6838,Hm,317-590-7348,Cell,janisbradley1972@gmail.com,1427 W. 86th Street Pmb 255,Indianapolis,46260
+432,23084,Elly,Brown,URE 02,317-253-9174,Hm,317-457-0780,Cell,habitat@ellybrown.com,815 E 63rd Place,Indianapolis,46220
+433,15815,Ruth Ann,Hessler,INFI01,812-662-8779,Bus,,,rhess@hsonline.net,208 West Main  Suite 6,Greensburg,47240
+434,23869,James,Petro,BRRD01,812-372-3766,Bus,,,jpetro@C21Br.com,700 Washington St,Columbus,47201
+435,28345,Jeremy,Tallman,THRS01,317-255-7767,Bus,,,marketing@threaltyinc.com,760 East 52nd Street,Indianapolis,46205
+436,24682,Todd,Sacksteder,SACK01,317-523-5533,Hm,317-523-5533,Cell,toddsacksteder@sbcglobal.net,P.O. Box 39493,Indianapolis,46239
+437,60142,Julia,Hoffman,CRRO01,765-524-3055,Hm,,,hoffmanjulia@hotmail.com,208 S Main,New Castle,47362
+438,31823,Seth,Patton,EVRR01,317-796-0661,Hm,317-796-0661,Cell,seth@jeverhart.com,716 Massachusetts Ave.,Indianapolis,46204
+439,31883,Jason,Gatewood,SWRL01,812-785-4133,Hm,317-833-8509,Cell,jason.gatewood44@aol.com,8734 Nineveh Rd.,Nineveh,46164
+440,21294,Paul,Scherrer,URE 01,317-255-7285,Bus,317-255-7285,Cell,pauls@unitedindy.com,31 1st St Sw,Carmel,46032
+441,21197,James,Jordan,APRN01,317-509-3688,Hm,317-509-3688,Cell,Jim@JimsIndyHomes.com,600 East Carmel Drive #162,Carmel,46032
+442,28020,Raymond,Cox,CXRE01,219-405-7269,Bus,219-405-7269,Cell,sales@raymondcox.com,P.O. Box 181,Westfield,46074
+443,31586,Edwin,Shannahan,JSRR01,317-690-7520,Hm,317-690-7520,Cell,ed@team-shannahan.com,6320 Rucker Road #K,Indianapolis,46220
+444,21434,Patty,Fislar,CARP29,765-795-3620,Hm,765-720-7392,Cell,pfislar@callcarpenter.com,320 S. Bloomington St,Greencastle,46135
+445,23160,Greg,Martin,GMAR01,317-345-4655,Hm,317-345-4655,Cell,greg@gmartinrealty.com,7054 Tassel Meadow Dr.,Indianapolis,46217
+446,4438,Deanna,Jackson,CARP04,317-442-5101,Hm,317-442-5101,Cell,djackson@callcarpenter.com,600 N. High School Rd.,Indianapolis,46214
+447,17939,Vicki,Gardner,BRRD01,812-378-7945,Bus,812-343-0546,Cell,vgardner@c21br.com,700 Washington St,Columbus,47201
+448,26287,Julie,Klinedinst,HOPR01,317-450-7917,Hm,317-450-7917,Cell,julieklinedinst@hotmail.com,503 S. Lebanon St,Lebanon,46052
+449,18344,David,Danz,CARP30,317-281-1680,Hm,,,ddanz@callcarpenter.com,10332 E. U.S. Hwy. 36,Avon,46123
+450,17907,Peggy,Dell,BRRD01,812-378-7946,Bus,812-350-2815,Cell,pdell@c21br.com,700 Washington St,Columbus,47201
+451,23690,Justin,Griffith,MSWS01,317-507-5599,Bus,317-507-5599,Cell,jgriffithsells@gmail.com,4111 Wythe Lane,Indianapolis,46250
+452,17015,Michele,Schulhof,MSWS01,,,317-250-3575,Cell,michele@mswoods.com,4111 Wythe Lane,Indianapolis,46250
+453,34737,Nicole,Witt,RELL01,317-403-7078,Hm,317-403-7078,Cell,nicole@indydreamhome.com,4630 Lisborn Drive,Carmel,46033
+454,14781,Steve,Robbins,EZST01,317-339-2257,Hm,317-339-2257,Cell,steve@easystreetrealty.com,8200 Haverstick Rd. Suite 100,Indianapolis,46240
+455,24707,Loris,Heck,CARP20,317-843-1664,Hm,317-446-1895,Cell,lheck@callcarpenter.com,790 City Center Drive,Carmel,46032
+456,21558,Daniel,Baldini,BALD01,,,317-714-0365,Cell,dbaldini@polarisbrokers.com,5455 W 86th Street Ste 123,Indianapolis,46268
+457,11290,Sibylle,Walker,CARP04,317-297-6553,Hm,317-698-6258,Cell,swalker@callcarpenter.com,600 N. High School Rd.,Indianapolis,46214
+458,21254,Clay,Bowden,ECOR01,317-517-1067,Hm,317-517-1067,Cell,clay.bowden@encoresir.com,"9510 N. Meridian, Suite 200",Indianapolis,46260
+459,33903,Maureen,Talbott,CARP21,,,765-620-1333,Cell,mtalbott@callcarpenter.com,2270 Greenfield Ave,Noblesville,46060
+460,10029,Deborah,Newman,BHHS01,317-558-7743,Bus,317-502-3408,Cell,deborahnewmanhomes@yahoo.com,3801 E. 82nd St.,Indianapolis,46240
+461,17896,Jane,Mellinger,BRRD01,812-378-1719,Bus,812-343-0579,Cell,janemell@yahoo.com,700 Washington St,Columbus,47201
+462,33130,Crystal,O'Brien,CARP30,317-640-5452,Hm,317-640-5452,Cell,crystalobrien@callcarpenter.com,10332 E. U.S. Hwy. 36,Avon,46123
+463,30386,Julianne,Jaensson,CARP21,317-877-9988,Hm,317-847-1973,Cell,jjaensson@gmail.com,2270 Greenfield Ave,Noblesville,46060
+464,25472,Yvonne,Jenkins,CARP12,317-858-3099,Hm,317-374-7906,Cell,yvonne@callcarpenter.com,301 Northfield Dr,Brownsburg,46112
+465,33066,Yuhshiow,Huang,BHHS13,812-375-1131,Hm,,,yhuang@bhhsin.com,1015 Third St,Columbus,47201
+466,7667,Terry,Beasley,CARP05,317-831-2191,Hm,,,tebeasley@aol.com,295 W Smith Valley Rd,Greenwood,46142
+467,3890,Rita,Fish,CEWL01,317-727-0458,Hm,317-727-0458,Cell,Rita@RitaFish.com,1726 N. State St.,Greenfield,46140
+468,24425,Carol,Metz,BHHS02,317-576-9825,Hm,317-213-1858,Cell,cmetz@bhhsIN.com,8402 East 116th St.,Fishers,46038
+469,1560,Patrick,Wilkins,CARP08,317-513-8880,Hm,,,pwilkins@callcarpenter.com,8901 S Meridian St,Indianapolis,46217
+470,21699,Todd,Sims,BHHS13,,,812-371-2989,Cell,todd@teamcolumbusin.com,1015 Third St,Columbus,47201
+471,27587,Stacy,West,BHHS05,765-238-9103,Hm,765-238-9103,Cell,swest9103@gmail.com,1890 W Main St,Greenfield,46140
+472,31773,Brandon,Warfield,CARP09,317-856-8073,Hm,317-626-7174,Cell,bwarfield@callcarpenter.com,400 Sr 37 North,Martinsville,46151
+473,30968,Jamie,Suchotzky,STCR01,317-551-9589,Hm,317-551-9589,Cell,suziesold@yahoo.com,637 W. Ralston Rd.,Indianapolis,46217
+474,15556,Lynne,Coffeen,CITY01,317-727-7216,Hm,,,lynne@gorealestateservices.com,650 E Carmel Dr Suite 200,Carmel,46032
+475,17426,Susan,Timmerman,CITY01,,,317-496-5791,Cell,susant@mibor.net,650 E Carmel Dr Suite 200,Carmel,46032
+476,20627,Stacey,Wright,RLOA01,317-571-1076,Hm,317-213-3223,Cell,Stacey@MovewithStacey.com,6679 Braemar Ave South,Noblesville,46062
+477,24359,James,Knighton,HRGP01,317-733-4355,Hm,317-414-9520,Cell,Jim@JimKnighton.com,260 S. First St. Suite 9,Zionsville,46077
+478,19088,Mona,Wolfe,EZST01,317-509-1532,Bus,317-509-1532,Cell,mona@monawolfe.com,8200 Haverstick Rd. Suite 100,Indianapolis,46240
+479,22672,Jay,Pearl,NTHM01,317-522-5445,Bus,317-502-6385,Cell,jay@jaypearl.com,230 E. 16th Street,Indianapolis,46202
+480,18578,Regina,Nottingham,NOTT01,317-850-3286,Bus,317-850-3286,Cell,regina@nottinghamreo.com,14074 Trade Center Dr #222,Fishers,46038
+481,34289,Herbert,Rice,MYNH01,317-757-9575,Hm,,,herb@123mynewhome.com,2421 Production Dr,Indianapolis,46241
+482,29708,Mark,Zukerman,ECOR01,317-660-4444,Bus,,,mz@encoresothebysrealty.com,"9510 N. Meridian, Suite 200",Indianapolis,46260
+483,6156,Becky,Brill,LITZ01,317-341-2488,Hm,,,beckybrill13@gmail.com,749 Massachusetts Ave,Indianapolis,46204
+484,28113,Karla,Hawkins,BHHS01,317-496-9097,Hm,317-496-9097,Cell,khawkins@bhhsIN.com,3801 E. 82nd St.,Indianapolis,46240
+485,10717,Becky,Boles,CARP24,765-640-2080,Bus,765-640-2080,Hm,bboles@callcarpenter.com,#1 Jackson St,Anderson,46016
+486,28392,Christie,Gard,MAXR01,812-663-7647,Hm,812-593-5638,Cell,christieanngard@gmail.com,1228 W Westridge Parkway,Greensburg,47240
+487,32624,Shannon,Schoolcraft,CARP09,765-346-2550,Hm,765-346-2550,Cell,sschoolcraft@callcarpenter.com,400 Sr 37 North,Martinsville,46151
+488,4669,Janet,Stitt,CARP04,317-697-6916,Hm,317-697-6916,Cell,jstitt@callcarpenter.com,600 N. High School Rd.,Indianapolis,46214
+489,17987,Terry,Sheets,BROR01,765-810-5351,Hm,765-810-5351,Cell,tlsheets61@gmail.com,2319 Broadway,Anderson,46012
+490,24740,Nora,Noblitt,BRRD01,812-378-7958,Bus,812-343-3843,Cell,nnoblitt@c21br.com,700 Washington St,Columbus,47201
+491,10403,Michele,Allison,CARP12,317-858-9821,Hm,317-753-5762,Cell,mallison@callcarpenter.com,301 Northfield Dr,Brownsburg,46112
+492,26591,Joann,Brown,CARP11,317-258-5278,Hm,317-258-5278,Cell,jabrown@callcarpenter.com,2152 E. County Line Rd,Indianapolis,46227
+493,29293,David,Cassidy,EZST01,317-844-1491,Hm,317-538-7790,Cell,dcassidy@highgarden.com,8200 Haverstick Rd. Suite 100,Indianapolis,46240
+494,31474,Deana,Hawkins,CARP05,317-534-0538,Hm,,,dhawkins@callcarpenter.com,295 W Smith Valley Rd,Greenwood,46142
+495,31549,David,Baird,OKBA01,317-862-1342,Hm,,,david@okbaird.com,9515 East Edgewood Ave,Indianapolis,46239
+496,26715,Bryan,Bransteter,STTT01,317-372-6663,Hm,317-372-6663,Cell,bryan@strattonrealtygroup.com,11991 Landwood Drive,Fishers,46037
+497,30594,John,Weliever,CARP08,765-342-5013,Hm,317-771-8326,Cell,jweliever@callcarpenter.com,8901 S Meridian St,Indianapolis,46217
+498,8975,Connie,Wilson,CARP03,317-557-4006,Hm,317-557-4006,Cell,connie@callcarpenter.com,8722 N Meridian St,Indianapolis,46260
+499,32350,Morris,Lucas,CARP11,317-590-6228,Hm,317-590-6228,Cell,mlucas@callcarpenter.com,2152 E. County Line Rd,Indianapolis,46227
+500,10678,Richard,Sharp,BHHS07,765-221-9370,Hm,765-623-6965,Cell,rsharp@bhhsIN.com,1002 Central Ave,Anderson,46016
+501,5840,Jan,Mathis,MATR01,317-831-5147,Hm,,,janallenmathis@gmail.com,P.O. Box 219,Mooresville,46158
+502,29459,Jennifer,Louden,MAXR01,812-662-4018,Hm,812-662-4018,Cell,jenniferbillieu@aol.com,1228 W Westridge Parkway,Greensburg,47240
+503,2247,Steven,Kass,CARP17,,,317-590-6276,Cell,stevengmac@aol.com,5751 W 56th St,Indianapolis,46254
+504,5784,Kim,Heald,CARP27,317-996-2936,Hm,317-442-9641,Cell,kheald@callcarpenter.com,105 S. Chestnut,Monrovia,46157
+505,32039,Chanda,Johnson,FLOC01,317-513-1101,Hm,,,chanda@flockrealty.com,442 Massachusetts,Indianapolis,46204
+506,22362,Erik,Hellyer,CEDR01,317-523-1403,Hm,317-523-1403,Cell,erikhellyer@live.com,8310 Allison Pointe Blvd # 201,Indianapolis,46250
+507,5694,Phillip,Carroll,CARS01,317-439-8762,Hm,317-439-8762,Cell,carrsunco@aol.com,3355 S. Arlington Ave Suite B,Indianapolis,46203
+508,4281,Patricia,Stringer,STRI01,317-839-8845,Hm,317-439-7983,Cell,pat-ricksellhomes@sbcglobal.net,3914 Clarks Creek Rd.,Plainfield,46168
+509,20676,Susan,Hodges,CARP11,317-409-2300,Hm,317-409-2300,Cell,shodges@callcarpenter.com,2152 E. County Line Rd,Indianapolis,46227
+510,24574,Harry,Meshberger,GRND01,765-447-5503,Hm,765-532-9165,Cell,hmeshberger@aol.com,11711 W. Grandview Dr,Columbus,47201
+511,18741,Candace,Reid,RELL01,317-732-4092,Hm,317-626-7708,Cell,candacereidrealtor@gmail.com,4630 Lisborn Drive,Carmel,46033
+512,32684,Jonathan,Bell,MINT01,317-946-8382,Hm,,,jon.bell@mint2sell.com,615 Parker Oaks Way,Brownsburg,46112
+513,10398,Jennifer,Freije,FREJ01,317-539-2895,Hm,,,freijefreije@tds.net,2340 West Us 40,Clayton,46118
+514,19104,Marita,Topmiller,BHHS01,317-513-4652,Bus,317-571-0394,Hm,marita@maritatopmiller.com,3801 E. 82nd St.,Indianapolis,46240
+515,35109,Cindy,Patchett,BRRD01,812-372-3766,Bus,,,cpatchett@c21br.com,700 Washington St,Columbus,47201
+516,4,John,Abernathy,ABER01,317-546-4663,Hm,317-710-1230,Cell,johntabernathy@aol.com,4954 E 56th St Suite 7,Indianapolis,46220
+517,11383,Jackie,Lovell,ARTE01,317-332-7547,Hm,317-332-7547,Cell,jackie@jackielovell.com,5610 E Washington Street,Indianapolis,46219
+518,1799,P.J.,Ryan,RELS01,765-675-8484,Hm,317-408-0543,Cell,pj.ryan@live.com,118 W. Madison,Tipton,46072
+519,30584,Debra,Lotts,EZST01,317-529-3991,Hm,317-529-3991,Cell,dlotts@highgarden.com,8200 Haverstick Rd. Suite 100,Indianapolis,46240
+520,26124,Joel,Vanags,URE 01,317-408-1298,Hm,317-408-1298,Cell,joelvanags@yahoo.com,31 1st St Sw,Carmel,46032
+521,32742,Kevin,Cothron,CARP19,765-720-8147,Hm,765-720-8147,Cell,kcothron@callcarpenter.com,5491 E. Main Street,Avon,46123
+522,24236,Robert,Morris,ICRE01,317-625-0655,Hm,317-625-0655,Cell,bob@indyschoicerealestate.com,5351 E Thompson Rd Ste 221,Indianapolis,46237
+523,5155,Vince,Wall,WALL01,317-590-8157,Hm,317-590-8157,Cell,vwall@wallandassociates.com,9020 Crawfordsville Rd.,Indianapolis,46234
+524,27889,Dan,Bragg,BRAG01,765-748-5509,Hm,765-748-5509,Cell,dan.bragg@braggrealtygroup.com,1106 Meridian St Ste 463,Anderson,46016
+525,24103,Evan,Bell,EZST01,317-370-5330,Hm,317-370-5330,Cell,ebell@highgarden.com,8200 Haverstick Rd. Suite 100,Indianapolis,46240
+526,7904,Suzanne,Marks,CARP20,317-502-1717,Bus,317-502-1717,Cell,SIMarks@aol.com,790 City Center Drive,Carmel,46032
+527,2213,Bryan,Williams,SARE01,317-335-7338,Hm,317-694-2790,Cell,Bryan@SadlerRealEstate.com,610 E Morgan St,Martinsville,46151
+528,32082,Erin,Long,CARP07,317-750-4181,Hm,317-750-4181,Cell,elong@callcarpenter.com,40 Spring Mill Ct,Mooresville,46158
+529,22019,John,Albertson,ALBS01,317-509-5447,Hm,317-509-5447,Cell,john.albertson@sbcglobal.net,336 E. Main St.,Plainfield,46168
+530,29006,Justin,Puckett,BHHS07,765-644-3341,Bus,,,jpuckett@bhhsIN.com,1002 Central Ave,Anderson,46016
+531,17874,Deborah,Fleetwood,HLOR01,812-988-4402,Hm,812-327-6862,Cell,debbie.fleetwood@sbcglobal.net,158 N. Jefferson St/Po Box 206,Nashville,47448
+532,26309,Kortney,Seitz,KOSZ01,317-727-5483,Hm,317-727-5483,Cell,koryseitz11@gmail.com,777 Park Drive,Fortville,46040
+533,17906,Kenneth,Doughty,BRRD01,812-378-1707,Bus,812-344-6002,Cell,ddoughty@c21br.com,700 Washington St,Columbus,47201
+534,31782,Mabel,Liu,VITA01,317-652-9508,Hm,317-652-9508,Cell,Mabel.Liu@gmail.com,15434 Kilburn Court,Westfield,46074
+535,27886,Donald,Griffin,GRRE01,,,812-272-3968,Cell,griffin@homefinder.org,"205 N. College Ave, Suite 216",Bloomington,47404
+536,25104,Hilda,Ellis,BHHS03,317-862-5719,Hm,317-443-8806,Cell,hildaellis18@aol.com,1680 W Main St,Greenwood,46142
+537,34204,Jacquie,Murray,CBCR01,317-506-6371,Hm,,,jmurray@traleeproperties.com,500 Us 31 South,Greenwood,46142
+538,24558,Mary Jane,Murray,CARP25,765-366-5422,Hm,765-366-5422,Cell,jmurray@callcarpenter.com,1801 Lafayette Rd,Crawfordsville,47933
+539,17441,Lisa,Modisett,CBKA01,317-843-8315,Hm,317-374-5207,Cell,lisa.modisett@coldwellbanker.com,12401 Old Meridian St,Carmel,46032
+540,6447,Carl,Culmann,CULM01,317-442-4282,Hm,317-442-4282,Cell,culmannrealestate@gmail.com,Po Box 17695,Indianapolis,46217
+541,32516,Nicholas,Krudy,CEDR01,317-435-7030,Hm,317-435-7030,Cell,nkrudy@gmail.com,8310 Allison Pointe Blvd # 201,Indianapolis,46250
+542,22407,Lori,Dalton,CEHR01,812-986-2551,Hm,812-239-3577,Cell,lori.dalton@century21.com,1605 E. National Ave,Brazil,47834
+543,26572,Bradley,Hamann,HAMN01,309-657-2659,Hm,309-657-2659,Cell,Brad@HamannSense.com,209 W. 46th Street,Indianapolis,46208
+544,12926,James,Blankenship,CARP08,317-374-7045,Hm,317-374-7045,Cell,jbsoldme@callcarpenter.com,8901 S Meridian St,Indianapolis,46217
+545,17764,Matthew,Armstrong,BWRE01,317-814-0062,Hm,317-201-5731,Cell,matt@bandwagonrealestate.com,8888 Keystone Xing #1300,Indianapolis,46240
+546,16385,Sharon,Krieger,LICO01,812-663-5858,Hm,812-593-4224,Cell,skrieger@lincoln-realty.com,1201 N. Lincoln St Suite B,Greensburg,47240
+547,16748,Elizabeth,Erwin,PREM01,317-496-7846,Hm,317-496-7846,Cell,betsey.erwin@gmail.com,5140 E 161st St,Noblesville,46062
+548,16298,John,Walker,CHEF01,317-933-2763,Hm,,,jwwrob@aol.com,P.O. Box 547,Morgantown,46160
+549,11090,Judy,Koehler,CARP18,317-507-2373,Hm,317-507-2373,Cell,jkoehler@callcarpenter.com,11475 Fishers Point Blvd,Fishers,46038
+550,1002,Ken,Fisher,FISR01,317-845-9511,Hm,,,KenFisher@Realtor.com,14074 Trade Center Dr. Ste 102,Fishers,46038
+551,25481,Ryan,Moriarty,CBCR01,317-614-5316,Hm,317-614-5316,Cell,Ryan@IndyRealEstate.com,500 Us 31 South,Greenwood,46142
+552,34646,Elizabeth,Harting,CARP32,317-242-8347,Hm,317-242-8347,Cell,thehartingteam@callcarpenter.com,5 N Main St,Zionsville,46077
+553,27765,Jeanette,Hammel,CARP12,317-852-2159,Hm,317-409-9280,Cell,jhammel@callcarpenter.com,301 Northfield Dr,Brownsburg,46112
+554,17095,Phil,Christy,CRST01,317-441-4721,Hm,317-441-4721,Cell,info@christysrealty.net,6851 Madison Ave.,Indianapolis,46227
+555,22235,Leo,Tian,TLCS01,317-654-0932,Hm,317-654-0932,Cell,leotcg@yahoo.com,4020 Highview Way,Columbus,47203
+556,29741,Wendy,Zhang,VARS01,317-579-9862,Hm,317-457-0389,Cell,valuerealtyservices@gmail.com,11634 Horizon Ct.,Fishers,46037
+557,17299,Judith,Burns,CERA01,317-408-9310,Hm,317-408-9310,Cell,jburns@century21ras.com,732 S. Range Line Rd.,Carmel,46032
+558,10335,Suzan,Gray,CARP19,317-435-2303,Hm,317-435-2303,Cell,sgray@callcarpenter.com,5491 E. Main Street,Avon,46123
+559,34840,Michael,Knollman,TDSQ01,812-932-8010,Bus,,,mknollman@tudorsquare.com,118 Sr 46e.,Batesville,47006
+560,4277,Joe,Bottorff,REDC01,317-888-7333,Hm,317-432-6706,Cell,joe@docrealestate.net,530 Us 31 South,Greenwood,46142
+561,25656,Kenneth,George,CRDA01,317-374-7691,Hm,317-374-7691,Cell,homesbygeorge@hotmail.com,9105 E 56th Street Ste 207,Indianapolis,46220
+562,31510,Jamin,Spall,CENB01,812-374-2082,Bus,812-374-2082,Hm,sgbmanagement@yahoo.com,2470 North State Hwy 7,North Vernon,47265
+563,15445,Christie,Robertson,RELL01,317-549-3508,Hm,317-223-8015,Cell,crobertson2337@sbcglobal.net,4630 Lisborn Drive,Carmel,46033
+564,14177,Kevin,Kervan,JBG 01,317-353-0422,Hm,317-414-6939,Cell,kervanins@gmail.com,7098 N Shadeland Ave Suite I,Indianapolis,46220
+565,29329,Frank,Tinsley,QORG01,317-842-6179,Hm,317-250-8592,Cell,fwtinsley@gmail.com,8246 Cloverdale Way,Indianapolis,46256
+566,31758,Susan,Ho,CERA01,317-733-8747,Hm,317-506-3607,Cell,sho@century21ras.com,732 S. Range Line Rd.,Carmel,46032
+567,4646,Rollin,Jackson,TURT01,317-502-7864,Hm,317-502-7864,Cell,rjack@mibor.net,"4000 E Southport Rd, Ste 10 Tc",Indianapolis,46237
+568,30596,Ellen,Stewart,WWRL01,317-663-9632,Bus,317-663-9632,Cell,ellensmail@earthlink.net,7334 Wildcat Run Ct.,Indianapolis,46239
+569,31920,Shaquenta,Purdie,CARP20,,,317-525-2300,Cell,spurdie@callcarpenter.com,790 City Center Drive,Carmel,46032
+570,32484,Sean,Mcduffee,CBKA01,317-384-8689,Hm,317-384-8689,Cell,smcduffee@hotmail.com,12401 Old Meridian St,Carmel,46032
+571,14146,Don,Whitesell,CARP22,317-627-9070,Hm,317-627-9070,Cell,dwhitesell@callcarpenter.com,2750 W. Main Street,Greenfield,46140
+572,18738,Jimmy,Perry,FTRE01,317-281-9239,Hm,317-281-9239,Cell,jimperry@frontporchre.com,4060 S. Kelly Drive,New Palestine,46163
+573,18225,Patricia,O'Connor,BHHS01,317-441-9743,Hm,317-441-9743,Cell,patty@timoconnorteam.com,3801 E. 82nd St.,Indianapolis,46240
+574,20855,Linda,Dzierba,DZIE01,812-333-4041,Bus,,,linda@dzre.com,517 N Walnut St,Bloomington,47404
+575,27468,Rheadawn,Young,CURE01,812-498-9332,Hm,812-498-9332,Cell,rheadawnyoung@countrysidere.com,321 N Walnut St,Batesville,47006
+576,22823,Jeana,Bruzas,CARP04,317-272-8586,Hm,317-679-1183,Cell,jculp@callcarpenter.com,600 N. High School Rd.,Indianapolis,46214
+577,18362,Kathleen,Woods,MSWS01,317-537-7510,Hm,,,kwoods@mswoods.com,4111 Wythe Lane,Indianapolis,46250
+578,31927,Zachary,Miller,CARP21,317-677-3071,Hm,317-677-3071,Cell,zmiller@callcarpenter.com,2270 Greenfield Ave,Noblesville,46060
+579,34111,Timothy,Wright,KEFW01,317-745-5426,Hm,317-443-1795,Cell,twright@wrightrealtors.us,P.O. Box 55,Danville,46122
+580,19046,Diane,Grinnell,DNGR01,317-257-7058,Hm,317-435-6778,Cell,dgrinnell5@gmail.com,6336 Calais Drive,Indianapolis,46220
+581,7623,Greg,Robinson,ASRL01,317-810-0641,Hm,317-506-9054,Cell,gregrobinson7623@hotmail.com,314 W. 107th Street,Carmel,46032
+582,16908,Dianna,Clampitt,CARP19,317-281-8129,Hm,,,diannasells@sbcglobal.net,5491 E. Main Street,Avon,46123
+583,24384,Larry,Cruse,CBCR01,317-883-1028,Hm,317-213-3853,Cell,larry@larrycruse.com,500 Us 31 South,Greenwood,46142
+584,17730,Brian,Eades,DREA01,317-223-7974,Hm,317-223-7974,Cell,brian13eades@gmail.com,Po Box 17791,Indianapolis,46217
+585,31597,Celeste,Mariotti,CARP20,000-000-0000,Hm,,,cmariotti@callcarpenter.com,790 City Center Drive,Carmel,46032
+586,34481,Jennifer,Turner,CARP19,317-504-5072,Hm,317-504-5072,Cell,jturner@callcarpenter.com,5491 E. Main Street,Avon,46123
+587,31121,Teri,Margason,BHHS03,317-435-4490,Hm,,,terimargason@gmail.com,1680 W Main St,Greenwood,46142
+588,29153,Connie,Jurey,HSRL01,317-446-2559,Hm,317-446-2559,Cell,connie@conniejurey.com,2680 E. Main St. Suite 118,Plainfield,46168
+589,31101,Mitchell,Walters,MLWR01,317-402-1412,Hm,,,mlwaltersrealty@gmail.com,205 Governors Lane,Zionsville,46077
+590,33934,Paul,Lauck,NEWS01,765-318-5465,Hm,765-318-5465,Cell,plauck@newstarthomerealty.com,320 W. Mitchell St.,Martinsville,46151
+591,30223,Rudy,Duran,TIRS01,317-617-3382,Hm,317-617-3382,Cell,rduran1994@gmail.com,8614 Wildview Ct.,Indianapolis,46278
+592,34468,Robert,Lynch,ESQR01,317-714-1398,Hm,317-714-1398,Cell,rob@lynchandbelch.com,7210 Madison Avenue,Indianapolis,46227
+593,20511,Mark,Kosene,KKRI01,317-423-9999,Bus,317-753-3486,Cell,msk@koseneandkosene.com,"1500 W. Oak St, Suite 400",Zionsville,46077
+594,520,Robert,Kincaid,KINR01,317-848-1118,Hm,317-431-6176,Cell,kincaid@realtor.com,8425 Woodfield Xing Blvd #100,Indianapolis,46240
+595,17026,Barry,Polston,EZST01,317-697-8972,Hm,,,bdgiant5314@aol.com,8200 Haverstick Rd. Suite 100,Indianapolis,46240
+596,32256,Matthew,Kresse,RDOK01,317-318-3420,Hm,317-318-3420,Cell,matthewsold@gmail.com,"698 Oldefield Commons Dr, St 6",Greenwood,46142
+597,30281,Keith,Farabee,CMPL01,317-503-0788,Hm,317-503-0788,Cell,K8Farabee@gmail.com,4022 E. Southport Rd.,Indianapolis,46237
+598,6034,Roger,Wilson,CEWL01,317-936-5628,Hm,,,RogerWilsonC21@yahoo.com,1726 N. State St.,Greenfield,46140
+599,8429,Deborah,Dorman,ECOR01,,,317-432-1216,Cell,deborah.dorman@encoresothebysrealty.com,"9510 N. Meridian, Suite 200",Indianapolis,46260
+600,1241,Gary,Bieberich,SEFR01,317-716-3733,Bus,317-716-3733,Cell,sell4free@msn.com,12982 Duval Dr,Fishers,46038
+601,27157,Jenni,Hash,HMSP01,812-376-3895,Bus,812-371-9481,Cell,jenni@homemarketingspecialists.com,1929 Mckinley Ave,Columbus,47201
+602,17289,Regina,Jones,CARP17,317-946-2757,Hm,,,rjones@callcarpenter.com,5751 W 56th St,Indianapolis,46254
+603,21077,Freddie,Hemrick,CARP11,317-696-2969,Bus,317-696-2969,Hm,ahemrick@callcarpenter.com,2152 E. County Line Rd,Indianapolis,46227
+604,13876,Dottie,Stapleton,CARP07,317-408-3688,Hm,317-408-3688,Cell,dstapleton@callcarpenter.com,40 Spring Mill Ct,Mooresville,46158
+605,21112,Robert,White,CBPC01,317-271-5959,Bus,765-721-0480,Cell,bobwhite1936@yahoo.com,1101 S Bloomington St,Greencastle,46135
+606,21137,Craig,West,BHHS07,765-546-0551,Hm,317-558-7817,Cell,cwest@bhhsIN.com,1002 Central Ave,Anderson,46016
+607,13482,Dona,Hayes,MREC01,317-889-7403,Hm,,,dona.hayes@comcast.net,100 W Main St,Greenwood,46142
+608,32607,Michelle,Mitchell,IHRL01,317-402-0230,Hm,317-732-5115,Cell,michellemitchellrealestate@gmail.com,600 E Carmel Drive #500,Carmel,46032
+609,690,Steve,Daniely,CELT01,317-290-4757,Hm,,,stevedaniely@sbcglobal.net,1570  W. Main St.,Greenwood,46142
+610,26040,John,Williamson,AREI01,317-587-8844,Hm,317-694-4006,Cell,jcwilliamson@sbcglobal.net,14938 Redcliff Drive,Noblesville,46062
+611,24630,Missey,Hill,MSWS01,317-810-9530,Hm,317-956-6096,Cell,missey@mswoods.com,4111 Wythe Lane,Indianapolis,46250
+612,5264,Joyce,Black,URE 02,317-549-2276,Hm,,,jblack2653@aol.com,815 E 63rd Place,Indianapolis,46220
+613,29074,Linda,West,CARP10,317-442-9732,Hm,317-442-9732,Cell,lwest@callcarpenter.com,1011 N. Riley Hwy.,Shelbyville,46176
+614,34187,Patricia,Morton,CARP12,317-852-4091,Bus,,,pmorton@callcarpenter.com,301 Northfield Dr,Brownsburg,46112
+615,31149,Christine,Freiman,AORE01,317-250-8018,Hm,317-250-8018,Cell,cmfreiman@gmail.com,4455 North Broadway St.,Indianapolis,46205
+616,5834,Barry,Delk,BHHS03,317-440-3826,Hm,317-440-3826,Cell,BarryDelk@aol.com,1680 W Main St,Greenwood,46142
+617,24647,Guangsheng,Yang,SNSH01,317-582-0286,Hm,317-213-2099,Cell,sunshineindianapolis@yahoo.com,14040 Sourwood Lane,Carmel,46033
+618,24579,Jana,Sillery,CERL01,765-720-1487,Hm,765-720-1487,Cell,jana_sillery@yahoo.com,600 S Bloomington St,Greencastle,46135
+619,31433,Tricia,Kincaid,IHRL01,317-786-1715,Hm,317-294-4866,Cell,tricia@indianapolishomesrealty.com,600 E Carmel Drive #500,Carmel,46032
+620,19726,Karen,Allen,CARP05,317-887-6469,Hm,317-431-2315,Cell,kallen@callcarpenter.com,295 W Smith Valley Rd,Greenwood,46142
+621,21037,Chris,Dell,HZNE01,317-538-0509,Hm,317-538-0509,Cell,dell_chris_w@hotmail.com,98 N. Tecumseh Dr,Sheridan,46069
+622,31278,Damian,Walter,MSWS01,317-405-7845,Hm,317-405-7845,Cell,damwalt@gmail.com,4111 Wythe Lane,Indianapolis,46250
+623,29332,Rodney,Gaard,POPR01,317-258-0147,Hm,317-258-0147,Cell,joeygaard@hotmail.com,11805 N. Pennsylvania,Carmel,46032
+624,14190,Karen,Deno,BHHS05,317-326-7673,Hm,317-402-3140,Cell,karen.a.deno@gmail.com,1890 W Main St,Greenfield,46140
+625,33184,James,Mackenzie,BDRL01,812-219-8480,Bus,,,jim.mackenzie@homefinder.org,6163 N Impatiens Street,Ellettsville,47429
+626,26109,Charles,Hartman,CRDA01,317-829-4565,Hm,317-829-4565,Cell,hartman-c@att.net,9105 E 56th Street Ste 207,Indianapolis,46220
+627,34412,Dusta,Fahs,CARP07,317-517-4917,Hm,317-517-4917,Cell,dfahs@callcarpenter.com,40 Spring Mill Ct,Mooresville,46158
+628,27838,Aaron,Garrett,CURE01,812-934-6191,Bus,,,aaron@countrysideRE.com,321 N Walnut St,Batesville,47006
+629,20547,David,Davis,CBCR01,317-506-0406,Bus,317-506-0406,Cell,dave@buybuildsell.com,500 Us 31 South,Greenwood,46142
+630,4022,Brian,Ayer,AYER01,317-439-6865,Hm,317-439-6865,Cell,briana2662@aol.com,77 S. 9th St.,Noblesville,46060
+631,24385,Joseph,Sullivan,MRQE01,317-359-5721,Hm,317-670-5979,Cell,joerealtor@indy.rr.com,1927 Alvee Circle,Indianapolis,46239
+632,28232,Richard,Johnson,BHHS01,317-353-5376,Hm,317-353-5376,Cell,richardjohnson@bhhsIN.com,3801 E. 82nd St.,Indianapolis,46240
+633,10728,Michelle,Robling,ROBL01,317-697-2595,Hm,317-697-2595,Cell,michelle@roblingrealestate.com,8144 E. Hadley Rd.,Camby,46113
+634,12390,Paul,Mendenhall,CARP05,317-965-2854,Hm,317-965-2854,Cell,pmendenhall@callcarpenter.com,295 W Smith Valley Rd,Greenwood,46142
+635,10703,Gary,Nunley,SMAD01,765-778-4401,Hm,765-425-4031,Cell,gnunley@hrtc.net,7615 W 900 S,Pendleton,46064
+636,5018,Jennifer,Sadler,SARE01,765-346-0346,Hm,765-346-0346,Cell,jsadler@sadlerrealestate.com,610 E Morgan St,Martinsville,46151
+637,33642,Michelle,Hastings,EVRR01,,,317-941-3333,Cell,shellhastings@gmail.com,716 Massachusetts Ave.,Indianapolis,46204
+638,19015,Wade,Myers,RLTA01,812-375-9233,Bus,,,Wade.Myers@realliving.com,3950 25th Street,Columbus,47203
+639,6369,John,Adams,NEWH01,317-501-1446,Hm,317-501-1446,Cell,john.adams.homes@gmail.com,20222 Hague Rd,Noblesville,46062
+640,34254,Rebecca,Slate,SLTE01,317-579-0585,Hm,317-590-3691,Cell,becky@slatesells.com,10428 Starboard Way,Indianapolis,46256
+641,4134,Randy,Gerber,PREM01,317-846-2497,Hm,317-508-4148,Cell,randygerber5@hotmail.com,5140 E 161st St,Noblesville,46062
+642,3775,Jack,Bates,URE 02,317-291-6504,Hm,,,jbates@mibor.net,815 E 63rd Place,Indianapolis,46220
+643,24908,Richard,Costello,CARP06,,,317-750-8114,Cell,richandmaggie@callcarpenter.com,1026 N Mitthoeffer Rd,Indianapolis,46229
+644,28735,Kathryn,Richardson,HLOR01,812-327-7462,Hm,812-327-7462,Cell,k.m.richardson@sbcglobal.net,158 N. Jefferson St/Po Box 206,Nashville,47448
+645,11096,Rich,Goeman,CITY01,317-501-6267,Hm,,,richgoeman@gorealestateservices.com,650 E Carmel Dr Suite 200,Carmel,46032
+646,21872,Lenell,Hall,BHHS03,317-840-2754,Bus,317-840-2754,Cell,lenellsells@gmail.com,1680 W Main St,Greenwood,46142
+647,3372,David,Jarrett,SWRL01,317-933-2666,Hm,,,davejarrett00@aol.com,8734 Nineveh Rd.,Nineveh,46164
+648,32321,Reanna,Southard,CARP24,,,765-620-0734,Cell,rsouthard@callcarpenter.com,#1 Jackson St,Anderson,46016
+649,34315,Susan,Selke,CARP22,317-891-0153,Hm,317-650-3034,Cell,sselke@callcarpenter.com,2750 W. Main Street,Greenfield,46140
+650,23519,Curtis,Costlow,COST01,317-536-2457,Hm,,,curt@costlowrealty.com,"8372 Lakeshore Circle,Ste 3417",Indianapolis,46250
+651,2613,Sue,Percifield,SHAR01,317-691-6766,Bus,317-691-6766,Cell,suepercifield@sbcglobal.net,1020 Main St.,Speedway,46224
+652,33872,Andy,Spurling,BHHS13,812-378-3331,Bus,,,andy@andyspurling.com,1015 Third St,Columbus,47201
+653,26113,Molly,Schopmeyer,EGCE01,866-338-3802,Hm,812-230-8107,Cell,moschopmeyer@yahoo.com,925 W. National Ave.,Brazil,47834
+654,30724,Mina,Starsiak,NTHM01,317-979-8376,Hm,,,minastarsiak@gmail.com,230 E. 16th Street,Indianapolis,46202
+655,31629,Karen,Lewis,JONH01,317-657-4939,Hm,317-657-4939,Cell,kdlewis03@yahoo.com,5377 E 200 N,Avon,46123
+656,31983,Brett,Snodgrass,REDS01,812-216-8602,Hm,,,snodgrassbrett@yahoo.com,176 W Logan Street #127,Noblesville,46060
+657,24901,Nguncer,Bualteng,MNES01,317-450-3288,Hm,317-450-3288,Cell,nguncer@yahoo.com,8060 Madison Ave. Ste B,Indianapolis,46227
+658,10499,Carolyn,Sabean,CARP19,317-796-1508,Hm,317-796-1508,Cell,csabean@callcarpenter.com,5491 E. Main Street,Avon,46123
+659,10820,Richard,Melton,STRS01,765-683-1490,Hm,765-749-3918,Cell,rmelton637@aol.com,1309 Park Road,Anderson,46011
+660,25008,Nathan,Runnebohm,RUNN01,317-441-8383,Hm,317-441-8383,Cell,nrunnebohm@hotmail.com,2535 E. Massengale Rd,Shelbyville,46176
+661,7857,Ted,Durlacher,DURL01,317-300-4450,Bus,317-694-8946,Cell,Ted@DurlacherRealty.com,6820 S Meridian,Indianapolis,46217
+662,32835,Gregory,Baker,CARP21,317-900-9493,Hm,317-900-9493,Cell,gregbaker@callcarpenter.com,2270 Greenfield Ave,Noblesville,46060
+663,25274,Stephanie,Groce,CARP19,317-371-1579,Hm,317-371-1579,Cell,sgroce@callcarpenter.com,5491 E. Main Street,Avon,46123
+664,9563,Stephanie,Dietz,CBKA01,317-319-6141,Bus,317-319-6141,Cell,stephanie@indyhouseseller.com,12401 Old Meridian St,Carmel,46032
+665,33167,James,Thomas,DREA01,317-919-7864,Hm,317-919-7864,Cell,jim@dreamhome-realty.com,Po Box 17791,Indianapolis,46217
+666,2257,James,Vandenbark,VAND01,317-831-3131,Bus,317-831-3131,Cell,j.vandenbark@comcast.net,1003 Orlando Street,Carmel,46032
+667,1198,Dianna,Grindean,ABBA01,317-996-3235,Hm,,,dgrindean@gmail.com,P.O. Box 100,Mooresville,46158
+668,10680,Thomas,Ross,BHHS07,765-640-8327,Hm,,,tross@bhhsIN.com,1002 Central Ave,Anderson,46016
+669,25002,Diane,Stailey,SPRA01,317-502-0299,Bus,317-502-0299,Cell,sp_realty@yahoo.com,1692 West Mink Court,Pendleton,46064
+670,24295,Jeffrey,Thomasson,TGRR01,317-690-2158,Hm,317-690-2158,Cell,tigerrealty@gmail.com,10523 E 126th Street,Fishers,46038
+671,32462,Antoinette,Harpster,BINK01,,,317-498-3722,Cell,toni@theharpstergroup.com,12131 Admirals Pointe Circle,Indianapolis,46236
+672,14469,Faith,Leininger,BHHS03,317-881-7900,Hm,317-417-0708,Cell,bmlfml@sbcglobal.net,1680 W Main St,Greenwood,46142
+673,9311,Jeff,Schabel,SCHR01,317-507-5454,Hm,317-507-5454,Cell,jeffschabel@sbcglobal.net,1867 Tawney Lane,Avon,46123
+674,26734,Stephen,Ladig,LDRT01,317-414-4675,Hm,317-414-4675,Cell,ladigrealty@att.net,13518 Silverstone Drive,Fishers,46037
+675,3854,Kelly,Cook,CARP12,317-852-7526,Hm,317-281-8812,Cell,kellycook@callcarpenter.com,301 Northfield Dr,Brownsburg,46112
+676,22743,Tammy,Tinkle,RWHA01,317-431-3522,Hm,317-431-3522,Cell,tammy@harbertcompany.com,1298 West Main Street,Greenwood,46142
+677,10758,Julayne,Myers,DYER01,765-724-4949,Hm,,,jmyers@dyerre.net,2206 South Park Ave.,Alexandria,46001
+678,32266,Stuart,Harvey,NTHM01,317-517-6758,Hm,317-517-6758,Cell,stu@nottinghamrealtygroup.com,230 E. 16th Street,Indianapolis,46202
+679,896,Teresa,Ott,BHHS01,,,317-519-2932,Cell,tott@bhhsIN.com,3801 E. 82nd St.,Indianapolis,46240
+680,17885,Ella,Elwood,BRRD01,812-378-7938,Bus,812-350-0558,Cell,eelwood@c21br.com,700 Washington St,Columbus,47201
+681,18762,Kimberli,Davis,KIDA01,317-888-7484,Hm,317-414-5962,Cell,jeffandkimdavis@sbcglobal.net,4140 Sagewood Ct,Greenwood,46143
+682,2064,Karen,Wildey,BHHS03,,,317-513-4763,Cell,kwildey@bhhsIN.com,1680 W Main St,Greenwood,46142
+683,32611,Shwe,Myint,CARP11,317-670-3783,Hm,317-670-3783,Cell,shwe@callcarpenter.com,2152 E. County Line Rd,Indianapolis,46227
+684,34207,Leeann,Balta,CARP32,317-299-6156,Hm,317-413-1360,Cell,LeeAnnBalta@CallCarpenter.com,5 N Main St,Zionsville,46077
+685,10659,Sherry,Fields,SFIE01,765-354-4449,Hm,,,sfields659@sbcglobal.net,659 Locust St,Middletown,47356
+686,1875,Sharron,Hill,SHAR01,317-402-9357,Hm,317-402-9357,Cell,shill1020@att.net,1020 Main St.,Speedway,46224
+687,16171,Lori,Choate,CHRC01,317-244-7306,Hm,317-313-3544,Cell,buyhouses@comcast.net,5316 West 16th Street,Speedway,46224
+688,20702,Kimberly,Wert,CBKA01,317-514-2039,Hm,317-514-2039,Cell,kim.wert@comcast.net,12401 Old Meridian St,Carmel,46032
+689,1058,Rob,Bussell,BUSC01,317-339-3349,Hm,317-339-3349,Cell,marjac9092@aol.com,11691 Fall Creek Rd,Indianapolis,46256
+690,2185,Loretta,Miller,CARP20,317-697-3475,Hm,317-697-3475,Cell,lmiller@callcarpenter.com,790 City Center Drive,Carmel,46032
+691,34048,Sarah,Hamilton,CARP09,317-847-3343,Hm,317-847-3343,Cell,shamilton@callcarpenter.com,400 Sr 37 North,Martinsville,46151
+692,15879,Donna,Zelner,BHHS03,317-535-5830,Hm,317-445-5830,Cell,dlzelner@yahoo.com,1680 W Main St,Greenwood,46142
+693,32338,Jillian,Mishler,BHHS13,812-378-3331,Bus,,,ResultsJillian@gmail.com,1015 Third St,Columbus,47201
+694,30126,Geneva,Winberg,CARP05,317-786-0254,Hm,317-201-0772,Cell,gwinberg@callcarpenter.com,295 W Smith Valley Rd,Greenwood,46142
+695,14892,Beth,Brummett,DHRA01,765-795-4181,Hm,765-376-6240,Cell,bbrummett@ccrtc.com,P.O. Box 724,Cloverdale,46120
+696,28013,Sandra,Hurless,RCAR01,765-676-6486,Hm,317-450-1563,Cell,sandrahurless@gmail.com,1742 S 425 W,Lebanon,46052
+697,10640,Dorothy,Stottlemyer,CARP24,765-642-4933,Hm,765-621-0938,Cell,dotstottlemyer@aol.com,#1 Jackson St,Anderson,46016
+698,8054,John,Cogswell,PRAL01,317-431-8830,Hm,317-431-8830,Cell,johnrcogswell@yahoo.com,4000 W 106th St #160-412,Carmel,46032
+699,29542,Jing,Lu,JILU01,317-576-3298,Hm,317-576-3298,Cell,janerental2009@yahoo.com,Po Box 472,Fishers,46038
+700,10633,Jan,Herr,CARP24,765-643-3313,Hm,,,jlukens@callcarpenter.com,#1 Jackson St,Anderson,46016
+701,25576,Keith,Hall,CARP07,317-439-0180,Hm,317-439-0180,Cell,keithhall@callcarpenter.com,40 Spring Mill Ct,Mooresville,46158
+702,3248,Jodie,Timby,RMTB01,317-268-6821,Hm,317-223-8433,Cell,jodie@timby.com,"124 E Northfield Dr, Ste F240",Brownsburg,46112
+703,7998,Rebecca,Van Eaton,BHHS01,317-558-7738,Bus,317-595-2121,Hm,rvaneaton@bhhsin.com,3801 E. 82nd St.,Indianapolis,46240
+704,34866,Michael,Mercho,MERC01,,,317-345-7807,Cell,michael@integrabuildersindy.com,11505 Grassy Court Unit 103,Fishers,46037
+705,22156,Sherri,Schwartz,MSWS01,317-258-4897,Hm,,,sherris@mswoods.com,4111 Wythe Lane,Indianapolis,46250
+706,32267,Ryan,Hakes,MSWS01,317-   -,Bus,317-410-0505,Cell,ryanhakes.realtor@gmail.com,4111 Wythe Lane,Indianapolis,46250
+707,3960,John,Carnell,ECOR01,317-590-7960,Hm,317-590-7960,Cell,johncarnell@indy.rr.com,"9510 N. Meridian, Suite 200",Indianapolis,46260
+708,33438,Jennifer,Smith,CARP19,317-839-2752,Hm,317-370-2423,Cell,jennifersmith@callcarpenter.com,5491 E. Main Street,Avon,46123
+709,8999,Jeri,Ballantine,CBKA01,317-973-5436,Hm,317-989-2372,Cell,jeri@cbkaiser.com,12401 Old Meridian St,Carmel,46032
+710,19085,Kari,Lancaster,OLPS01,317-300-0611,Hm,317-446-5853,Cell,karisellshomes@comcast.net,601 Savannah Dr,Greenwood,46142
+711,10362,Amy,Borgmann,BRGM01,317-462-4216,Hm,317-979-0074,Cell,amysells@borgmannrealty.com,1133 W Main Street Suite E,Greenfield,46140
+712,5400,Janet,Jernigan,PLAT01,317-844-6871,Bus,317-402-7406,Hm,janet@platinumrealtygroup.net,610 N. Rangeline Rd,Carmel,46032
+713,11066,David,Wheeler,CEDW01,765-344-1339,Hm,765-592-0392,Cell,marykay.wheeler89@gmail.com,9015 E. Old 36 Road,Rockville,47872
+714,23349,Deanna,Bauer,LBRT01,317-652-8980,Hm,317-652-8980,Cell,deanna@libertadproperties.com,11988 Fishers Crossing Dr #151,Fishers,46038
+715,26958,Curtis Lee,Whitesell,WHIT01,317-698-2700,Hm,317-698-2700,Cell,writecurt@wkrpindy.com,17814 Gasparilla Ct.,Noblesville,46062
+716,30730,Michael,Wiesen,ATLA01,317-331-6355,Hm,317-331-6355,Cell,mhw2222@aol.com,9775 Crosspoint Blvd Suite 118,Indianapolis,46256
+717,24093,Dan,Patch,PHRL01,317-989-0530,Bus,317-989-0530,Cell,dapatch1960@gmail.com,3353 Old Country Rd.,Rockville,47872
+718,33951,Kimberly,Stevens,CARP10,765-525-6795,Hm,317-402-0475,Cell,kstevens@callcarpenter.com,1011 N. Riley Hwy.,Shelbyville,46176
+719,30820,Nicole,Scherrer,URE 01,317-506-2374,Hm,317-506-2374,Cell,nicoles@unitedindy.com,31 1st St Sw,Carmel,46032
+720,33978,Anne,Montgomery,CARP11,317-600-8070,Hm,317-600-8070,Cell,amontgomery@callcarpenter.com,2152 E. County Line Rd,Indianapolis,46227
+721,15087,Rachel,Ellis,INRT01,765-640-2989,Hm,765-425-0389,Cell,ellis.rachel@hotmail.com,753 E. Water Street,Pendleton,46064
+722,28145,Robert,Kirlin,HLOR01,812-720-0222,Hm,812-720-0222,Cell,bob.kirlin@sbcglobal.net,158 N. Jefferson St/Po Box 206,Nashville,47448
+723,6054,Evelyn,Dunwoody,URE 01,317-440-8247,Hm,317-440-8247,Cell,dunwoody@mibor.net,31 1st St Sw,Carmel,46032
+724,19783,Deborah,Exner,CARP15,317-501-3870,Bus,317-501-3870,Cell,dexner@callcarpenter.com,3602 Clarks Creek Rd.,Plainfield,46168
+725,2752,Steve,Rossman,APRO01,,,317-946-9444,Cell,steve@allprorealtors.com,3209 W Smith Valley Road #200,Greenwood,46142
+726,30674,Evona,Watson,TREP01,317-210-3636,Bus,317-281-9280,Cell,evona@tripleerealty.com,1075 Broad Ripple Ave #136,Indianapolis,46220
+727,19982,Jeffrey,Cornwell,JCOR01,317-810-0969,Hm,317-513-1477,Cell,cornwellrealty@aol.com,15018 Story Court,Westfield,46074
+728,27689,Nancy,Waller,BHHS13,812-378-3331,Hm,812-350-0263,Cell,nwaller@bhhsin.com,1015 Third St,Columbus,47201
+729,32689,Lora,Vivas,MSWS01,317-489-8335,Hm,317-489-8335,Cell,loravivas@mswoods.com,4111 Wythe Lane,Indianapolis,46250
+730,30166,Ryan,Wampler,WAMP01,317-422-4848,Hm,317-753-2032,Cell,ryan@rkwhomes.com,5326 Travis Road,Greenwood,46143
+731,14782,Terry,Dowling,EZST01,317-847-4507,Hm,317-847-4507,Cell,terryleedowling@gmail.com,8200 Haverstick Rd. Suite 100,Indianapolis,46240
+732,17082,Scott,Reed,EZST01,317-225-5061,Bus,765-228-1038,Cell,swreed@highgarden.com,8200 Haverstick Rd. Suite 100,Indianapolis,46240
+733,8526,Robert,Ryan,RSRP01,317-846-8616,Hm,317-513-8616,Cell,Rsrproperties@gmail.com,9205 Nora Lane,Indianapolis,46240
+734,31535,Debbie,Barrett,BRRD01,812-378-1709,Bus,812-390-6202,Cell,dbarrett@c21br.com,700 Washington St,Columbus,47201
+735,18337,Jill,Dora,BHHS01,317-432-1822,Hm,317-432-1822,Cell,jdora@bhhsin.com,3801 E. 82nd St.,Indianapolis,46240
+736,2617,Sherry,Hay,THAY01,317-625-3455,Hm,317-625-3455,Cell,teamhay@comcast.net,2512 Wayward Wind Drive,Indianapolis,46239
+737,30475,Courtney,Seghetti,NAAR01,317-691-3609,Hm,317-691-3609,Cell,courtneyseghetti@hotmail.com,7508 Harbour Isle,Indianapolis,46240
+738,29745,Ken,Nissley,KENN01,317-430-8500,Hm,317-430-8500,Cell,kennissley@gmail.com,11715 Fox Road #400-121,Indianapolis,46236
+739,4647,David,Frazier,CELT01,317-441-2671,Hm,,,dfrazier@usa.net,1570  W. Main St.,Greenwood,46142
+740,27517,Steven,Retzloff,RETL01,317-513-0893,Hm,317-513-0893,Cell,sgretz@aol.com,8532 Charlotte Court,Avon,46123
+741,34094,Shaunacy,Odom,WYNK01,317-752-6824,Hm,,,shaun@indianareo.com,1238 N. Pennsylvania,Indianapolis,46202
+742,18670,Marla,Bird,BTRG01,317-507-9097,Hm,317-507-9097,Cell,rulectric@msn.com,4700 N. 600 W.,Mccordsville,46055
+743,8910,Art,Small,REXE01,317-844-2688,Hm,317-371-7278,Cell,ArtSmallRealtor@aol.com,12953 Publishers Dr Ste 200,Fishers,46038
+744,11514,Paul,Nauman,CERL01,765-653-2162,Hm,,,pnauman@cinergymetro.net,600 S Bloomington St,Greencastle,46135
+745,17088,Donald,Steinmetz,DONS01,317-745-0209,Bus,317-445-2232,Cell,don@youripres.com,95 North Tennessee,Danville,46122
+746,7876,Steven,Carder,VITA01,317-892-1037,Hm,317-979-5913,Cell,stcarder@gmail.com,15434 Kilburn Court,Westfield,46074
+747,35226,Sheri,Gladden,EZST01,317-650-4005,Bus,317-650-4005,Cell,sagladden@gmail.com,8200 Haverstick Rd. Suite 100,Indianapolis,46240
+748,1933,Kenneth,Magee,HECO01,317-625-4647,Hm,317-625-4647,Cell,magee3131@att.net,515 N. Green Street,Brownsburg,46112
+749,1259,Connie,Walker,HOLA01,765-482-3025,Hm,765-891-0100,Cell,connie_walker@comcast.net,507 W Washington,Lebanon,46052
+750,3401,Lorine,Ward,LORI01,765-349-1766,Hm,317-752-1822,Cell,lward129@comcast.net,2419 S. Alta Vista Ct.,Martinsville,46151
+751,18249,Roy,Saylor,SALR01,812-591-2639,Bus,812-614-7777,Cell,Roy@SaylorRealEstateGroup.com,300 N State Road #3,Westport,47283
+752,21746,Fabricio,Perez,EQWR01,317-513-2216,Hm,317-513-2216,Cell,fabricio_perez@yahoo.com,3976 Georgetown Rd Ste B,Indianapolis,46254
+753,20005,Teresa,Adams,AMRL01,317-720-8390,Bus,765-720-8390,Cell,teresaadams40@hotmail.com,408 E. Cr 550 S,Cloverdale,46120
+754,974,Donna,Robinson,CARP04,317-698-0131,Hm,317-698-0131,Cell,drobinson@callcarpenter.com,600 N. High School Rd.,Indianapolis,46214
+755,11067,Ron,Wheeler,CEDW01,765-344-1612,Hm,,,ron.wheeler@century21.com,9015 E. Old 36 Road,Rockville,47872
+756,23769,Barbara,Wood,HRGP01,,,317-691-3830,Cell,barbheritage315@gmail.com,260 S. First St. Suite 9,Zionsville,46077

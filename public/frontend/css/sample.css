@@ -1,0 +1,72 @@
+.slider.slider-horizontal {
+    width: 100%;
+    height: 38px;
+}
+.slider.slider-horizontal .slider-track {
+    height: 9px;
+    width: 100%;
+    margin-top: -5px;
+    top: 50%;
+    left: 0;
+}
+.slider-track {
+    position: absolute;
+    cursor: pointer;
+    background-image: none;
+    background-image: none;
+    background-image: none;
+    background-repeat: repeat-x;
+    -webkit-box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);
+    box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);
+    border-radius: 4px;
+    background-color: gold;
+}
+.slider-selection {
+    position: absolute;
+    background-image: -webkit-linear-gradient(top,#999999 0,#000000 100%);
+    background-image: -o-linear-gradient(top,#999999 0,#000000 100%);
+    background-image: linear-gradient(to bottom,#999999,#000000 100%);
+    background-repeat: repeat-x;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff999999',endColorstr='#ff000000',GradientType=0);
+    -webkit-box-shadow: inset 0 -1px 0 rgba(0,0,0,0.15);
+    box-shadow: inset 0 -1px 0 rgba(0,0,0,0.15);
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+.slider-selection.tick-slider-selection {
+    background-image: -webkit-linear-gradient(top,#999999 0,#000000 100%);
+    background-image: -o-linear-gradient(top,#999999 0,#000000 100%);
+    background-image: linear-gradient(to bottom,#999999 0,#000000 100%);
+    background-repeat: repeat-x;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff999999',endColorstr='#ff000000',GradientType=0);
+}
+.slider-tick.slider-tick.in-selection {
+    background-image: none;
+    background-image: none;
+    background-image: none;
+    background-repeat: repeat-x;
+    filter: none;
+    opacity: 1;
+    background-color: Gold;
+}
+.slider-selection.tick-slider-selection {
+    background-color: #000;
+}
+.slider-tick.custom{
+    background-image: none;
+    background-image: none;
+    background-image: none;
+    background-repeat: repeat-x;
+    filter: none;
+    opacity: 1;
+    background-color: #000;
+}
+.slider-handle.custom {
+    background: url('../images/sliders/toggle.png');
+    width: 45px;
+    height: 25px;
+    margin-top: -8px!important;
+    margin-left: -26px;
+}

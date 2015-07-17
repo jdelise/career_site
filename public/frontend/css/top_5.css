@@ -1,0 +1,47 @@
+
+/* body{
+	background: url(../images/package.png) no-repeat bottom;
+} */
+body{
+	background: url(../images/girl.jpg) no-repeat center;
+	background-size: cover;
+}
+#top_bar {
+min-width: 100%;
+padding: 10px 0;
+background: #fff;
+color: #000;
+}
+.panel-title>a {
+color: inherit;
+font-size: 1.5em;
+}
+.panel-default>.panel-heading {
+color: #ed1c24;
+background-color: #000;
+border-color: #ddd;
+}
+.panel-title {
+margin-top: 0;
+margin-bottom: 0;
+font-size: 16px;
+color: #fff;
+background: #000;
+}
+.contact h2{
+	font-size: 35px;
+}
+.panel-default>.panel-heading {
+color: #ed1c24;
+background-color: #000;
+border-color: #ddd;
+}
+@media (max-width: 768px){
+	.contact{
+		float: none!important;
+	}
+.contact h2{
+	font-size: 20px;
+	text-align: center;
+}
+}

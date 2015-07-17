@@ -1,0 +1,143 @@
+#main-menu ul ul {border-top: solid 3px #ffcc00 !important;}
+#main-menu .mega-menu ul li:hover > a, #main-menu .mega-menu ul li.active a { color: #ffcc00 !important;}
+#main-menu .mega-menu li a:hover:before, #main-menu .mega-menu li.active > a:before { background: #ffcc00 !important;}
+.demo_changer .demo-icon { background: #ffcc00 !important;}
+.slide { border-top: solid 4px #ffcc00 !important;}
+#panel { background: #ffcc00 !important;}
+.slide span {background: #ffcc00 !important;}
+.new-item {background: #ffcc00 !important;}
+.new-item:before {border-right-color: #ffcc00 !important;}
+.new-item2 {background: #ffcc00 !important;}
+#main-menu ul ul li:hover > a, #main-menu ul ul li.active a {border-right: solid 3px #ffcc00 !important;}
+#cart .cart-container .checkout {background: #ffcc00 !important;}
+.firstslide .first-span, .firstslide .second-span, .secondslide .first-span, 
+.secondslide .second-span, .thirdslide .first-span, .thirdslide, .fourthslide .first-span { color: #ffcc00 !important;}
+.tp-leftarrow.default:hover, .tp-rightarrow.default:hover { background: #ffcc00 !important; color: #fff !important; border-color: #ffcc00 !important;}
+#infocard { background: #ffcc00 !important;}
+.services-box span {color: #ffcc00 !important;}
+.filters-nav ul li.filter-item.is-active:first-child { background: #ffcc00 !important; border-bottom: solid 4px #e0b300 !important;}
+.filters-nav ul li.filter-item.is-active:last-child { background: #ffcc00 !important; border-bottom: solid 4px #e0b300 !important;}
+.filters-nav ul li.filter-item.is-active { background: #ffcc00 !important; border-bottom: solid 4px #e0b300 !important;}
+.overlay figcaption { background: #ffcc00 !important;}
+.news-boxes span {color: #ffcc00 !important;}
+#our-team .owl-buttons .owl-prev i:hover { background: #ffcc00 !important; border: solid 2px #ffcc00 !important;}
+#our-team .owl-buttons .owl-next i:hover { background: #ffcc00 !important; border: solid 2px #ffcc00 !important;}
+.buy { background: #ffcc00 !important;}
+.buy h5 { color: #000 !important}
+.buy span { color: #000 !important;}
+.buy .btn-default {
+background: #000 !important;
+}
+.overlay figcaption h3{
+color: #000!important;
+}
+.overlay figcaption h5{
+color: #000!important;
+}
+.footer-style2 {border-top: solid 6px #ffcc00 !important;}
+.btn-default { background: #e0b300 !important;}
+#back-top {background: #ffcc00 !important; border-bottom: solid 2px #e0b300 !important;}
+.tcolor {color: #ffcc00 !important;}
+ul.menu-list li:before {color: #ffcc00 !important;}
+.footer-style3 {background: #ffcc00 !important; }
+
+.btn-small {background: #ffcc00 !important; box-shadow: 0 4px #e0b300 !important;}
+.btn-small:hover {box-shadow: 0 2px #e0b300 !important;}
+.btn-small:active { box-shadow: 0 0 #e0b300 !important;}
+#amazing { background: #ffcc00 !important;}
+#feedbacks .feedbacks-header span { color: #ffcc00 !important; }
+.feedback-box:hover { border-bottom: solid 4px #ffcc00 !important;}
+.feedback-box:hover:before {border-top-color: #ffcc00 !important;}
+#services span { color: #ffcc00 !important; }
+#designed { background: #ffcc00 !important;}
+
+.btn-2 { background: #ffcc00; box-shadow: 0 6px #e0b300;}
+.btn-2:hover {box-shadow: 0 4px #e0b300;}
+.btn-2:active { box-shadow: 0 0 #e0b300;}
+#expertise { background: #ffcc00 !important;}
+h4.expertise {border-bottom: 1px dashed #fff !important;}
+#expertise p { color: #fff !important;}
+#services2 span { color: #ffcc00 !important; }
+
+#sub-header { background: #ffcc00 !important;}
+#news-small .news-small-post .caption-date, 
+#news-small2 .news-small-post .caption-date { color: #ffcc00 !important; }
+.projects-date {color: #ffcc00 !important;}
+.widget-tags ul li a:hover {background: #ffcc00 !important; border: solid 1px #ffcc00 !important;}
+#agency .nav-tabs > li.active > a { background: #ffcc00 !important; border-bottom: solid 5px #e0b300 !important;}
+#help span {color: #ffcc00 !important;}
+#testimonials2 { background: #ffcc00 !important;}
+.services-span {color: #ffcc00 !important;}
+.services-section:hover .hi-icon-effect-3b .hi-icon { color: #fff !important;}
+.hi-icon-effect-3b .hi-icon:after { background: #ffcc00 !important;}
+#testimonials3 .owl-buttons .owl-prev i:hover {background-color: #ffcc00; border: solid 2px #ffcc00;}
+#testimonials3 .owl-buttons .owl-next i:hover {background-color: #ffcc00; border: solid 2px #ffcc00;}
+#from-blog .blog-date { color: #ffcc00;}
+#buy-now { background: #ffcc00;}
+#hello {border-bottom: solid 3px #ffcc00;}
+#recent-works .owl-buttons .owl-prev i, #testimonials4 .owl-buttons .owl-prev i {background: #ffcc00; border-bottom: solid 3px #e0b300;}
+#recent-works .owl-buttons .owl-prev i:hover, #testimonials4 .owl-buttons .owl-prev i:hover {background: #ffcc00; }
+#recent-works .owl-buttons .owl-prev i:active, #testimonials4 .owl-buttons .owl-prev i:active {border-bottom: solid 1px #e0b300;}
+#recent-works .owl-buttons .owl-next i, #testimonials4 .owl-buttons .owl-next i {background: #ffcc00; border-bottom: solid 3px #e0b300;}
+#recent-works .owl-buttons .owl-next i:hover, #testimonials4 .owl-buttons .owl-next i:hover {background: #ffcc00; }
+#recent-works .owl-buttons .owl-next i:active, #testimonials4 .owl-buttons .owl-next i:active {border-bottom: solid 1px #e0b300;}
+.services3-boxes span { color: #ffcc00;}
+.services4-boxes span { color: #ffcc00;}
+.products .buy-cart { background: #ffcc00;}
+.select .btn { color: #fff;}
+.price-range-slider .ui-slider-handle { background: #ffcc00;}
+.timer-box {background-color: #ffcc00; border-bottom: solid 4px #e0b300;}
+.social-member-carousel span { color: #ffcc00; }
+.social-member-carousel span:hover {background-color: #ffcc00; border: solid 2px #ffcc00;}
+.owl-theme .owl-controls .owl-page.active span, .owl-theme .owl-controls.clickable .owl-page:hover span {background-color: #ffcc00;}
+.team-overlay .ch-info { background: rgba(135, 211, 124, 0.72);}
+.grid figcaption { background: rgba(135, 211, 124, 0.72);}
+.services2-section span { color: #ffcc00;}
+#recent-works2 .owl-buttons .owl-prev i, #recent-works2 .owl-buttons .owl-next i { background: #ffcc00; border-bottom: solid 3px #e0b300;}
+#recent-works2 .owl-buttons .owl-prev i:hover {background: #ffcc00;}
+#recent-works2 .owl-buttons .owl-next i:hover {background: #ffcc00;}
+#recent-works2 .owl-buttons .owl-prev i:active {border-bottom: solid 1px #e0b300;}
+#recent-works2 .owl-buttons .owl-next i:active {border-bottom: solid 1px #e0b300;}
+.testimonials5 .item {background: #ffcc00;}
+.attachment-span { color: #ffcc00;}
+.blockquote2 {border-left: 5px solid #ffcc00;}
+.panel .panel-heading h4.panel-title:after { background: #ffcc00;}
+.support-box span {border: solid 1px #ffcc00; background: #ffcc00;}
+.features-services span { color: #ffcc00; }
+.blockquote-left {border-right: 5px solid #ffcc00;}
+.blockquote-right {border-left: 5px solid #ffcc00;}
+.our-office .owl-prev:hover i, .our-office .owl-next:hover i {background-color: #ffcc00; border: solid 2px #ffcc00;}
+.fancy-box li:hover {background: #ffcc00;}
+.fancy-icon { color: #ffcc00; }
+.about-carousel span {border: solid 1px #ffcc00; color: #ffcc00;}
+.line {border: solid 1px #ffcc00;}
+.latest-projects .owl-buttons .owl-prev i {background: #ffcc00; border-bottom: solid 3px #e0b300;}
+.latest-projects .owl-buttons .owl-next i {background: #ffcc00; border-bottom: solid 3px #e0b300;}
+.latest-projects .owl-buttons .owl-prev i:hover, .latest-projects .owl-buttons .owl-next i:hover {background: #ffcc00;}
+.latest-projects .owl-buttons .owl-prev i:active, .latest-projects .owl-buttons .owl-next i:active {border-bottom: solid 1px #e0b300;}
+.contact-info span {color: #ffcc00;}
+.product-info span {color: #ffcc00;}
+.related-products-carousel .owl-buttons .buy-cart {background: #ffcc00;}
+.related-products-carousel .owl-buttons .owl-prev i {background: #ffcc00; border-bottom: solid 3px #e0b300;}
+.related-products-carousel .owl-buttons .owl-next i {background: #ffcc00; border-bottom: solid 3px #e0b300;}
+.related-products-carousel .owl-buttons .owl-prev i:hover, .latest-projects .owl-buttons .owl-next i:hover {background: #ffcc00;}
+.related-products-carousel .owl-buttons .owl-prev i:active, .latest-projects .owl-buttons .owl-next i:active {border-bottom: solid 1px #e0b300;}
+.left-tab .nav-tabs li.active > a {color: #ffcc00;}
+ul.styled-list li:before {color: #ffcc00;}
+.firstcharacter {color: #ffcc00;}
+.firstcharacter2 { background: #ffcc00;}
+.tooltip-test + .tooltip > .tooltip-inner { background: #ffcc00; }
+.tooltip.top .tooltip-arrow {border-top-color: #ffcc00;}
+.right-tab .nav-tabs li.active > a {color: #ffcc00;}
+.nav-tabs > li.active > a {color: #ffcc00;}
+.panel-heading.with-bg { background: #ffcc00; }
+.panel-heading.with-bg h4.panel-title:after { color: #fff;}
+.custom-box-4 { background: #ffcc00;}
+.custom-box-4 .line2 { border-left: solid 1px #000;}
+.custom-box-black { background: #000000; padding: 50px;}
+.custom-box-black span {float: left; font-size: 25px; color: #fff; border-radius: 50%; border: solid 1px; padding: 31px;}
+.custom-box-black .line2 { border-left: solid 1px #FFCC00; margin-left: 130px; padding-left: 30px;}
+.custom-box-3 span { color: #ffcc00;}
+.custom-box-1 .btn { color: #fff;}
+
+.header6 #logo { background: #ffcc00;}
