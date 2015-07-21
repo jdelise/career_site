@@ -20,6 +20,7 @@ Route::get('/', 'PagesController@home');
 Route::get('licensing', 'PagesController@licensing');
 Route::get('career_assessment', 'PagesController@personality_assessment');
 Route::get('business_plan', 'PagesController@business_plan');
+Route::get('business_plan.php', 'PagesController@business_plan');
 Route::get('about_us/culture', 'PagesController@culture');
 Route::get('about_us/agent_support', 'PagesController@agent_support');
 Route::get('testimonials', 'PagesController@testimonials');

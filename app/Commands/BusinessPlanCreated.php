@@ -48,6 +48,7 @@ class BusinessPlanCreated extends Command implements SelfHandling {
         Mail::send('emails.new_business_plan',['args' => $args],function($message) use ($new_lead){
             $message->subject($new_lead->first_name . ' ' . $new_lead->last_name . ' has filled out a new business plan.');
             $message->cc('jdelise@c21scheetz.com');
+            $message->cc('pbender@c21scheetz.com');
             $message->to('jshort@c21scheetz.com');
             //$message->cc('pbender@c21scheetz.com');
         });
