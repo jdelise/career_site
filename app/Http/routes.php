@@ -16,6 +16,7 @@
  *
  *
 */
+
 Route::get('/', 'PagesController@home');
 Route::get('licensing', 'PagesController@licensing');
 Route::get('career_assessment', 'PagesController@personality_assessment');
@@ -63,6 +64,7 @@ Route::post('admin/task/create_task','TaskController@createTask');
  *
  *
 */
+
 Route::get('admin/complete_task','TaskController@completeTask');
 Route::get('admin/create_survey','SurveyController@index');
 Route::get('admin/complete_survey_request/{id}','SurveyController@complete_survey_request');

@@ -2,7 +2,10 @@
 
 use App\Task;
 use App\TaskName;
+use Illuminate\Support\Facades\App;
 use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\Request;
+use Illuminate\Support\Facades\Session;
 use Illuminate\Support\Facades\View;
 use Illuminate\Support\ServiceProvider;
 use League\Glide\ServerFactory;
@@ -16,6 +19,11 @@ class AppServiceProvider extends ServiceProvider {
 	 */
 	public function boot()
 	{
+
+            $url = explode('.', Request::server('HTTP_HOST'));
+            $subdomain = $url[0];
+            Session::put('sub',$subdomain);
+
         view()->composer(['admin.parts.header','admin.partials.models.add_task'], function($view){
             $view->with('user', Auth::user())->with('task_names', TaskName::groupBy('task_name')->get());
         });

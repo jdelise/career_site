@@ -7,6 +7,7 @@ use App\Http\Requests;
 use App\Recruits;
 use Barryvdh\DomPDF\PDF;
 use Carbon\Carbon;
+use Illuminate\Http\Request;
 use Illuminate\Support\Facades\App;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Mail;
@@ -14,6 +15,9 @@ use Illuminate\Support\Facades\Mail;
 class TestController extends Controller {
     public function getTestHome(){
         return 'Test home';
+    }
+    public function getSubdomain(Request $request){
+        return $request->getHost();
     }
     public function getDate(){
         return Carbon::now()->firstOfMonth();

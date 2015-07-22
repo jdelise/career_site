@@ -9,7 +9,9 @@ use App\Mail\MailRepo;
 use App\RealEstateSchool;
 use GuzzleHttp\Client;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Config;
 use Illuminate\Support\Facades\Mail;
+use Illuminate\Support\Facades\Session;
 use Laracasts\Flash\Flash;
 
 class PagesController extends Controller
@@ -36,6 +38,7 @@ class PagesController extends Controller
 
     public function business_plan()
     {
+
         $license_status = ExperienceLevel::lists('level', 'id');
         $real_estate_schools = RealEstateSchool::lists('school_name', 'id');
         return view('frontend.pages.business_plan', compact('license_status', 'real_estate_schools'));
