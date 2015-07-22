@@ -189,9 +189,9 @@
 <script>
     @yield('init')
 </script>
-<script type="text/javascript"> /* Revolution Slider */
-    jQuery(document).ready(function() {
-        jQuery('#revslider1').show().revolution(
+<script> /* Revolution Slider */
+    $(document).ready(function() {
+        $('#revslider1').show().revolution(
                 {
                     delay:9000,
                     startwidth:1170,

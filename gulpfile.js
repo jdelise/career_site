@@ -38,13 +38,13 @@ elixir(function(mix) {
         "plugins.css"
     ],'public/global/css/','public/global/css/');
     mix.scripts([
-    "modernizr.custom.js",
+        "modernizr.custom.js",
+        "jquery.themepunch.plugins.min.js",
+        "jquery.themepunch.revolution.min.js",
     "bootstrap.js",
     "clean-js-plugins.js",
     "jquery.easing.js",
     "cleanlab_script.js",
-    "jquery.themepunch.plugins.min.js",
-    "jquery.themepunch.revolution.min.js",
     "mlpushmenu.js"
     ],'public/frontend/js/','public/frontend/js');
 });
