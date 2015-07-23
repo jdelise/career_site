@@ -182,8 +182,16 @@
 
 
 <!-- JavaScript at the bottom for faster page loading -->
-<script type="text/javascript" src="{{asset('frontend/js/all.js')}}"></script>
+
+<script type="text/javascript" src="{{asset('frontend/js/modernizr.custom.js')}}"></script>
+<script type="text/javascript" src="{{asset('frontend/js/bootstrap.js')}}"></script>
+<script type="text/javascript" src="{{asset('frontend/js/clean-js-plugins.js')}}"></script>
+<script type="text/javascript" src="{{asset('frontend/js/cleanlab_script.js')}}"></script>
+<script type="text/javascript" src="{{asset('frontend/js/jquery.themepunch.plugins.min.js')}}"></script>
+<script type="text/javascript" src="{{asset('frontend/js/jquery.themepunch.revolution.min.js')}}"></script>
 <script type="text/javascript" src="{{asset('frontend/js/classie.js')}}"></script>
+<script type="text/javascript" src="{{asset('frontend/js/mlpushmenu.js')}}"></script>
+
 @yield('footer-scripts')
 
 <script>
