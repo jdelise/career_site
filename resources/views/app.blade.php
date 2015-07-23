@@ -185,6 +185,7 @@
 
 <script type="text/javascript" src="{{asset('frontend/js/modernizr.custom.js')}}"></script>
 <script type="text/javascript" src="{{asset('frontend/js/bootstrap.js')}}"></script>
+<script type="text/javascript" src="{{asset('frontend/js/jquery.easing.js')}}"></script>
 <script type="text/javascript" src="{{asset('frontend/js/clean-js-plugins.js')}}"></script>
 <script type="text/javascript" src="{{asset('frontend/js/cleanlab_script.js')}}"></script>
 <script type="text/javascript" src="{{asset('frontend/js/jquery.themepunch.plugins.min.js')}}"></script>
