@@ -167,3 +167,6 @@ p .word-rotate {
     line-height: 22px;
     margin-bottom: -6px;
 }
+ul.mega-menu {
+    overflow: auto!important;
+}
