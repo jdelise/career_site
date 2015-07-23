@@ -42,18 +42,18 @@
 
                     </li>
                     <li class="col-sm-3">
-                        <a href="{{url('testimonials')}}" class="mega-title">Testimonials</a>
+                        <a href="#" class="mega-title">Testimonials</a>
                         <ul class="sub-menu clearfix">
                             <li>
-                                <a href="{{url('testimonials')}}">"CENTURY 21 Scheetz provides terrific support and
+                                <a href="#">"CENTURY 21 Scheetz provides terrific support and
                                     constant..."</a>
                             </li>
                             <li>
-                                <a href="{{url('testimonials')}}">"Scheetz has helped me significantly grow my real
+                                <a href="#">"Scheetz has helped me significantly grow my real
                                     estate career..."</a>
                             </li>
                             <li>
-                                <a href="{{url('testimonials')}}">"Why would I work any place else?"</a>
+                                <a href="#">"Why would I work any place else?"</a>
                             </li>
 
                         </ul>
