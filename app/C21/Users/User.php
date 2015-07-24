@@ -57,6 +57,9 @@ class User extends Model implements AuthenticatableContract, CanResetPasswordCon
     public function tasks(){
         return $this->hasMany('App\Task');
     }
+    public function leads(){
+        return $this->hasMany('App\Lead');
+    }
     public function activity()
     {
         return $this->hasMany('App\Activity')->latest();

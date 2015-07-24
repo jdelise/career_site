@@ -1,5 +1,6 @@
 <?php namespace App\Providers;
 
+use App\C21\Users\User;
 use App\Task;
 use App\TaskName;
 use Illuminate\Support\Facades\App;
@@ -18,20 +19,22 @@ class AppServiceProvider extends ServiceProvider {
 	 * @return void
 	 */
 	public function boot()
-	{
+    {
 
-            $url = explode('.', Request::server('HTTP_HOST'));
-            $subdomain = $url[0];
-            Session::put('sub',$subdomain);
+        $url = explode('.', Request::server('HTTP_HOST'));
+        $subdomain = $url[0];
+        Session::put('sub', $subdomain);
 
-        view()->composer(['admin.parts.header','admin.partials.models.add_task'], function($view){
-            $view->with('user', Auth::user())->with('task_names', TaskName::groupBy('task_name')->get());
+        view()->composer(['admin.parts.header', 'admin.partials.models.add_task', 'admin.pages.my_dashboard'], function ($view) {
+            $view->with('user', User::where('id', Auth::user()->id)->with('leads')->first())->with('task_names', TaskName::groupBy('task_name')->get());
         });
-        view()->composer('admin.parts.user_notifications',function($view){
+        view()->composer('admin.parts.user_notifications', function ($view) {
             $view->with('userTasks', Task::userAllNonCompletedTasks());
         });
-	}
-
+        view()->composer('admin.leads.parts.reassign_lead', function ($view) {
+            $view->with('users', User::all());
+        });
+    }
 	/**
 	 * Register any application services.
 	 *

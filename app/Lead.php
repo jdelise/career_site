@@ -11,5 +11,8 @@ class Lead extends Model {
     public function notes(){
         return $this->hasMany('App\Note');
     }
+    public function user(){
+        return $this->belongsTo('App\C21\Users\User');
+    }
 
 }

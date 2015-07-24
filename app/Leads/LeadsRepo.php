@@ -33,7 +33,11 @@ class LeadsRepo {
         return $lead;
     }
     public function getLeads(){
-        $leads = $this->lead->orderBy('created_at')->all();
+        $leads = $this->lead->orderBy('updated_at')->all();
+        return $leads;
+    }
+    public function getMyLeads($user_id){
+        $leads = $this->lead->where('user_id',$user_id)->orderBy('updated_at')->all();
         return $leads;
     }
     /**

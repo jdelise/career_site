@@ -8,6 +8,7 @@ use App\ExperienceLevel;
 use App\Http\Requests;
 use App\C21\Helpers\ImportHelper;
 use App\C21\Helpers\PhoneFormater;
+use app\Leads\LeadsRepo;
 use App\Note;
 use App\RealEstateSchool;
 use App\RecruitListing;
@@ -57,13 +58,12 @@ class RecruitsController extends Controller
     public function dashboard(TaskRepo $taskRepo){
         $recruits = Recruits::where('user_id', Auth::user()->id)->orderBy('last_name')->paginate(10);
         $overDueTasks = Task::userOverDueTasks();
-        $user = User::find(Auth::user()->id);
         $tasks = Task::userActiveTasks();
         $appointments = $taskRepo->appointmentsThisMonth(Auth::user()->id);
         $calls = $taskRepo->callsThisMonth(Auth::user()->id);
         $experienced_agents = Recruits::where('user_id',Auth::user()->id)->where('experience_level','Experienced Agent')->where('is_hired',1)->whereBetween('updated_at',[Carbon::now()->startOfYear(),Carbon::now()])->count();
         $new_agents = Recruits::where('user_id',Auth::user()->id)->where('experience_level','!=','Experienced Agent')->where('is_hired',1)->whereBetween('updated_at',[Carbon::now()->startOfYear(),Carbon::now()])->count();
-        return view('admin.pages.my_dashboard', compact('recruits','tasks','overDueTasks','user','appointments','calls','experienced_agents','new_agents'));
+        return view('admin.pages.my_dashboard', compact('recruits','tasks','overDueTasks','user','appointments','calls','experienced_agents','new_agents','leads'));
     }
 
     /**

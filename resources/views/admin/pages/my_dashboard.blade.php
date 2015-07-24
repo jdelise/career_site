@@ -90,6 +90,27 @@
                 </div>
             </div>
         </div>
+        <div class="col-sm-6">
+            <div class="box">
+                <div class="box-header">
+                    <h3 class="box-title">Latest Leads</h3>
+                </div>
+                <div class="box-body">
+                    <table class="table table-bordered">
+                        <tbody>
+                        @foreach($user->leads as $lead)
+                        <tr>
+                            <td><a href="/admin/leads/{{$lead->id}}">{{$lead->first_name}} {{$lead->last_name}}</a></td>
+                            <td><a href="mailto:{{$lead->email}}">{{$lead->email}}</a></td>
+                            <td>{{$lead->updated_at->diffForHumans()}}</td>
+                            <td>{{$lead->source}}</td>
+                        </tr>
+                        @endforeach
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
         <div class="col-sm-4">
 
         </div>

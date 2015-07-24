@@ -49,6 +49,12 @@ Route::post('admin/leadrouter/getLeadAcceptanceTypes','LeadRouterController@getL
 Route::get('admin/leadrouter/import','LeadRouterController@upload');
 Route::resource('admin/leadrouter','LeadRouterController');
 /**
+*Leads
+*/
+Route::match(['get','post'],'admin/leads/add_lead_to_crm/{id}','LeadsController@addLeadToCrm');
+Route::match(['get','post'],'admin/leads/reassign_lead/{id}','LeadsController@reassignLead');
+Route::resource('admin/leads','LeadsController');
+/**
 *Users
  *
  *
