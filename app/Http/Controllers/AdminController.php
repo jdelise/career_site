@@ -35,8 +35,8 @@ class AdminController extends Controller {
             $leads = Lead::newestLeads();
             $users = User::where('can_recruit',1)->get();
             $overdue_tasks = $taskRepo->getLateTasksBySystem();
-            $appointments = $taskRepo->appointmentsThisMonthSystem();
-            $calls = $taskRepo->callsThisMonthSystem();
+            $appointments = $taskRepo->actionsThisMonthSystem('Appointment');
+            $calls = $taskRepo->actionsThisMonthSystem('Call');
             $experienced_agents = Recruits::where('experience_level','Experienced Agent')->where('is_hired',1)->whereBetween('updated_at',[Carbon::now()->startOfYear(),Carbon::now()])->count();
             $new_agents = Recruits::where('experience_level','!=','Experienced Agent')->where('is_hired',1)->whereBetween('updated_at',[Carbon::now()->startOfYear(),Carbon::now()])->count();
            return view('admin.pages.dashboard',compact('leads','users','overdue_tasks','calls','appointments','experienced_agents','new_agents'));

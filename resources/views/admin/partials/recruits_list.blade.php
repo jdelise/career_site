@@ -3,8 +3,9 @@
     <th></th>
     <th>Last Name</th>
     <th>First Name</th>
-    <th>Mls ID</th>
-    <th>Office Id</th>
+    <th>Status</th>
+    <th>Assigned To</th>
+    <th>Synced?</th>
     <th></th>
     </thead>
     <tbody>
@@ -18,12 +19,10 @@
             </td>
             <td>{{$recruit->last_name}}</td>
             <td>{{$recruit->first_name}}</td>
-            <td>{{$recruit->mls_id}}</td>
-            <td>{{$recruit->brokerage_code}}</td>
+            <td>{{$recruit->status}}</td>
+            <td>{{$recruit->user->first_name}} {{$recruit->user->last_name}}</td>
+            <td>{{changeBoolean($recruit->synced)}}</td>
             <td>
-                <a href="{{url("admin/recruiting/$recruit->id/edit")}}">
-                    <i class="fa fa-edit"></i>
-                </a>
                 <a href="{{url("admin/recruiting/$recruit->id")}}">
                     <i class="fa fa-user"></i>
                 </a>

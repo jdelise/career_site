@@ -25,3 +25,8 @@ function changeBoolean($boolean){
     }
     return 'Yes';
 }
+function userActions($action,$user_id){
+   $taskRepo = new \App\Tasks\TaskRepo();
+    return $taskRepo->actionsThisMonth($user_id,$action);
+
+}

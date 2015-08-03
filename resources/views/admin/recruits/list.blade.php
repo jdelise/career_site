@@ -36,6 +36,10 @@
                                 <li><a href="{{url('admin/recruiting/all_recruits')}}?sort_by=first_name&order=desc">First Name Z - A</a></li>
                                 <li><a href="{{url('admin/recruiting/all_recruits')}}?sort_by=last_name">Last Name</a></li>
                                 <li><a href="{{url('admin/recruiting/all_recruits')}}?sort_by=last_name&order=desc">Last Name Z - A</a></li>
+                                <li><a href="{{url('admin/recruiting/all_recruits')}}?sort_by=status">Status</a></li>
+                                <li><a href="{{url('admin/recruiting/all_recruits')}}?sort_by=status&order=desc">Status Z - A</a></li>
+                                <li><a href="{{url('admin/recruiting/all_recruits')}}?sort_by=synced">Synced</a></li>
+                                <li><a href="{{url('admin/recruiting/all_recruits')}}?sort_by=synced&order=desc">Status Z - A</a></li>
                             </ul>
                         </div>
                     </div>

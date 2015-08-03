@@ -59,8 +59,8 @@ class RecruitsController extends Controller
         $recruits = Recruits::where('user_id', Auth::user()->id)->orderBy('last_name')->paginate(10);
         $overDueTasks = Task::userOverDueTasks();
         $tasks = Task::userActiveTasks();
-        $appointments = $taskRepo->appointmentsThisMonth(Auth::user()->id);
-        $calls = $taskRepo->callsThisMonth(Auth::user()->id);
+        $appointments = $taskRepo->actionsThisMonth(Auth::user()->id,'Appointment');
+        $calls = $taskRepo->actionsThisMonth(Auth::user()->id,'Call');
         $experienced_agents = Recruits::where('user_id',Auth::user()->id)->where('experience_level','Experienced Agent')->where('is_hired',1)->whereBetween('updated_at',[Carbon::now()->startOfYear(),Carbon::now()])->count();
         $new_agents = Recruits::where('user_id',Auth::user()->id)->where('experience_level','!=','Experienced Agent')->where('is_hired',1)->whereBetween('updated_at',[Carbon::now()->startOfYear(),Carbon::now()])->count();
         return view('admin.pages.my_dashboard', compact('recruits','tasks','overDueTasks','user','appointments','calls','experienced_agents','new_agents','leads'));

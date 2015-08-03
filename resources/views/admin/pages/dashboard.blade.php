@@ -117,7 +117,7 @@
                                     {{$user->first_name}} {{$user->last_name}}
                                 </h5>
                                 <p class="list-group-item-text">
-
+                                    Calls: {{userActions('Call',$user->id)}} - Appointments: {{userActions('Appointment',$user->id)}} - Emails: {{userActions('Email',$user->id)}}
                                 </p>
                             </a>
                             @endforeach
@@ -136,7 +136,7 @@
                 <div class="box-body no_overflow">
                     <div class="list-group">
                         @foreach($overdue_tasks as $overdue_task)
-                            <a class="list-group-item" href="">
+                            <a class="list-group-item" href="{{url('admin/recruiting')}}/{{$overdue_task->recruit->id}}">
                                 <h5 class="list-group-item-heading">
                                     {{$overdue_task->name}} - {{$overdue_task->due_date->diffForHumans()}}
                                 </h5>

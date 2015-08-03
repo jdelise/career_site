@@ -33,20 +33,12 @@ class TaskRepo {
         Event::fire(new TaskWasAssignedToUser($task, $currentUserEmail));
         return $task;
     }
-    public function callsThisMonth($user_id){
-        $tasks = Task::where('name','Call')->where('user_id',$user_id)->whereBetween('updated_at',[Carbon::now()->firstOfMonth(),Carbon::now()])->where('completed',1)->count();
+    public function actionsThisMonth($user_id,$action){
+        $tasks = Task::where('name',$action)->where('user_id',$user_id)->whereBetween('updated_at',[Carbon::now()->firstOfMonth(),Carbon::now()])->where('completed',1)->count();
         return $tasks;
     }
-    public function appointmentsThisMonth($user_id){
-        $tasks = Task::where('name','Appointment')->where('user_id',$user_id)->whereBetween('updated_at',[Carbon::now()->firstOfMonth(),Carbon::now()])->where('completed',1)->count();
-        return $tasks;
-    }
-    public function callsThisMonthSystem(){
-        $tasks = Task::where('name','Call')->whereBetween('updated_at',[Carbon::now()->firstOfMonth(),Carbon::now()])->where('completed',1)->count();
-        return $tasks;
-    }
-    public function appointmentsThisMonthSystem(){
-        $tasks = Task::where('name','Appointment')->whereBetween('updated_at',[Carbon::now()->firstOfMonth(),Carbon::now()])->where('completed',1)->count();
+    public function actionsThisMonthSystem($action){
+        $tasks = Task::where('name',$action)->whereBetween('updated_at',[Carbon::now()->firstOfMonth(),Carbon::now()])->where('completed',1)->count();
         return $tasks;
     }
     /**
