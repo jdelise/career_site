@@ -40,6 +40,7 @@ Route::post('front_ajax/business_plan_submit','AjaxController@business_plan_subm
  *
 */
 Route::get('admin','AdminController@index');
+Route::get('admin/admin-dashboard','AdminController@adminDashboard');
 Route::get('admin/leadrouter/dashboard',[
     'as' => 'leadrouter_dashboard',
     'uses' => 'LeadRouterController@dashboard']
@@ -170,6 +171,9 @@ Route::get('webvideos/{video}',function($video){
     $video_path = base_path('public/videos'). '/folder_' . $random . '/' . $video;
     $stream = new \App\Videos\VideoStream($video_path);
     $stream->start();
+});
+Route::get('video',function(){
+    return view('tests/video');
 });
 Route::get('admin/agents_go',function(){
      $file = Storage::get('Agents.xml');

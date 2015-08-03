@@ -48,7 +48,7 @@ class VideoStream {
             header("Content-Type: application/octet-stream");
         }
         //header("Content-Type: application/octet-stream");
-        //header("Cache-Control: max-age=2592000, public");
+        header("Cache-Control: max-age=2592000, public");
         header("Expires: ".gmdate('D, d M Y H:i:s', time()+2592000) . ' GMT');
         header("Last-Modified: ".gmdate('D, d M Y H:i:s', @filemtime($this->path)) . ' GMT' );
         $this->start = 0;

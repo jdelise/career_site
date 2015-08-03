@@ -19,3 +19,27 @@
     vertical-align: middle;
     border-top: 1px solid #ddd;
 }
+.box-body.no_overflow{
+    max-height: 300px;
+    overflow: auto;
+}
+.box-body.no_overflow::-webkit-scrollbar {
+    width: 12px;
+}
+/* Track */
+.box-body.no_overflow::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
+
+/* Handle */
+.box-body.no_overflow::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    background: rgba(255,0,0,0.8);
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5);
+}
+.box-body.no_overflow::-webkit-scrollbar-thumb:window-inactive {
+    background: rgba(255,0,0,0.4);
+}

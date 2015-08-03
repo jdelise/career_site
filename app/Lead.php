@@ -14,5 +14,9 @@ class Lead extends Model {
     public function user(){
         return $this->belongsTo('App\C21\Users\User');
     }
+    public static function newestLeads(){
+        $lead = new static;
+        return $lead->orderBy('updated_at')->get();
+    }
 
 }

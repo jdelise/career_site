@@ -41,6 +41,14 @@ class TaskRepo {
         $tasks = Task::where('name','Appointment')->where('user_id',$user_id)->whereBetween('updated_at',[Carbon::now()->firstOfMonth(),Carbon::now()])->where('completed',1)->count();
         return $tasks;
     }
+    public function callsThisMonthSystem(){
+        $tasks = Task::where('name','Call')->whereBetween('updated_at',[Carbon::now()->firstOfMonth(),Carbon::now()])->where('completed',1)->count();
+        return $tasks;
+    }
+    public function appointmentsThisMonthSystem(){
+        $tasks = Task::where('name','Appointment')->whereBetween('updated_at',[Carbon::now()->firstOfMonth(),Carbon::now()])->where('completed',1)->count();
+        return $tasks;
+    }
     /**
      * @return mixed
      */

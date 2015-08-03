@@ -14,7 +14,7 @@
         <li class="header">MAIN NAVIGATION</li>
         @if(Auth::user()->can('can_view_dashboard'))
             <li class="">
-                <a href="{{url('admin')}}">
+                <a href="{{url('admin/admin-dashboard')}}">
                     <i class="fa fa-dashboard"></i> <span>Admin Dashboard</span>
                 </a>
             </li>
