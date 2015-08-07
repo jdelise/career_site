@@ -55,7 +55,7 @@ class BusinessPlanCreated extends Command implements SelfHandling {
             'phone_1' => $this->request->input('phone'),
             'experience_level' => $this->request->input('license_status'),
             'real_estate_school' => $this->request->input('school'),
-            'brokerage_name' => $this->request->input('brokerage')
+            'brokerage_code' => $this->request->input('brokerage')
         ];
         $new_lead = $lead->updateOrCreate(['email' => $this->request->input('email')],$args);
         $mailRepo->sendBusinessPlan($args,$new_lead,$user);
