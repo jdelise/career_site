@@ -12,7 +12,7 @@
         </div>
         <div class="portlet-body form">
             <!-- BEGIN FORM-->
-            {!!Form::open(['url' => 'admin/users', 'method' => 'POST','class'=>'form-horizontal form-bordered form-row-stripped'])!!}
+            {!!Form::open(['url' => 'admin/users/store', 'method' => 'POST','class'=>'form-horizontal form-bordered form-row-stripped'])!!}
 
             <div class="form-body">
                 <div class="form-group">

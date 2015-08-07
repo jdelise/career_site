@@ -12,7 +12,7 @@
         </div>
         <div class="portlet-body form">
             <!-- BEGIN FORM-->
-            {!!Form::model($user,['url' => 'admin/users/' . $user->id, 'method' => 'PATCH', 'class'=>'form-horizontal form-bordered form-row-stripped'])!!}
+            {!!Form::model($user,['url' => 'admin/users/update/' . $user->id, 'method' => 'PATCH', 'class'=>'form-horizontal form-bordered form-row-stripped'])!!}
             <div class="form-body">
                 <div class="form-group">
                     <label class="control-label col-md-3">First Name</label>
@@ -32,6 +32,12 @@
                         <p class="form-control-static">
                             {{$user->email}}
                         </p>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="control-label col-md-3">Can Recruit?</label>
+                    <div class="col-md-9">
+                        {!! Form::select('role_list[]',$roles,null)!!}
                     </div>
                 </div>
                 <div class="form-group">

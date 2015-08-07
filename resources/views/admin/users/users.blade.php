@@ -50,7 +50,7 @@
                                    </td>
                                    <td>{{$user->created_at}}</td>
                                    <td>
-                                       <a href="/admin/users/{{$user->id}}/edit" title="Edit User"><i class="fa fa-edit"></i></a>
+                                       <a href="/admin/users/edit/{{$user->id}}" title="Edit User"><i class="fa fa-edit"></i></a>
                                    </td>
                                </tr>
                            @endforeach

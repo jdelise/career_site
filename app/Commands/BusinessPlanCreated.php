@@ -52,7 +52,7 @@ class BusinessPlanCreated extends Command implements SelfHandling {
             'last_name' =>  $this->request->input('last_name'),
             'user_id' => $user->id,
             'source' => 'C21 Career Site Business Plan',
-            'phone' => $this->request->input('phone'),
+            'phone_1' => $this->request->input('phone'),
             'experience_level' => $this->request->input('license_status'),
             'real_estate_school' => $this->request->input('school'),
             'brokerage_name' => $this->request->input('brokerage')

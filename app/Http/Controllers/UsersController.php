@@ -47,7 +47,7 @@ class UsersController extends Controller {
      * @param CreateNewUserForm $request
      * @return Response
      */
-	public function getStore(CreateNewUserForm $request)
+	public function postStore(CreateNewUserForm $request)
 	{
 		//If  all validation has passed
 
@@ -93,7 +93,7 @@ class UsersController extends Controller {
      * @param User $user
      * @return Response
      */
-	public function postUpdate($id,CreateNewUserForm $request)
+	public function patchUpdate($id,CreateNewUserForm $request)
 	{
         $user = User::findOrFail($id);
         $user->update([
