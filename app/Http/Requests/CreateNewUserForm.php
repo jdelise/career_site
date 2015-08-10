@@ -30,6 +30,7 @@ class CreateNewUserForm extends Request {
 		$rules = [
 			'first_name' => 'required',
             'last_name' => 'required',
+            'office_id' => 'required',
             'role_list' => 'required'
 		];
         if($request->method() === 'POST'){

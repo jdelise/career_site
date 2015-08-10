@@ -27,6 +27,9 @@
                                    First Name
                                </th>
                                <th>
+                                   Office
+                               </th>
+                               <th>
                                    Role
                                </th>
                                <th>
@@ -43,6 +46,7 @@
                                <tr>
                                    <td>{{$user->last_name}}</td>
                                    <td>{{$user->first_name}}</td>
+                                   <td>{{$user->office->name or 'None'}}</td>
                                    <td>
                                        @foreach($user->roles as $role)
                                            {{$role->display_name}}

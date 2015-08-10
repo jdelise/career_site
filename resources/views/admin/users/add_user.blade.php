@@ -34,6 +34,12 @@
                     </div>
                 </div>
                 <div class="form-group">
+                    <label class="control-label col-md-3">Office?</label>
+                    <div class="col-md-9">
+                        {!! Form::select('office_id',$offices)!!}
+                    </div>
+                </div>
+                <div class="form-group">
                     <label class="control-label col-md-3">User Role</label>
                     <div class="col-md-9">
                         {!! Form::select('role_list[]',$roles,null)!!}

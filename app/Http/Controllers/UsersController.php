@@ -6,6 +6,7 @@ use App\Http\Requests;
 use App\Http\Controllers\Controller;
 
 use App\Http\Requests\CreateNewUserForm;
+use App\Office;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Input;
@@ -16,7 +17,7 @@ class UsersController extends Controller {
     public function __construct()
     {
         $this->middleware('auth');
-        $this->middleware('users');
+        $this->middleware('users',['except'=>['getMyProfile','patchEditProfile']]);
     }
 	/**
 	 * Display a listing of the resource.
@@ -38,7 +39,8 @@ class UsersController extends Controller {
 	public function getCreate()
 	{
         $roles = Role::all()->lists('display_name','id');
-		return view('admin.users.add_user', compact('roles'));
+        $offices = Office::all()->lists('name','id');
+		return view('admin.users.add_user', compact('roles','offices'));
 	}
 
     /**
@@ -55,6 +57,7 @@ class UsersController extends Controller {
             'first_name' => $request['first_name'],
             'last_name' => $request['last_name'],
             'email' => $request['email'],
+            'office_id' => $request['office_id'],
             'password' => bcrypt($request['password']),
         ])->attachRole(array('id' => $request['role_list']));
         return redirect('admin/users');
@@ -81,8 +84,9 @@ class UsersController extends Controller {
 	public function getEdit($id)
 	{
         $roles = Role::all()->lists('display_name','id');
+        $offices = Office::all()->lists('name','id');
         $user = User::with('roles.perms')->findOrFail($id);
-        return view('admin.users.edit_user',compact('user','roles'));
+        return view('admin.users.edit_user',compact('user','roles','offices'));
 	}
 
     /**
@@ -96,10 +100,11 @@ class UsersController extends Controller {
 	public function patchUpdate($id,CreateNewUserForm $request)
 	{
         $user = User::findOrFail($id);
-        $user->update([
-            'first_name' => $request['first_name'],
-            'last_name' => $request['last_name'],
-        ]);
+        //dd($request);
+        $user->first_name = $request['first_name'];
+        $user->last_name = $request['last_name'];
+        $user->office_id = $request['office_id'];
+        $user->save();
         $user->roles()->sync($request->input('role_list'));
 
         return redirect('admin/users');
@@ -116,6 +121,7 @@ class UsersController extends Controller {
 		//
 	}
     public function getMyProfile($id){
+
         if(Auth::user()->can(['can_manage_users']) or Auth::user()->id == $id){
             $user = User::with('office')->find($id);
             return view('admin/users/my_profile',compact('user'));

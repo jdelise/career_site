@@ -35,9 +35,9 @@
                     </div>
                 </div>
                 <div class="form-group">
-                    <label class="control-label col-md-3">Can Recruit?</label>
+                    <label class="control-label col-md-3">Office?</label>
                     <div class="col-md-9">
-                        {!! Form::select('role_list[]',$roles,null)!!}
+                        {!! Form::select('office_id',$offices,$user->office_id)!!}
                     </div>
                 </div>
                 <div class="form-group">
