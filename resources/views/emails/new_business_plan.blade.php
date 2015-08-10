@@ -998,7 +998,7 @@
                                                                style="border-spacing: 0;border-collapse: collapse;padding: 0;vertical-align: top;text-align: left;margin: 0 auto;width: 580px;">
                                                             <tr style="padding: 0;vertical-align: top;text-align: left;">
                                                                 <td style="word-break: break-word;-webkit-hyphens: auto;-moz-hyphens: auto;hyphens: auto;padding: 0px 0px 10px;vertical-align: top;text-align: left;color: #222222;font-family: &quot;Helvetica&quot;, &quot;Arial&quot;, sans-serif;font-weight: normal;margin: 0;line-height: 19px;font-size: 14px;border-collapse: collapse !important;">
-                                                                    <img src="{{asset('frontend/images/smarter.jpg')}}"
+                                                                    <img src="{{$message->embed(asset('frontend/images/smarter.jpg'))}}"
                                                                          style="outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;width: auto;max-width: 100%;float: left;clear: both;display: block;">
                                                                 </td>
                                                                 <td class="expander"

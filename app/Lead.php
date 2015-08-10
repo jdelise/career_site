@@ -16,7 +16,7 @@ class Lead extends Model {
     }
     public static function newestLeads(){
         $lead = new static;
-        return $lead->orderBy('created_at')->get();
+        return $lead->orderBy('updated_at')->get();
     }
 
 }
