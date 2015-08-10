@@ -5,7 +5,7 @@ return[
         'pbender@c21scheetz.com'
     ],
     'recruiter' => [
-        'name' => 'Jen Short',
-        'email' => 'jshort@c21scheetz.com'
+        'name' => 'Chey West',
+        'email' => 'cwest@c21scheetz.com'
     ]
 ];
