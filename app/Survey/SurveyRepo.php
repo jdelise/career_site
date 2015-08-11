@@ -23,6 +23,11 @@ class SurveyRepo {
         $this->mailSurvey($survey);
         return $survey;
     }
+    public function resendSurvey($id){
+        $survey = Survey::where('id',$id)->first();
+        $this->mailSurvey($survey);
+        return $survey;
+    }
     public function getSurveys(){
         $surveys = [];
         $surveys['completed'] = Survey::where('completed' , 1)->orderBy('updated_at')->with('recruit')->get();

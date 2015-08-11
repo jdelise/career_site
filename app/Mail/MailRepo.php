@@ -37,7 +37,7 @@ class MailRepo {
             'title' => $title,
             'vars' => $vars
         ],function($message) use ($admin_subject){
-            $message->subject('A consumer  has requested more information');
+            $message->subject($admin_subject);
             foreach(Config::get('c21.admin-emails') as $admin_email){
                 $message->bcc($admin_email);
             }
