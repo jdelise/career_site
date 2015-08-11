@@ -8,7 +8,7 @@ class Survey extends Model {
 	protected $guarded = ['id'];
     public function getDates()
     {
-        return ['next_followup_date'];
+        return ['next_followup_date','created_at','updated_at'];
     }
     public function user(){
         return $this->belongsTo('App\C21\Users\User');

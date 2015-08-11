@@ -56,7 +56,7 @@ class RecruitsController extends Controller
         return view('admin.recruits.list', compact('recruits'));
     }
     public function dashboard(TaskRepo $taskRepo){
-        $recruits = Recruits::where('user_id', Auth::user()->id)->orderBy('last_name')->paginate(10);
+        $recruits = Recruits::where('user_id', Auth::user()->id)->orderBy('last_name')->get();
         $overDueTasks = Task::userOverDueTasks();
         $tasks = Task::userActiveTasks();
         $appointments = $taskRepo->actionsThisMonth(Auth::user()->id,'Appointment');

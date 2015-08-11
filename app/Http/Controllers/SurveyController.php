@@ -6,6 +6,7 @@ use App\Http\Controllers\Controller;
 use App\Survey;
 use App\Survey\SurveyRepo;
 use Illuminate\Http\Request;
+use Laracasts\Flash\Flash;
 
 class SurveyController extends Controller {
     /**
@@ -19,11 +20,17 @@ class SurveyController extends Controller {
         $this->repo = $repo;
     }
     public function index(){
-        return $this->repo->generateSurvey(4,1);
+        $surveys = $this->repo->getSurveys();
+        return view('admin.surveys.all',compact('surveys'));
     }
 	public function show($id){
 
     }
+    public function resend($id){
+        Flash::success('Survey was resent!');
+        return redirect()->back();
+    }
+
     public function complete_survey_request($id){
         $survey = $this->repo->getSurvey($id);
         if($survey->completed == true){

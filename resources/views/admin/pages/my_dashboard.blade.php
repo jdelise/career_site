@@ -95,7 +95,7 @@
                 <div class="box-header">
                     <h3 class="box-title">Latest Leads</h3>
                 </div>
-                <div class="box-body">
+                <div class="box-body no_overflow">
                     <table class="table table-bordered">
                         <tbody>
                         @foreach($user->leads as $lead)

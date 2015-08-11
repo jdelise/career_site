@@ -31,6 +31,7 @@
                     <li><a href="{{url('admin/recruiting/all_recruits')}}">All Recruits</a></li>
                     <li><a href="{{url('admin/recruiting/create_recruit')}}">Add Recruit</a></li>
                     <li><a href="{{url('admin/mibor_sync/agent-search')}}">Mibor Agent Search</a></li>
+                    <li><a href="{{url('admin/all_surveys')}}">Surveys</a></li>
                 </ul>
             </li>
             @endif

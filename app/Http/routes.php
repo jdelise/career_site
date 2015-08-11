@@ -73,7 +73,8 @@ Route::post('admin/task/create_task','TaskController@createTask');
 */
 
 Route::get('admin/complete_task','TaskController@completeTask');
-Route::get('admin/create_survey','SurveyController@index');
+Route::get('admin/all_surveys','SurveyController@index');
+Route::get('admin/survey/resend/{id}','SurveyController@resend');
 Route::get('admin/complete_survey_request/{id}','SurveyController@complete_survey_request');
 Route::patch('admin/recruiting','RecruitsController@update');
 Route::post('admin/create_note','RecruitsController@create_recruit_note');
