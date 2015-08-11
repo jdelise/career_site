@@ -292,64 +292,67 @@
     <script src="{{asset('adminlte/js/form-editable.js')}}"
             type="text/javascript"></script>
     <script src="{{asset('global/plugins/charts_js/charts.js')}}"></script>
-    <script>
-        $(function(){
-            $('input[type="checkbox"].minimal, input[type="radio"].minimal').iCheck({
-                checkboxClass: 'icheckbox_minimal-blue',
-                radioClass: 'iradio_minimal-blue'
-            });
-            $('#daterange-btn').daterangepicker(
-                    {
-                        ranges: {
-                            'This Year': [moment().startOf('year'), moment().endOf('month')],
-                            'Last 12 Months': [moment().subtract('month', 12).startOf('month'), moment().subtract('month', 1).endOf('month')],
-                            'Last Year': [moment().startOf('year').subtract('days',365), moment().startOf('year').subtract('days',1)],
-                            '2 Years Ago': [moment().startOf('year').subtract('days',730), moment().startOf('year').subtract('days',366)],
-                            '3 Years Ago': [moment().startOf('year').subtract('days',1096), moment().startOf('year').subtract('days',731)]
+    @if($recruit->mls_id != '')
+        <script>
+            $(function(){
+                $('input[type="checkbox"].minimal, input[type="radio"].minimal').iCheck({
+                    checkboxClass: 'icheckbox_minimal-blue',
+                    radioClass: 'iradio_minimal-blue'
+                });
+                $('#daterange-btn').daterangepicker(
+                        {
+                            ranges: {
+                                'This Year': [moment().startOf('year'), moment().endOf('month')],
+                                'Last 12 Months': [moment().subtract('month', 12).startOf('month'), moment().subtract('month', 1).endOf('month')],
+                                'Last Year': [moment().startOf('year').subtract('days',365), moment().startOf('year').subtract('days',1)],
+                                '2 Years Ago': [moment().startOf('year').subtract('days',730), moment().startOf('year').subtract('days',366)],
+                                '3 Years Ago': [moment().startOf('year').subtract('days',1096), moment().startOf('year').subtract('days',731)]
 
+                            },
+                            startDate: moment().startOf('year'),
+                            endDate: moment()
                         },
-                        startDate: moment().startOf('year'),
-                        endDate: moment()
+                        function (start, end) {
+                            $('#start_date').val(start.format('YYYY-MM-DD'));
+                            $('#end_date').val(end.format('YYYY-MM-DD'));
+                            $('#reportrange span').html(start.format('MMMM D, YYYY') + ' - ' + end.format('MMMM D, YYYY'));
+                        }
+                );
+                var data = [
+                    {
+                        value: "<?php echo $numbers['listings_sold']->sum('ClosePrice');?>",
+                        color:"#F7464A",
+                        highlight: "#FF5A5E",
+                        label: "Listings Sold"
                     },
-                    function (start, end) {
-                        $('#start_date').val(start.format('YYYY-MM-DD'));
-                        $('#end_date').val(end.format('YYYY-MM-DD'));
-                        $('#reportrange span').html(start.format('MMMM D, YYYY') + ' - ' + end.format('MMMM D, YYYY'));
+                    {
+                        value: "<?php echo $numbers['buyer_sides']->sum('ClosePrice');?>",
+                        color: "#46BFBD",
+                        highlight: "#5AD3D1",
+                        label: "Buyer Sides"
+                    },
+                    {
+                        value: "<?php echo $numbers['listings_sold']->sum('ClosePrice') + $numbers['buyer_sides']->sum('ClosePrice'); ?>",
+                        color: "#FDB45C",
+                        highlight: "#FFC870",
+                        label: "Total Production"
+                    },
+                    {
+                        value: "<?php echo $pastNumbers['listings_sold']->sum('ClosePrice') + $pastNumbers['buyer_sides']->sum('ClosePrice'); ?>",
+                        color: "#00ff6a",
+                        highlight: "#00ff6a",
+                        label: "Total Year Over Year"
                     }
-            );
-            var data = [
-                {
-                    value: "<?php echo $numbers['listings_sold']->sum('ClosePrice');?>",
-                    color:"#F7464A",
-                    highlight: "#FF5A5E",
-                    label: "Listings Sold"
-                },
-                {
-                    value: "<?php echo $numbers['buyer_sides']->sum('ClosePrice');?>",
-                    color: "#46BFBD",
-                    highlight: "#5AD3D1",
-                    label: "Buyer Sides"
-                },
-                {
-                    value: "<?php echo $numbers['listings_sold']->sum('ClosePrice') + $numbers['buyer_sides']->sum('ClosePrice'); ?>",
-                    color: "#FDB45C",
-                    highlight: "#FFC870",
-                    label: "Total Production"
-                },
-                {
-                    value: "<?php echo $pastNumbers['listings_sold']->sum('ClosePrice') + $pastNumbers['buyer_sides']->sum('ClosePrice'); ?>",
-                    color: "#00ff6a",
-                    highlight: "#00ff6a",
-                    label: "Total Year Over Year"
-                }
-            ];
-            var ctx = document.getElementById('myChart').getContext("2d");
-            //var ctx2 = document.getElementById'chart_2'.getContext("2d");
-            Chart.defaults.global.responsive = true;
-            new Chart(ctx).PolarArea(data,{bezierCurve: true});
+                ];
+                var ctx = document.getElementById('myChart').getContext("2d");
+                //var ctx2 = document.getElementById'chart_2'.getContext("2d");
+                Chart.defaults.global.responsive = true;
+                new Chart(ctx).PolarArea(data,{bezierCurve: true});
 
-        });
-    </script>
+            });
+        </script>
+        @endif
+
 @stop
 
 @section('init')
