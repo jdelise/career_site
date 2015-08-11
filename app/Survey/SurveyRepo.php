@@ -25,7 +25,7 @@ class SurveyRepo {
     }
     public function getSurveys(){
         $surveys = [];
-        $surveys['completed'] = Survey::where('completed' , 1)->with('recruit')->get();
+        $surveys['completed'] = Survey::where('completed' , 1)->orderBy('updated_at')->with('recruit')->get();
         $surveys['not_completed'] = Survey::where('completed' , 0)->with('recruit')->get();
         return $surveys;
     }
