@@ -85,7 +85,7 @@
                 <div class="box-header">
                     <h3 class="box-title">My Recruits</h3>
                 </div>
-                <div class="box-body">
+                <div class="box-body no_overflow">
                     @include('admin.partials.dashboard_activities')
                 </div>
             </div>
