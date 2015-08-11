@@ -254,8 +254,10 @@
                                     </div>
                                     <div class="row">
                                         <div class="col-md-12">
+                                            @if($recruit->mls_id != '')
+                                                @include('admin.recruits.production')
+                                            @endif
 
-                                            @include('admin.recruits.production')
                                         </div>
                                     </div>
                                     <div class="row">

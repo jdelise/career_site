@@ -14,9 +14,11 @@
         <div class="center" style="text-align: center;margin-top: 15px;">
             <a href="#" data-toggle="modal" data-target="#add_image" class="btn btn-success">Upload
                 Image</a>
-            <br/>
-            <a href="{{url('admin/mibor_sync/sync-agent-photo')}}/{{$recruit->id}}">Sync image with
-                Mibor</a>
+           @if($recruit->mls_id != '')
+                <br/>
+                <a href="{{url('admin/mibor_sync/sync-agent-photo')}}/{{$recruit->id}}">Sync image with
+                    Mibor</a>
+               @endif
         </div>
         <!-- END SIDEBAR USERPIC -->
         <!-- SIDEBAR USER TITLE -->
