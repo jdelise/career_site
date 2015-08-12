@@ -88,6 +88,7 @@ Route::get('admin/recruiting/import','RecruitsController@upload');
 Route::get('admin/task/add_to_outlook','TaskController@addTaskToOutlook');
 Route::post('admin/recruiting/update_profile_img','RecruitsController@edit_img');
 Route::controller('test','TestController');
+Route::controller('admin/agents','AgentsController');
 Route::controller('admin/admin_ajax','AdminAjaxController');
 Route::controller( 'admin/mibor_sync','MiborSyncController');
 Route::controller('aws','AwsController');
@@ -154,6 +155,8 @@ Route::controllers([
 //Tests
 Route::get('admin/mibor_buyers', 'RetsController@buyerQuery');
 Route::get('admin/mibor_sellers', 'RetsController@sellerQuery');
+Route::get('admin/mibor_sellers/{office}/{start}/{end}', 'RetsController@sellerQuery');
+Route::get('admin/mibor_buyers/{office}/{start}/{end}', 'RetsController@buyerQuery');
 Route::get('admin/mibor_test/{agent_id}/{start_range}/{end_range}', 'RetsController@test');
 Route::get('test',function(){
    // $user = \App\C21\Users\User::where('id',1)->with('groups')->first();
@@ -181,8 +184,6 @@ Route::get('admin/agents_go',function(){
      $file = Storage::get('Agents.xml');
     $xml = simplexml_load_string($file);
     //dd($xml->agent[4]);
-    \App\Agents::truncate();
-    $i = 1;
     $mobile = '';
      foreach($xml->agent as $agent){
          if($agent->phone_one_name == 'Cell'){
@@ -191,18 +192,33 @@ Route::get('admin/agents_go',function(){
          if($agent->phone_two_name == 'Cell'){
              $mobile = $agent->phone_two;
          }
-         \App\Agents::updateOrCreate(['id' => $agent->agent_id],[
-             'id' => $agent->agent_id,
-             'first_name' => $agent->first_name,
-             'last_name' => $agent->last_name,
-             'agent_full_name' => $agent->last_name . ', ' .$agent->first_name,
-             'email_address' => $agent->email,
-             'mobile_phone' => $mobile,
-             'office_phone' => $agent->phone_one,
-             'office' => $agent->address1,
-             'agent_order' => $i
-         ]);
-         $i++;
+         $existing_agent = \App\Agents::find($agent->agent_id);
+        if(!$existing_agent){
+            $last_agent = \App\Agents::orderBy('agent_order')->get()->last();
+            if(!$last_agent){
+                $order = 1;
+            }else{
+                $order = ($last_agent->agent_order + 1);
+            }
+            //dd($last_agent);
+            \App\AgentData::create([
+                'zip' => $agent->zip,
+                'source' => 'O',
+                'agent_id' =>$agent->agent_id
+            ]);
+            \App\Agents::create([
+                'id' => $agent->agent_id,
+                'first_name' => $agent->first_name,
+                'last_name' => $agent->last_name,
+                'agent_full_name' => $agent->last_name . ', ' .$agent->first_name,
+                'email_address' => $agent->email,
+                'mobile_phone' => $mobile,
+                'office_phone' => $agent->phone_one,
+                'office' => $agent->address1,
+                'photo' => $agent->photo,
+                'agent_order' =>  $order
+            ]);
+        }
      }
     return redirect('admin');
 });

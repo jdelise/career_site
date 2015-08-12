@@ -43,11 +43,13 @@ class Rets
         $this->rets->Disconnect();
     }
 
-    public function runListingQuery($daysBack = 180)
+    public function runListingQuery($office,$daysBack,$timeframe)
     {
         if ($this->connect() == true) {
-            $since = Carbon::now()->subDays($daysBack)->format('Y-m-d\TH:i:s');
-            $search = $this->rets->SearchQuery('Property', 'Listing', "(ListOfficeMLSID =|CESC01,CESC02,CESC03,CESC04,CESC05,CESC07),(Status =|S),(CloseDate = $since+)", array('Limit' => 1000));
+            $since = Carbon::now()->subDays($daysBack)->format('Y-m-d\T00:00:00');
+            $end = Carbon::createFromFormat('Y-m-d\TH:i:s',$since);
+            $end_date = $end->addDays($timeframe)->format('Y-m-d\T00:00:00');
+            $search = $this->rets->SearchQuery('Property', 'Listing', "(ListOfficeMLSID =$office),(Status =|S),(CloseDate = $since-$end_date)", array('Limit' => 1000));
             $records = $this->rets->TotalRecordsFound();
             while ($listing = $this->rets->FetchRow($search)) {
                 $args = [
@@ -67,11 +69,14 @@ class Rets
         }
     }
 
-    public function runBuyingQuery($daysBack = 180)
+    public function runBuyingQuery($office,$daysBack,$timeframe)
     {
         if ($this->connect() == true) {
-            $since = Carbon::now()->subDays($daysBack)->format('Y-m-d\TH:i:s');
-            $search = $this->rets->SearchQuery('Property', 'Listing', "(SellingOfficeMLSID =|CESC01,CESC02,CESC03,CESC04,CESC05,CESC07),(Status =|S),(CloseDate = $since+)", array('Limit' => 1000));
+            $since = Carbon::now()->subDays($daysBack)->format('Y-m-d\T00:00:00');
+            $end = Carbon::createFromFormat('Y-m-d\TH:i:s',$since);
+            $end_date = $end->addDays($timeframe)->format('Y-m-d\T00:00:00');
+           // return $office . ' - ' . $since . ' - ' . $end_date;
+            $search = $this->rets->SearchQuery('Property', 'Listing', "(SellingOfficeMLSID =$office),(Status =|S),(CloseDate = $since-$end_date)", array('Limit' => 1000));
             $records = $this->rets->TotalRecordsFound();
             while ($listing = $this->rets->FetchRow($search)) {
                 while ($listing = $this->rets->FetchRow($search)) {
@@ -82,7 +87,9 @@ class Rets
                         'zip' => $listing['ZipCode'],
                         'source' => 'B',
                         'selling_broker' => $listing['SellingOfficeMLSID'],
-                        'agent_id' => $listing['SellingAgentMLSID']
+                        'agent_id' => $listing['SellingAgentMLSID'],
+                        'closed_date' => $listing['CloseDate'],
+                        'closed_price' => $listing['ClosePrice'],
                     ];
                     Extra_Data::updateOrCreate(['blc_id' => $listing['MLSNumber']], $args);
                 }

@@ -23,14 +23,14 @@ class RetsController extends Controller {
 
         $this->rets = $rets;
     }
-	public function buyerQuery()
+	public function buyerQuery($office = '|CESC01,CESC02,CESC03,CESC04,CESC05,CESC07',$start = 1,$end = 1)
 	{
-        return $this->rets->runOfficeQuery();
-		//return $rets->runBuyingQuery(186);
+        //return $this->rets->runOfficeQuery();
+		return $this->rets->runBuyingQuery($office,$start,$end);
 	}
-    public function sellerQuery()
+    public function sellerQuery($office = '|CESC01,CESC02,CESC03,CESC04,CESC05,CESC07',$start = 1,$end = 1)
     {
-        return $this->rets->runListingQuery(186);
+        return $this->rets->runListingQuery($office,$start,$end);
     }
     public function test($agent_id,$start_range,$end_range)
     {

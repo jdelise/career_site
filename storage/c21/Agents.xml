@@ -1,124 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<!--CENTURY 21 Scheetz | Created 15/07/2015 03:59:09-->
+<!--CENTURY 21 Scheetz | Created 12/08/2015 03:59:09-->
 <!--Contact:  Data Feeds Department, WhereToLive.com, (952) 294-8080, datafeeds@wheretolive.com-->
 <agents>
-  <agent>
-    <agent_id><![CDATA[5725]]></agent_id>
-    <first_name><![CDATA[Cheryl]]></first_name>
-    <last_name><![CDATA[Sider]]></last_name>
-    <email><![CDATA[csider@c21scheetz.com]]></email>
-    <photo><![CDATA[http://www.century21scheetz.com/Users/pic72360.jpg]]></photo>
-    <company><![CDATA[CENTURY 21 Scheetz - Greenwood]]></company>
-    <address1><![CDATA[821 North State Road 135]]></address1>
-    <city><![CDATA[Greenwood]]></city>
-    <state><![CDATA[IN]]></state>
-    <zip><![CDATA[46142]]></zip>
-    <phone_one><![CDATA[3178512433]]></phone_one>
-    <phone_one_name><![CDATA[Direct]]></phone_one_name>
-    <phone_two><![CDATA[3176917456]]></phone_two>
-    <phone_two_name><![CDATA[Cell]]></phone_two_name>
-    <website><![CDATA[http://www.century21scheetz.com/csider]]></website>
-  </agent>
-  <agent>
-    <agent_id><![CDATA[30343]]></agent_id>
-    <first_name><![CDATA[Pam]]></first_name>
-    <last_name><![CDATA[Ozbun]]></last_name>
-    <email><![CDATA[pozbun@c21scheetz.com]]></email>
-    <photo><![CDATA[http://www.century21scheetz.com/Users/pic72373.jpg]]></photo>
-    <company><![CDATA[CENTURY 21 Scheetz - Greenwood]]></company>
-    <address1><![CDATA[821 North State Road 135]]></address1>
-    <city><![CDATA[Greenwood]]></city>
-    <state><![CDATA[IN]]></state>
-    <zip><![CDATA[46142]]></zip>
-    <phone_one><![CDATA[3178512413]]></phone_one>
-    <phone_one_name><![CDATA[Direct]]></phone_one_name>
-    <phone_two><![CDATA[3174597797]]></phone_two>
-    <phone_two_name><![CDATA[Cell]]></phone_two_name>
-    <website><![CDATA[http://www.century21scheetz.com/pozbun]]></website>
-  </agent>
-  <agent>
-    <agent_id><![CDATA[30236]]></agent_id>
-    <first_name><![CDATA[Fred]]></first_name>
-    <last_name><![CDATA[Nelson]]></last_name>
-    <email><![CDATA[fnelson@c21scheetz.com]]></email>
-    <photo><![CDATA[http://www.century21scheetz.com/Users/pic72375.jpg]]></photo>
-    <company><![CDATA[CENTURY 21 Scheetz - Greenwood]]></company>
-    <address1><![CDATA[821 North State Road 135]]></address1>
-    <city><![CDATA[Greenwood]]></city>
-    <state><![CDATA[IN]]></state>
-    <zip><![CDATA[46142]]></zip>
-    <phone_one><![CDATA[3172257572]]></phone_one>
-    <phone_one_name><![CDATA[Direct]]></phone_one_name>
-    <phone_two><![CDATA[3172257572]]></phone_two>
-    <phone_two_name><![CDATA[Cell]]></phone_two_name>
-    <website><![CDATA[http://www.century21scheetz.com/fnelson]]></website>
-  </agent>
-  <agent>
-    <agent_id><![CDATA[31243]]></agent_id>
-    <first_name><![CDATA[Greg]]></first_name>
-    <last_name><![CDATA[Colman]]></last_name>
-    <email><![CDATA[gcolman@c21scheetz.com]]></email>
-    <photo><![CDATA[http://www.century21scheetz.com/Users/pic72387.jpg]]></photo>
-    <company><![CDATA[CENTURY 21 Scheetz - Greenwood]]></company>
-    <address1><![CDATA[821 North State Road 135]]></address1>
-    <city><![CDATA[Greenwood]]></city>
-    <state><![CDATA[IN]]></state>
-    <zip><![CDATA[46142]]></zip>
-    <phone_one><![CDATA[3178512431]]></phone_one>
-    <phone_one_name><![CDATA[Direct]]></phone_one_name>
-    <phone_two><![CDATA[3179468014]]></phone_two>
-    <phone_two_name><![CDATA[Cell]]></phone_two_name>
-    <website><![CDATA[http://www.century21scheetz.com/gcolman]]></website>
-  </agent>
-  <agent>
-    <agent_id><![CDATA[31744]]></agent_id>
-    <first_name><![CDATA[Valerie]]></first_name>
-    <last_name><![CDATA[Edwards]]></last_name>
-    <email><![CDATA[vedwards@c21scheetz.com]]></email>
-    <photo><![CDATA[http://www.century21scheetz.com/Users/pic72392.jpg]]></photo>
-    <company><![CDATA[CENTURY 21 Scheetz - Greenwood]]></company>
-    <address1><![CDATA[821 North State Road 135]]></address1>
-    <city><![CDATA[Greenwood]]></city>
-    <state><![CDATA[IN]]></state>
-    <zip><![CDATA[46142]]></zip>
-    <phone_one><![CDATA[3179084420]]></phone_one>
-    <phone_one_name><![CDATA[Direct]]></phone_one_name>
-    <website><![CDATA[http://www.century21scheetz.com/vedwards]]></website>
-  </agent>
-  <agent>
-    <agent_id><![CDATA[29733]]></agent_id>
-    <first_name><![CDATA[Gene]]></first_name>
-    <last_name><![CDATA[Ellis]]></last_name>
-    <email><![CDATA[gellis@c21scheetz.com]]></email>
-    <photo><![CDATA[http://www.century21scheetz.com/Users/pic72416.jpg]]></photo>
-    <company><![CDATA[CENTURY 21 Scheetz - Greenwood]]></company>
-    <address1><![CDATA[821 North State Road 135]]></address1>
-    <city><![CDATA[Greenwood]]></city>
-    <state><![CDATA[IN]]></state>
-    <zip><![CDATA[46142]]></zip>
-    <phone_one><![CDATA[3178512463]]></phone_one>
-    <phone_one_name><![CDATA[Direct]]></phone_one_name>
-    <phone_two><![CDATA[3179878987]]></phone_two>
-    <phone_two_name><![CDATA[Cell]]></phone_two_name>
-    <website><![CDATA[http://www.century21scheetz.com/gellis]]></website>
-  </agent>
-  <agent>
-    <agent_id><![CDATA[22671]]></agent_id>
-    <first_name><![CDATA[Susan]]></first_name>
-    <last_name><![CDATA[McClain]]></last_name>
-    <email><![CDATA[smcclain@c21scheetz.com]]></email>
-    <photo><![CDATA[http://www.century21scheetz.com/Users/pic72431.jpg]]></photo>
-    <company><![CDATA[CENTURY 21 Scheetz - Greenwood]]></company>
-    <address1><![CDATA[821 North State Road 135]]></address1>
-    <city><![CDATA[Greenwood]]></city>
-    <state><![CDATA[IN]]></state>
-    <zip><![CDATA[46142]]></zip>
-    <phone_one><![CDATA[3178512455]]></phone_one>
-    <phone_one_name><![CDATA[Direct]]></phone_one_name>
-    <phone_two><![CDATA[3173732137]]></phone_two>
-    <phone_two_name><![CDATA[Cell]]></phone_two_name>
-    <website><![CDATA[http://www.century21scheetz.com/smcclain]]></website>
-  </agent>
   <agent>
     <agent_id><![CDATA[30704]]></agent_id>
     <first_name><![CDATA[Doug]]></first_name>
@@ -156,23 +39,6 @@
     <website><![CDATA[http://www.century21scheetz.com/rvanhook]]></website>
   </agent>
   <agent>
-    <agent_id><![CDATA[30279]]></agent_id>
-    <first_name><![CDATA[Rosa]]></first_name>
-    <last_name><![CDATA[Ferlaino]]></last_name>
-    <email><![CDATA[rferlaino@c21scheetz.com]]></email>
-    <photo><![CDATA[http://www.century21scheetz.com/Users/pic72478.jpg]]></photo>
-    <company><![CDATA[CENTURY 21 Scheetz - Greenwood]]></company>
-    <address1><![CDATA[821 North State Road 135]]></address1>
-    <city><![CDATA[Greenwood]]></city>
-    <state><![CDATA[IN]]></state>
-    <zip><![CDATA[46142]]></zip>
-    <phone_one><![CDATA[3178512418]]></phone_one>
-    <phone_one_name><![CDATA[Direct]]></phone_one_name>
-    <phone_two><![CDATA[3179872407]]></phone_two>
-    <phone_two_name><![CDATA[Cell]]></phone_two_name>
-    <website><![CDATA[http://www.century21scheetz.com/rferlaino]]></website>
-  </agent>
-  <agent>
     <agent_id><![CDATA[31156]]></agent_id>
     <first_name><![CDATA[Amanda]]></first_name>
     <last_name><![CDATA[Speedy]]></last_name>
@@ -190,6 +56,123 @@
     <website><![CDATA[http://www.century21scheetz.com/aspeedy]]></website>
   </agent>
   <agent>
+    <agent_id><![CDATA[22671]]></agent_id>
+    <first_name><![CDATA[Susan]]></first_name>
+    <last_name><![CDATA[McClain]]></last_name>
+    <email><![CDATA[smcclain@c21scheetz.com]]></email>
+    <photo><![CDATA[http://www.century21scheetz.com/Users/pic72431.jpg]]></photo>
+    <company><![CDATA[CENTURY 21 Scheetz - Greenwood]]></company>
+    <address1><![CDATA[821 North State Road 135]]></address1>
+    <city><![CDATA[Greenwood]]></city>
+    <state><![CDATA[IN]]></state>
+    <zip><![CDATA[46142]]></zip>
+    <phone_one><![CDATA[3178512455]]></phone_one>
+    <phone_one_name><![CDATA[Direct]]></phone_one_name>
+    <phone_two><![CDATA[3173732137]]></phone_two>
+    <phone_two_name><![CDATA[Cell]]></phone_two_name>
+    <website><![CDATA[http://www.century21scheetz.com/smcclain]]></website>
+  </agent>
+  <agent>
+    <agent_id><![CDATA[29733]]></agent_id>
+    <first_name><![CDATA[Gene]]></first_name>
+    <last_name><![CDATA[Ellis]]></last_name>
+    <email><![CDATA[gellis@c21scheetz.com]]></email>
+    <photo><![CDATA[http://www.century21scheetz.com/Users/pic72416.jpg]]></photo>
+    <company><![CDATA[CENTURY 21 Scheetz - Greenwood]]></company>
+    <address1><![CDATA[821 North State Road 135]]></address1>
+    <city><![CDATA[Greenwood]]></city>
+    <state><![CDATA[IN]]></state>
+    <zip><![CDATA[46142]]></zip>
+    <phone_one><![CDATA[3178512463]]></phone_one>
+    <phone_one_name><![CDATA[Direct]]></phone_one_name>
+    <phone_two><![CDATA[3179878987]]></phone_two>
+    <phone_two_name><![CDATA[Cell]]></phone_two_name>
+    <website><![CDATA[http://www.century21scheetz.com/gellis]]></website>
+  </agent>
+  <agent>
+    <agent_id><![CDATA[31744]]></agent_id>
+    <first_name><![CDATA[Valerie]]></first_name>
+    <last_name><![CDATA[Edwards]]></last_name>
+    <email><![CDATA[vedwards@c21scheetz.com]]></email>
+    <photo><![CDATA[http://www.century21scheetz.com/Users/pic72392.jpg]]></photo>
+    <company><![CDATA[CENTURY 21 Scheetz - Greenwood]]></company>
+    <address1><![CDATA[821 North State Road 135]]></address1>
+    <city><![CDATA[Greenwood]]></city>
+    <state><![CDATA[IN]]></state>
+    <zip><![CDATA[46142]]></zip>
+    <phone_one><![CDATA[3179084420]]></phone_one>
+    <phone_one_name><![CDATA[Direct]]></phone_one_name>
+    <website><![CDATA[http://www.century21scheetz.com/vedwards]]></website>
+  </agent>
+  <agent>
+    <agent_id><![CDATA[31243]]></agent_id>
+    <first_name><![CDATA[Greg]]></first_name>
+    <last_name><![CDATA[Colman]]></last_name>
+    <email><![CDATA[gcolman@c21scheetz.com]]></email>
+    <photo><![CDATA[http://www.century21scheetz.com/Users/pic72387.jpg]]></photo>
+    <company><![CDATA[CENTURY 21 Scheetz - Greenwood]]></company>
+    <address1><![CDATA[821 North State Road 135]]></address1>
+    <city><![CDATA[Greenwood]]></city>
+    <state><![CDATA[IN]]></state>
+    <zip><![CDATA[46142]]></zip>
+    <phone_one><![CDATA[3178512431]]></phone_one>
+    <phone_one_name><![CDATA[Direct]]></phone_one_name>
+    <phone_two><![CDATA[3179468014]]></phone_two>
+    <phone_two_name><![CDATA[Cell]]></phone_two_name>
+    <website><![CDATA[http://www.century21scheetz.com/gcolman]]></website>
+  </agent>
+  <agent>
+    <agent_id><![CDATA[30236]]></agent_id>
+    <first_name><![CDATA[Fred]]></first_name>
+    <last_name><![CDATA[Nelson]]></last_name>
+    <email><![CDATA[fnelson@c21scheetz.com]]></email>
+    <photo><![CDATA[http://www.century21scheetz.com/Users/pic72375.jpg]]></photo>
+    <company><![CDATA[CENTURY 21 Scheetz - Greenwood]]></company>
+    <address1><![CDATA[821 North State Road 135]]></address1>
+    <city><![CDATA[Greenwood]]></city>
+    <state><![CDATA[IN]]></state>
+    <zip><![CDATA[46142]]></zip>
+    <phone_one><![CDATA[3172257572]]></phone_one>
+    <phone_one_name><![CDATA[Direct]]></phone_one_name>
+    <phone_two><![CDATA[3172257572]]></phone_two>
+    <phone_two_name><![CDATA[Cell]]></phone_two_name>
+    <website><![CDATA[http://www.century21scheetz.com/fnelson]]></website>
+  </agent>
+  <agent>
+    <agent_id><![CDATA[30343]]></agent_id>
+    <first_name><![CDATA[Pam]]></first_name>
+    <last_name><![CDATA[Ozbun]]></last_name>
+    <email><![CDATA[pozbun@c21scheetz.com]]></email>
+    <photo><![CDATA[http://www.century21scheetz.com/Users/pic72373.jpg]]></photo>
+    <company><![CDATA[CENTURY 21 Scheetz - Greenwood]]></company>
+    <address1><![CDATA[821 North State Road 135]]></address1>
+    <city><![CDATA[Greenwood]]></city>
+    <state><![CDATA[IN]]></state>
+    <zip><![CDATA[46142]]></zip>
+    <phone_one><![CDATA[3178512413]]></phone_one>
+    <phone_one_name><![CDATA[Direct]]></phone_one_name>
+    <phone_two><![CDATA[3174597797]]></phone_two>
+    <phone_two_name><![CDATA[Cell]]></phone_two_name>
+    <website><![CDATA[http://www.century21scheetz.com/pozbun]]></website>
+  </agent>
+  <agent>
+    <agent_id><![CDATA[5725]]></agent_id>
+    <first_name><![CDATA[Cheryl]]></first_name>
+    <last_name><![CDATA[Sider]]></last_name>
+    <email><![CDATA[csider@c21scheetz.com]]></email>
+    <photo><![CDATA[http://www.century21scheetz.com/Users/pic72360.jpg]]></photo>
+    <company><![CDATA[CENTURY 21 Scheetz - Greenwood]]></company>
+    <address1><![CDATA[821 North State Road 135]]></address1>
+    <city><![CDATA[Greenwood]]></city>
+    <state><![CDATA[IN]]></state>
+    <zip><![CDATA[46142]]></zip>
+    <phone_one><![CDATA[3178512433]]></phone_one>
+    <phone_one_name><![CDATA[Direct]]></phone_one_name>
+    <phone_two><![CDATA[3176917456]]></phone_two>
+    <phone_two_name><![CDATA[Cell]]></phone_two_name>
+    <website><![CDATA[http://www.century21scheetz.com/csider]]></website>
+  </agent>
+  <agent>
     <agent_id><![CDATA[30171]]></agent_id>
     <first_name><![CDATA[Craig]]></first_name>
     <last_name><![CDATA[Trimble]]></last_name>
@@ -205,6 +188,81 @@
     <phone_two><![CDATA[3175028284]]></phone_two>
     <phone_two_name><![CDATA[Cell]]></phone_two_name>
     <website><![CDATA[http://www.century21scheetz.com/ctrimble]]></website>
+  </agent>
+  <agent>
+    <agent_id><![CDATA[30419]]></agent_id>
+    <first_name><![CDATA[Jill]]></first_name>
+    <last_name><![CDATA[Johnson]]></last_name>
+    <email><![CDATA[jill@c21scheetz.com]]></email>
+    <photo><![CDATA[http://www.century21scheetz.com/Users/pic73060.jpg]]></photo>
+    <company><![CDATA[CENTURY 21 Scheetz - Greenwood]]></company>
+    <address1><![CDATA[821 North State Road 135]]></address1>
+    <city><![CDATA[Greenwood]]></city>
+    <state><![CDATA[IN]]></state>
+    <zip><![CDATA[46142]]></zip>
+    <phone_one><![CDATA[3175024296]]></phone_one>
+    <phone_one_name><![CDATA[Cell]]></phone_one_name>
+    <website><![CDATA[http://www.century21scheetz.com/jill]]></website>
+  </agent>
+  <agent>
+    <agent_id><![CDATA[30761]]></agent_id>
+    <first_name><![CDATA[Derek]]></first_name>
+    <last_name><![CDATA[Johnson]]></last_name>
+    <email><![CDATA[derek@c21scheetz.com]]></email>
+    <photo><![CDATA[http://www.century21scheetz.com/Users/Default/broker_220/320px.jpg]]></photo>
+    <company><![CDATA[CENTURY 21 Scheetz - Greenwood]]></company>
+    <address1><![CDATA[821 North State Road 135]]></address1>
+    <city><![CDATA[Greenwood]]></city>
+    <state><![CDATA[IN]]></state>
+    <zip><![CDATA[46142]]></zip>
+    <phone_one><![CDATA[3175095510]]></phone_one>
+    <phone_one_name><![CDATA[Direct]]></phone_one_name>
+    <website><![CDATA[http://www.century21scheetz.com/derek]]></website>
+  </agent>
+  <agent>
+    <agent_id><![CDATA[31648]]></agent_id>
+    <first_name><![CDATA[Jessica]]></first_name>
+    <last_name><![CDATA[Rohlman]]></last_name>
+    <email><![CDATA[jrohlman@c21scheetz.com]]></email>
+    <photo><![CDATA[http://www.century21scheetz.com/Users/pic73631.jpg]]></photo>
+    <company><![CDATA[CENTURY 21 Scheetz - Greenwood]]></company>
+    <address1><![CDATA[821 North State Road 135]]></address1>
+    <city><![CDATA[Greenwood]]></city>
+    <state><![CDATA[IN]]></state>
+    <zip><![CDATA[46142]]></zip>
+    <phone_one><![CDATA[3174967843]]></phone_one>
+    <phone_one_name><![CDATA[Cell]]></phone_one_name>
+    <website><![CDATA[http://www.century21scheetz.com/jrohlman]]></website>
+  </agent>
+  <agent>
+    <agent_id><![CDATA[33702]]></agent_id>
+    <first_name><![CDATA[Jared]]></first_name>
+    <last_name><![CDATA[Nelson]]></last_name>
+    <email><![CDATA[jnelson@c21scheetz.com]]></email>
+    <photo><![CDATA[http://www.century21scheetz.com/Users/pic74450.jpg]]></photo>
+    <company><![CDATA[CENTURY 21 Scheetz - Greenwood]]></company>
+    <address1><![CDATA[821 North State Road 135]]></address1>
+    <city><![CDATA[Greenwood]]></city>
+    <state><![CDATA[IN]]></state>
+    <zip><![CDATA[46142]]></zip>
+    <phone_one><![CDATA[3176176213]]></phone_one>
+    <phone_one_name><![CDATA[Cell]]></phone_one_name>
+    <website><![CDATA[http://www.century21scheetz.com/jnelson]]></website>
+  </agent>
+  <agent>
+    <agent_id><![CDATA[30554]]></agent_id>
+    <first_name><![CDATA[Helen]]></first_name>
+    <last_name><![CDATA[Ellis]]></last_name>
+    <email><![CDATA[hellis@c21scheetz.com]]></email>
+    <photo><![CDATA[http://www.century21scheetz.com/Users/pic74601.jpg]]></photo>
+    <company><![CDATA[CENTURY 21 Scheetz - Greenwood]]></company>
+    <address1><![CDATA[821 North State Road 135]]></address1>
+    <city><![CDATA[Greenwood]]></city>
+    <state><![CDATA[IN]]></state>
+    <zip><![CDATA[46142]]></zip>
+    <phone_one><![CDATA[3179878129]]></phone_one>
+    <phone_one_name><![CDATA[Cell]]></phone_one_name>
+    <website><![CDATA[http://www.century21scheetz.com/hellis]]></website>
   </agent>
   <agent>
     <agent_id><![CDATA[32702]]></agent_id>
@@ -345,81 +403,6 @@
     <website><![CDATA[http://www.century21scheetz.com/dpfender]]></website>
   </agent>
   <agent>
-    <agent_id><![CDATA[30419]]></agent_id>
-    <first_name><![CDATA[Jill]]></first_name>
-    <last_name><![CDATA[Johnson]]></last_name>
-    <email><![CDATA[jill@c21scheetz.com]]></email>
-    <photo><![CDATA[http://www.century21scheetz.com/Users/pic73060.jpg]]></photo>
-    <company><![CDATA[CENTURY 21 Scheetz - Greenwood]]></company>
-    <address1><![CDATA[821 North State Road 135]]></address1>
-    <city><![CDATA[Greenwood]]></city>
-    <state><![CDATA[IN]]></state>
-    <zip><![CDATA[46142]]></zip>
-    <phone_one><![CDATA[3175024296]]></phone_one>
-    <phone_one_name><![CDATA[Cell]]></phone_one_name>
-    <website><![CDATA[http://www.century21scheetz.com/jill]]></website>
-  </agent>
-  <agent>
-    <agent_id><![CDATA[30761]]></agent_id>
-    <first_name><![CDATA[Derek]]></first_name>
-    <last_name><![CDATA[Johnson]]></last_name>
-    <email><![CDATA[derek@c21scheetz.com]]></email>
-    <photo><![CDATA[http://www.century21scheetz.com/Users/Default/broker_220/320px.jpg]]></photo>
-    <company><![CDATA[CENTURY 21 Scheetz - Greenwood]]></company>
-    <address1><![CDATA[821 North State Road 135]]></address1>
-    <city><![CDATA[Greenwood]]></city>
-    <state><![CDATA[IN]]></state>
-    <zip><![CDATA[46142]]></zip>
-    <phone_one><![CDATA[3175095510]]></phone_one>
-    <phone_one_name><![CDATA[Direct]]></phone_one_name>
-    <website><![CDATA[http://www.century21scheetz.com/derek]]></website>
-  </agent>
-  <agent>
-    <agent_id><![CDATA[31648]]></agent_id>
-    <first_name><![CDATA[Jessica]]></first_name>
-    <last_name><![CDATA[Rohlman]]></last_name>
-    <email><![CDATA[jrohlman@c21scheetz.com]]></email>
-    <photo><![CDATA[http://www.century21scheetz.com/Users/pic73631.jpg]]></photo>
-    <company><![CDATA[CENTURY 21 Scheetz - Greenwood]]></company>
-    <address1><![CDATA[821 North State Road 135]]></address1>
-    <city><![CDATA[Greenwood]]></city>
-    <state><![CDATA[IN]]></state>
-    <zip><![CDATA[46142]]></zip>
-    <phone_one><![CDATA[3174967843]]></phone_one>
-    <phone_one_name><![CDATA[Cell]]></phone_one_name>
-    <website><![CDATA[http://www.century21scheetz.com/jrohlman]]></website>
-  </agent>
-  <agent>
-    <agent_id><![CDATA[33702]]></agent_id>
-    <first_name><![CDATA[Jared]]></first_name>
-    <last_name><![CDATA[Nelson]]></last_name>
-    <email><![CDATA[jnelson@c21scheetz.com]]></email>
-    <photo><![CDATA[http://www.century21scheetz.com/Users/pic74450.jpg]]></photo>
-    <company><![CDATA[CENTURY 21 Scheetz - Greenwood]]></company>
-    <address1><![CDATA[821 North State Road 135]]></address1>
-    <city><![CDATA[Greenwood]]></city>
-    <state><![CDATA[IN]]></state>
-    <zip><![CDATA[46142]]></zip>
-    <phone_one><![CDATA[3176176213]]></phone_one>
-    <phone_one_name><![CDATA[Cell]]></phone_one_name>
-    <website><![CDATA[http://www.century21scheetz.com/jnelson]]></website>
-  </agent>
-  <agent>
-    <agent_id><![CDATA[30554]]></agent_id>
-    <first_name><![CDATA[Helen]]></first_name>
-    <last_name><![CDATA[Ellis]]></last_name>
-    <email><![CDATA[hellis@c21scheetz.com]]></email>
-    <photo><![CDATA[http://www.century21scheetz.com/Users/pic74601.jpg]]></photo>
-    <company><![CDATA[CENTURY 21 Scheetz - Greenwood]]></company>
-    <address1><![CDATA[821 North State Road 135]]></address1>
-    <city><![CDATA[Greenwood]]></city>
-    <state><![CDATA[IN]]></state>
-    <zip><![CDATA[46142]]></zip>
-    <phone_one><![CDATA[3179878129]]></phone_one>
-    <phone_one_name><![CDATA[Cell]]></phone_one_name>
-    <website><![CDATA[http://www.century21scheetz.com/hellis]]></website>
-  </agent>
-  <agent>
     <agent_id><![CDATA[24987]]></agent_id>
     <first_name><![CDATA[Corina Jones, Your Home Team]]></first_name>
     <email><![CDATA[yourhometeam@c21scheetz.com]]></email>
@@ -434,130 +417,6 @@
     <phone_two><![CDATA[3178512469]]></phone_two>
     <phone_two_name><![CDATA[Office]]></phone_two_name>
     <website><![CDATA[http://www.century21scheetz.com/yourhometeam]]></website>
-  </agent>
-  <agent>
-    <agent_id><![CDATA[34392]]></agent_id>
-    <first_name><![CDATA[Jessica]]></first_name>
-    <last_name><![CDATA[Carl]]></last_name>
-    <email><![CDATA[jcarl@c21scheetz.com]]></email>
-    <photo><![CDATA[http://www.century21scheetz.com/Users/pic77034.jpg]]></photo>
-    <company><![CDATA[CENTURY 21 Scheetz - Greenwood]]></company>
-    <address1><![CDATA[821 North State Road 135]]></address1>
-    <city><![CDATA[Greenwood]]></city>
-    <state><![CDATA[IN]]></state>
-    <zip><![CDATA[46142]]></zip>
-    <phone_one><![CDATA[3173194497]]></phone_one>
-    <phone_one_name><![CDATA[Cell]]></phone_one_name>
-    <phone_two><![CDATA[3178513168]]></phone_two>
-    <phone_two_name><![CDATA[Direct]]></phone_two_name>
-    <website><![CDATA[http://www.century21scheetz.com/jcarl]]></website>
-  </agent>
-  <agent>
-    <agent_id><![CDATA[34679]]></agent_id>
-    <first_name><![CDATA[Ron]]></first_name>
-    <last_name><![CDATA[Green]]></last_name>
-    <email><![CDATA[rgreen@c21scheetz.com]]></email>
-    <photo><![CDATA[http://www.century21scheetz.com/Users/pic78655.jpg]]></photo>
-    <company><![CDATA[CENTURY 21 Scheetz - Greenwood]]></company>
-    <address1><![CDATA[821 North State Road 135]]></address1>
-    <city><![CDATA[Greenwood]]></city>
-    <state><![CDATA[IN]]></state>
-    <zip><![CDATA[46142]]></zip>
-    <phone_one><![CDATA[3173411820]]></phone_one>
-    <phone_one_name><![CDATA[Cell]]></phone_one_name>
-    <phone_two><![CDATA[3178513159]]></phone_two>
-    <phone_two_name><![CDATA[Direct]]></phone_two_name>
-    <website><![CDATA[http://www.century21scheetz.com/rgreen]]></website>
-  </agent>
-  <agent>
-    <agent_id><![CDATA[34826]]></agent_id>
-    <first_name><![CDATA[Hellena]]></first_name>
-    <last_name><![CDATA[Robinett]]></last_name>
-    <email><![CDATA[hrobinett@c21scheetz.com]]></email>
-    <photo><![CDATA[http://www.century21scheetz.com/Users/pic79218.jpg]]></photo>
-    <company><![CDATA[CENTURY 21 Scheetz - Greenwood]]></company>
-    <address1><![CDATA[821 North State Road 135]]></address1>
-    <city><![CDATA[Greenwood]]></city>
-    <state><![CDATA[IN]]></state>
-    <zip><![CDATA[46142]]></zip>
-    <phone_one><![CDATA[3176985927]]></phone_one>
-    <phone_one_name><![CDATA[Cell]]></phone_one_name>
-    <website><![CDATA[http://www.century21scheetz.com/hrobinett]]></website>
-  </agent>
-  <agent>
-    <agent_id><![CDATA[10207]]></agent_id>
-    <first_name><![CDATA[Nancy]]></first_name>
-    <last_name><![CDATA[Puorro]]></last_name>
-    <email><![CDATA[npuorro@c21scheetz.com]]></email>
-    <photo><![CDATA[http://www.century21scheetz.com/Users/pic79622.jpg]]></photo>
-    <company><![CDATA[CENTURY 21 Scheetz - Greenwood]]></company>
-    <address1><![CDATA[821 North State Road 135]]></address1>
-    <city><![CDATA[Greenwood]]></city>
-    <state><![CDATA[IN]]></state>
-    <zip><![CDATA[46142]]></zip>
-    <phone_one><![CDATA[3174416891]]></phone_one>
-    <phone_one_name><![CDATA[Cell]]></phone_one_name>
-    <website><![CDATA[http://www.century21scheetz.com/npuorro]]></website>
-  </agent>
-  <agent>
-    <agent_id><![CDATA[26788]]></agent_id>
-    <first_name><![CDATA[Darlene]]></first_name>
-    <last_name><![CDATA[Sidebottom]]></last_name>
-    <email><![CDATA[dsidebottom@c21scheetz.com]]></email>
-    <photo><![CDATA[http://www.century21scheetz.com/Users/pic80502.jpg]]></photo>
-    <company><![CDATA[CENTURY 21 Scheetz - Greenwood]]></company>
-    <address1><![CDATA[821 North State Road 135]]></address1>
-    <city><![CDATA[Greenwood]]></city>
-    <state><![CDATA[IN]]></state>
-    <zip><![CDATA[46142]]></zip>
-    <phone_one><![CDATA[3173390667]]></phone_one>
-    <phone_one_name><![CDATA[Cell]]></phone_one_name>
-    <website><![CDATA[http://www.century21scheetz.com/dsidebottom]]></website>
-  </agent>
-  <agent>
-    <agent_id><![CDATA[35180]]></agent_id>
-    <first_name><![CDATA[Dina]]></first_name>
-    <last_name><![CDATA[Long]]></last_name>
-    <email><![CDATA[dlong@c21scheetz.com]]></email>
-    <photo><![CDATA[http://www.century21scheetz.com/Users/pic80554.jpg]]></photo>
-    <company><![CDATA[CENTURY 21 Scheetz - Greenwood]]></company>
-    <address1><![CDATA[821 North State Road 135]]></address1>
-    <city><![CDATA[Greenwood]]></city>
-    <state><![CDATA[IN]]></state>
-    <zip><![CDATA[46142]]></zip>
-    <phone_one><![CDATA[3173732390]]></phone_one>
-    <phone_one_name><![CDATA[Cell]]></phone_one_name>
-    <website><![CDATA[http://www.century21scheetz.com/dlong]]></website>
-  </agent>
-  <agent>
-    <agent_id><![CDATA[35223]]></agent_id>
-    <first_name><![CDATA[Cheryl]]></first_name>
-    <last_name><![CDATA[Rivera]]></last_name>
-    <email><![CDATA[crivera@c21scheetz.com]]></email>
-    <photo><![CDATA[http://www.century21scheetz.com/Users/pic80630.jpg]]></photo>
-    <company><![CDATA[CENTURY 21 Scheetz - Greenwood]]></company>
-    <address1><![CDATA[821 North State Road 135]]></address1>
-    <city><![CDATA[Greenwood]]></city>
-    <state><![CDATA[IN]]></state>
-    <zip><![CDATA[46142]]></zip>
-    <phone_one><![CDATA[3174397987]]></phone_one>
-    <phone_one_name><![CDATA[Direct]]></phone_one_name>
-    <website><![CDATA[http://www.century21scheetz.com/crivera]]></website>
-  </agent>
-  <agent>
-    <agent_id><![CDATA[35238]]></agent_id>
-    <first_name><![CDATA[Wendy]]></first_name>
-    <last_name><![CDATA[Rife]]></last_name>
-    <email><![CDATA[wrife@c21scheetz.com]]></email>
-    <photo><![CDATA[http://www.century21scheetz.com/Users/pic80657.jpg]]></photo>
-    <company><![CDATA[CENTURY 21 Scheetz - Greenwood]]></company>
-    <address1><![CDATA[821 North State Road 135]]></address1>
-    <city><![CDATA[Greenwood]]></city>
-    <state><![CDATA[IN]]></state>
-    <zip><![CDATA[46142]]></zip>
-    <phone_one><![CDATA[3173717364]]></phone_one>
-    <phone_one_name><![CDATA[Cell]]></phone_one_name>
-    <website><![CDATA[http://www.century21scheetz.com/wrife]]></website>
   </agent>
   <agent>
     <agent_id><![CDATA[35264]]></agent_id>
@@ -605,21 +464,6 @@
     <phone_one><![CDATA[3174127217]]></phone_one>
     <phone_one_name><![CDATA[Cell]]></phone_one_name>
     <website><![CDATA[http://www.century21scheetz.com/asargent]]></website>
-  </agent>
-  <agent>
-    <agent_id><![CDATA[35326]]></agent_id>
-    <first_name><![CDATA[Brad]]></first_name>
-    <last_name><![CDATA[Earnest]]></last_name>
-    <email><![CDATA[bearnest@c21scheetz.com]]></email>
-    <photo><![CDATA[http://www.century21scheetz.com/Users/pic80814.jpg]]></photo>
-    <company><![CDATA[CENTURY 21 Scheetz - Greenwood]]></company>
-    <address1><![CDATA[821 North State Road 135]]></address1>
-    <city><![CDATA[Greenwood]]></city>
-    <state><![CDATA[IN]]></state>
-    <zip><![CDATA[46142]]></zip>
-    <phone_one><![CDATA[3174435670]]></phone_one>
-    <phone_one_name><![CDATA[Cell]]></phone_one_name>
-    <website><![CDATA[http://www.century21scheetz.com/bearnest]]></website>
   </agent>
   <agent>
     <agent_id><![CDATA[35316]]></agent_id>
@@ -832,21 +676,6 @@
     <website><![CDATA[http://www.century21scheetz.com/dturner]]></website>
   </agent>
   <agent>
-    <agent_id><![CDATA[34952]]></agent_id>
-    <first_name><![CDATA[Pam]]></first_name>
-    <last_name><![CDATA[Meyer]]></last_name>
-    <email><![CDATA[pmeyer@c21scheetz.com]]></email>
-    <photo><![CDATA[http://www.century21scheetz.com/Users/pic85199.jpg]]></photo>
-    <company><![CDATA[CENTURY 21 Scheetz - Greenwood]]></company>
-    <address1><![CDATA[821 North State Road 135]]></address1>
-    <city><![CDATA[Greenwood]]></city>
-    <state><![CDATA[IN]]></state>
-    <zip><![CDATA[46142]]></zip>
-    <phone_one><![CDATA[3176974292]]></phone_one>
-    <phone_one_name><![CDATA[Cell]]></phone_one_name>
-    <website><![CDATA[http://www.century21scheetz.com/pmeyer]]></website>
-  </agent>
-  <agent>
     <agent_id><![CDATA[30154]]></agent_id>
     <first_name><![CDATA[Kristin]]></first_name>
     <last_name><![CDATA[Nelson]]></last_name>
@@ -898,23 +727,6 @@
     <website><![CDATA[http://www.century21scheetz.com/ptinsley]]></website>
   </agent>
   <agent>
-    <agent_id><![CDATA[436]]></agent_id>
-    <first_name><![CDATA[Laura]]></first_name>
-    <last_name><![CDATA[Kurkowski]]></last_name>
-    <email><![CDATA[lkurkowski@c21scheetz.com]]></email>
-    <photo><![CDATA[http://www.century21scheetz.com/Users/pic72587.jpg]]></photo>
-    <company><![CDATA[CENTURY 21 Scheetz - Hendricks County]]></company>
-    <address1><![CDATA[7994 E. US Highway 36 Suite C]]></address1>
-    <city><![CDATA[Avon]]></city>
-    <state><![CDATA[IN]]></state>
-    <zip><![CDATA[46123]]></zip>
-    <phone_one><![CDATA[3178311666]]></phone_one>
-    <phone_one_name><![CDATA[Direct]]></phone_one_name>
-    <phone_two><![CDATA[3177539437]]></phone_two>
-    <phone_two_name><![CDATA[Cell]]></phone_two_name>
-    <website><![CDATA[http://www.century21scheetz.com/lkurkowski]]></website>
-  </agent>
-  <agent>
     <agent_id><![CDATA[29625]]></agent_id>
     <first_name><![CDATA[Melissa]]></first_name>
     <last_name><![CDATA[Sheets]]></last_name>
@@ -928,36 +740,6 @@
     <phone_one><![CDATA[3174179042]]></phone_one>
     <phone_one_name><![CDATA[Cell]]></phone_one_name>
     <website><![CDATA[http://www.century21scheetz.com/msheets]]></website>
-  </agent>
-  <agent>
-    <agent_id><![CDATA[34773]]></agent_id>
-    <first_name><![CDATA[Bill]]></first_name>
-    <last_name><![CDATA[Elliott]]></last_name>
-    <email><![CDATA[billelliott@c21scheetz.com]]></email>
-    <photo><![CDATA[http://www.century21scheetz.com/Users/pic79092.jpg]]></photo>
-    <company><![CDATA[CENTURY 21 Scheetz - Hendricks County]]></company>
-    <address1><![CDATA[7994 E. US Highway 36 Suite C]]></address1>
-    <city><![CDATA[Avon]]></city>
-    <state><![CDATA[IN]]></state>
-    <zip><![CDATA[46123]]></zip>
-    <phone_one><![CDATA[3174566049]]></phone_one>
-    <phone_one_name><![CDATA[Cell]]></phone_one_name>
-    <website><![CDATA[http://www.century21scheetz.com/billelliott]]></website>
-  </agent>
-  <agent>
-    <agent_id><![CDATA[34828]]></agent_id>
-    <first_name><![CDATA[Kristi]]></first_name>
-    <last_name><![CDATA[Burcham]]></last_name>
-    <email><![CDATA[kburcham@c21scheetz.com]]></email>
-    <photo><![CDATA[http://www.century21scheetz.com/Users/pic79191.jpg]]></photo>
-    <company><![CDATA[CENTURY 21 Scheetz - Hendricks County]]></company>
-    <address1><![CDATA[7994 E. US Highway 36 Suite C]]></address1>
-    <city><![CDATA[Avon]]></city>
-    <state><![CDATA[IN]]></state>
-    <zip><![CDATA[46123]]></zip>
-    <phone_one><![CDATA[3174104407]]></phone_one>
-    <phone_one_name><![CDATA[Cell]]></phone_one_name>
-    <website><![CDATA[http://www.century21scheetz.com/kburcham]]></website>
   </agent>
   <agent>
     <agent_id><![CDATA[34877]]></agent_id>
@@ -1099,6 +881,130 @@
     <website><![CDATA[http://www.century21scheetz.com/kcameron]]></website>
   </agent>
   <agent>
+    <agent_id><![CDATA[34392]]></agent_id>
+    <first_name><![CDATA[Jessica]]></first_name>
+    <last_name><![CDATA[Carl]]></last_name>
+    <email><![CDATA[jcarl@c21scheetz.com]]></email>
+    <photo><![CDATA[http://www.century21scheetz.com/Users/pic77034.jpg]]></photo>
+    <company><![CDATA[CENTURY 21 Scheetz - Greenwood]]></company>
+    <address1><![CDATA[821 North State Road 135]]></address1>
+    <city><![CDATA[Greenwood]]></city>
+    <state><![CDATA[IN]]></state>
+    <zip><![CDATA[46142]]></zip>
+    <phone_one><![CDATA[3173194497]]></phone_one>
+    <phone_one_name><![CDATA[Cell]]></phone_one_name>
+    <phone_two><![CDATA[3178513168]]></phone_two>
+    <phone_two_name><![CDATA[Direct]]></phone_two_name>
+    <website><![CDATA[http://www.century21scheetz.com/jcarl]]></website>
+  </agent>
+  <agent>
+    <agent_id><![CDATA[34679]]></agent_id>
+    <first_name><![CDATA[Ron]]></first_name>
+    <last_name><![CDATA[Green]]></last_name>
+    <email><![CDATA[rgreen@c21scheetz.com]]></email>
+    <photo><![CDATA[http://www.century21scheetz.com/Users/pic78655.jpg]]></photo>
+    <company><![CDATA[CENTURY 21 Scheetz - Greenwood]]></company>
+    <address1><![CDATA[821 North State Road 135]]></address1>
+    <city><![CDATA[Greenwood]]></city>
+    <state><![CDATA[IN]]></state>
+    <zip><![CDATA[46142]]></zip>
+    <phone_one><![CDATA[3173411820]]></phone_one>
+    <phone_one_name><![CDATA[Cell]]></phone_one_name>
+    <phone_two><![CDATA[3178513159]]></phone_two>
+    <phone_two_name><![CDATA[Direct]]></phone_two_name>
+    <website><![CDATA[http://www.century21scheetz.com/rgreen]]></website>
+  </agent>
+  <agent>
+    <agent_id><![CDATA[34826]]></agent_id>
+    <first_name><![CDATA[Hellena]]></first_name>
+    <last_name><![CDATA[Robinett]]></last_name>
+    <email><![CDATA[hrobinett@c21scheetz.com]]></email>
+    <photo><![CDATA[http://www.century21scheetz.com/Users/pic79218.jpg]]></photo>
+    <company><![CDATA[CENTURY 21 Scheetz - Greenwood]]></company>
+    <address1><![CDATA[821 North State Road 135]]></address1>
+    <city><![CDATA[Greenwood]]></city>
+    <state><![CDATA[IN]]></state>
+    <zip><![CDATA[46142]]></zip>
+    <phone_one><![CDATA[3176985927]]></phone_one>
+    <phone_one_name><![CDATA[Cell]]></phone_one_name>
+    <website><![CDATA[http://www.century21scheetz.com/hrobinett]]></website>
+  </agent>
+  <agent>
+    <agent_id><![CDATA[10207]]></agent_id>
+    <first_name><![CDATA[Nancy]]></first_name>
+    <last_name><![CDATA[Puorro]]></last_name>
+    <email><![CDATA[npuorro@c21scheetz.com]]></email>
+    <photo><![CDATA[http://www.century21scheetz.com/Users/pic79622.jpg]]></photo>
+    <company><![CDATA[CENTURY 21 Scheetz - Greenwood]]></company>
+    <address1><![CDATA[821 North State Road 135]]></address1>
+    <city><![CDATA[Greenwood]]></city>
+    <state><![CDATA[IN]]></state>
+    <zip><![CDATA[46142]]></zip>
+    <phone_one><![CDATA[3174416891]]></phone_one>
+    <phone_one_name><![CDATA[Cell]]></phone_one_name>
+    <website><![CDATA[http://www.century21scheetz.com/npuorro]]></website>
+  </agent>
+  <agent>
+    <agent_id><![CDATA[26788]]></agent_id>
+    <first_name><![CDATA[Darlene]]></first_name>
+    <last_name><![CDATA[Sidebottom]]></last_name>
+    <email><![CDATA[dsidebottom@c21scheetz.com]]></email>
+    <photo><![CDATA[http://www.century21scheetz.com/Users/pic80502.jpg]]></photo>
+    <company><![CDATA[CENTURY 21 Scheetz - Greenwood]]></company>
+    <address1><![CDATA[821 North State Road 135]]></address1>
+    <city><![CDATA[Greenwood]]></city>
+    <state><![CDATA[IN]]></state>
+    <zip><![CDATA[46142]]></zip>
+    <phone_one><![CDATA[3173390667]]></phone_one>
+    <phone_one_name><![CDATA[Cell]]></phone_one_name>
+    <website><![CDATA[http://www.century21scheetz.com/dsidebottom]]></website>
+  </agent>
+  <agent>
+    <agent_id><![CDATA[35180]]></agent_id>
+    <first_name><![CDATA[Dina]]></first_name>
+    <last_name><![CDATA[Long]]></last_name>
+    <email><![CDATA[dlong@c21scheetz.com]]></email>
+    <photo><![CDATA[http://www.century21scheetz.com/Users/pic80554.jpg]]></photo>
+    <company><![CDATA[CENTURY 21 Scheetz - Greenwood]]></company>
+    <address1><![CDATA[821 North State Road 135]]></address1>
+    <city><![CDATA[Greenwood]]></city>
+    <state><![CDATA[IN]]></state>
+    <zip><![CDATA[46142]]></zip>
+    <phone_one><![CDATA[3173732390]]></phone_one>
+    <phone_one_name><![CDATA[Cell]]></phone_one_name>
+    <website><![CDATA[http://www.century21scheetz.com/dlong]]></website>
+  </agent>
+  <agent>
+    <agent_id><![CDATA[35223]]></agent_id>
+    <first_name><![CDATA[Cheryl]]></first_name>
+    <last_name><![CDATA[Rivera]]></last_name>
+    <email><![CDATA[crivera@c21scheetz.com]]></email>
+    <photo><![CDATA[http://www.century21scheetz.com/Users/pic80630.jpg]]></photo>
+    <company><![CDATA[CENTURY 21 Scheetz - Greenwood]]></company>
+    <address1><![CDATA[821 North State Road 135]]></address1>
+    <city><![CDATA[Greenwood]]></city>
+    <state><![CDATA[IN]]></state>
+    <zip><![CDATA[46142]]></zip>
+    <phone_one><![CDATA[3174397987]]></phone_one>
+    <phone_one_name><![CDATA[Direct]]></phone_one_name>
+    <website><![CDATA[http://www.century21scheetz.com/crivera]]></website>
+  </agent>
+  <agent>
+    <agent_id><![CDATA[35238]]></agent_id>
+    <first_name><![CDATA[Wendy]]></first_name>
+    <last_name><![CDATA[Rife]]></last_name>
+    <email><![CDATA[wrife@c21scheetz.com]]></email>
+    <photo><![CDATA[http://www.century21scheetz.com/Users/pic80657.jpg]]></photo>
+    <company><![CDATA[CENTURY 21 Scheetz - Greenwood]]></company>
+    <address1><![CDATA[821 North State Road 135]]></address1>
+    <city><![CDATA[Greenwood]]></city>
+    <state><![CDATA[IN]]></state>
+    <zip><![CDATA[46142]]></zip>
+    <phone_one><![CDATA[3173717364]]></phone_one>
+    <phone_one_name><![CDATA[Cell]]></phone_one_name>
+    <website><![CDATA[http://www.century21scheetz.com/wrife]]></website>
+  </agent>
+  <agent>
     <agent_id><![CDATA[5500]]></agent_id>
     <first_name><![CDATA[Paula]]></first_name>
     <last_name><![CDATA[Neville]]></last_name>
@@ -1214,21 +1120,6 @@
     <website><![CDATA[http://www.century21scheetz.com/evinci]]></website>
   </agent>
   <agent>
-    <agent_id><![CDATA[31314]]></agent_id>
-    <first_name><![CDATA[Megan]]></first_name>
-    <last_name><![CDATA[Mitchener]]></last_name>
-    <email><![CDATA[mmitchener@c21scheetz.com]]></email>
-    <photo><![CDATA[http://www.century21scheetz.com/Users/pic72460.jpg]]></photo>
-    <company><![CDATA[CENTURY 21 Scheetz - Downtown Indy]]></company>
-    <address1><![CDATA[643 Massachusetts Ave]]></address1>
-    <city><![CDATA[Indianapolis]]></city>
-    <state><![CDATA[IN]]></state>
-    <zip><![CDATA[46204]]></zip>
-    <phone_one><![CDATA[3178145500]]></phone_one>
-    <phone_one_name><![CDATA[Direct]]></phone_one_name>
-    <website><![CDATA[http://www.century21scheetz.com/mmitchener]]></website>
-  </agent>
-  <agent>
     <agent_id><![CDATA[21319]]></agent_id>
     <first_name><![CDATA[Shereen]]></first_name>
     <last_name><![CDATA[Wallace]]></last_name>
@@ -1335,25 +1226,6 @@
     <website><![CDATA[http://www.century21scheetz.com/nancy]]></website>
   </agent>
   <agent>
-    <agent_id><![CDATA[33444]]></agent_id>
-    <first_name><![CDATA[Rosalyn]]></first_name>
-    <last_name><![CDATA[Cheesebourough]]></last_name>
-    <email><![CDATA[rosalyn@c21scheetz.com]]></email>
-    <photo><![CDATA[http://www.century21scheetz.com/Users/pic73217.jpg]]></photo>
-    <company><![CDATA[CENTURY 21 Scheetz - Downtown Indy]]></company>
-    <address1><![CDATA[643 Massachusetts Ave]]></address1>
-    <city><![CDATA[Indianapolis]]></city>
-    <state><![CDATA[IN]]></state>
-    <zip><![CDATA[46204]]></zip>
-    <phone_one><![CDATA[3174435254]]></phone_one>
-    <phone_one_name><![CDATA[Cell]]></phone_one_name>
-    <phone_two><![CDATA[3178145500]]></phone_two>
-    <phone_two_name><![CDATA[Office]]></phone_two_name>
-    <phone_three><![CDATA[3178145501]]></phone_three>
-    <phone_three_name><![CDATA[Fax]]></phone_three_name>
-    <website><![CDATA[http://www.century21scheetz.com/rosalyn]]></website>
-  </agent>
-  <agent>
     <agent_id><![CDATA[34512]]></agent_id>
     <first_name><![CDATA[Terry]]></first_name>
     <last_name><![CDATA[Brown]]></last_name>
@@ -1430,6 +1302,23 @@
     <website><![CDATA[http://www.century21scheetz.com/bbisson]]></website>
   </agent>
   <agent>
+    <agent_id><![CDATA[25688]]></agent_id>
+    <first_name><![CDATA[Jen]]></first_name>
+    <last_name><![CDATA[Short]]></last_name>
+    <email><![CDATA[jshort@c21scheetz.com]]></email>
+    <photo><![CDATA[http://www.century21scheetz.com/Users/pic83325.jpg]]></photo>
+    <company><![CDATA[CENTURY 21 Scheetz - Downtown Indy]]></company>
+    <address1><![CDATA[643 Massachusetts Ave]]></address1>
+    <city><![CDATA[Indianapolis]]></city>
+    <state><![CDATA[IN]]></state>
+    <zip><![CDATA[46204]]></zip>
+    <phone_one><![CDATA[3176406709]]></phone_one>
+    <phone_one_name><![CDATA[Cell]]></phone_one_name>
+    <phone_two><![CDATA[3178145383]]></phone_two>
+    <phone_two_name><![CDATA[Office]]></phone_two_name>
+    <website><![CDATA[http://www.century21scheetz.com/jshort]]></website>
+  </agent>
+  <agent>
     <agent_id><![CDATA[36192]]></agent_id>
     <first_name><![CDATA[Andy]]></first_name>
     <last_name><![CDATA[Barton]]></last_name>
@@ -1443,6 +1332,21 @@
     <phone_one><![CDATA[3172249862]]></phone_one>
     <phone_one_name><![CDATA[Cell]]></phone_one_name>
     <website><![CDATA[http://www.century21scheetz.com/abarton]]></website>
+  </agent>
+  <agent>
+    <agent_id><![CDATA[34570]]></agent_id>
+    <first_name><![CDATA[Karla]]></first_name>
+    <last_name><![CDATA[Whisenand]]></last_name>
+    <email><![CDATA[kwhisenand@c21scheetz.com]]></email>
+    <photo><![CDATA[http://www.century21scheetz.com/Users/pic85529.jpg]]></photo>
+    <company><![CDATA[CENTURY 21 Scheetz - Downtown Indy]]></company>
+    <address1><![CDATA[643 Massachusetts Ave]]></address1>
+    <city><![CDATA[Indianapolis]]></city>
+    <state><![CDATA[IN]]></state>
+    <zip><![CDATA[46204]]></zip>
+    <phone_one><![CDATA[3176004910]]></phone_one>
+    <phone_one_name><![CDATA[Cell]]></phone_one_name>
+    <website><![CDATA[http://www.century21scheetz.com/kwhisenand]]></website>
   </agent>
   <agent>
     <agent_id><![CDATA[23944]]></agent_id>
@@ -1980,23 +1884,6 @@
     <website><![CDATA[http://www.century21scheetz.com/eshupert]]></website>
   </agent>
   <agent>
-    <agent_id><![CDATA[2221]]></agent_id>
-    <first_name><![CDATA[Pat]]></first_name>
-    <last_name><![CDATA[Chesebrough]]></last_name>
-    <email><![CDATA[pchesebrough@c21scheetz.com]]></email>
-    <photo><![CDATA[http://www.century21scheetz.com/Users/pic72504.jpg]]></photo>
-    <company><![CDATA[CENTURY 21 Scheetz - 96th Street]]></company>
-    <address1><![CDATA[4929 East 96th]]></address1>
-    <city><![CDATA[Indianapolis]]></city>
-    <state><![CDATA[IN]]></state>
-    <zip><![CDATA[46240]]></zip>
-    <phone_one><![CDATA[3177052527]]></phone_one>
-    <phone_one_name><![CDATA[Direct]]></phone_one_name>
-    <phone_two><![CDATA[3172944586]]></phone_two>
-    <phone_two_name><![CDATA[Cell]]></phone_two_name>
-    <website><![CDATA[http://www.century21scheetz.com/pchesebrough]]></website>
-  </agent>
-  <agent>
     <agent_id><![CDATA[32046]]></agent_id>
     <first_name><![CDATA[Clay]]></first_name>
     <last_name><![CDATA[Burris]]></last_name>
@@ -2478,6 +2365,10 @@
     <zip><![CDATA[46240]]></zip>
     <phone_one><![CDATA[3174187428]]></phone_one>
     <phone_one_name><![CDATA[Cell]]></phone_one_name>
+    <phone_two><![CDATA[8662454820]]></phone_two>
+    <phone_two_name><![CDATA[Fax]]></phone_two_name>
+    <phone_three><![CDATA[3173191107]]></phone_three>
+    <phone_three_name><![CDATA[Other]]></phone_three_name>
     <website><![CDATA[http://www.century21scheetz.com/dbarnes]]></website>
   </agent>
   <agent>
@@ -2809,21 +2700,6 @@
     <website><![CDATA[http://www.century21scheetz.com/lskiles]]></website>
   </agent>
   <agent>
-    <agent_id><![CDATA[35355]]></agent_id>
-    <first_name><![CDATA[Arlo]]></first_name>
-    <last_name><![CDATA[Daunhauer]]></last_name>
-    <email><![CDATA[arlo@c21scheetz.com]]></email>
-    <photo><![CDATA[http://www.century21scheetz.com/Users/pic80772.jpg]]></photo>
-    <company><![CDATA[CENTURY 21 Scheetz - 96th Street]]></company>
-    <address1><![CDATA[4929 East 96th]]></address1>
-    <city><![CDATA[Indianapolis]]></city>
-    <state><![CDATA[IN]]></state>
-    <zip><![CDATA[46240]]></zip>
-    <phone_one><![CDATA[3176007992]]></phone_one>
-    <phone_one_name><![CDATA[Cell]]></phone_one_name>
-    <website><![CDATA[http://www.century21scheetz.com/arlo]]></website>
-  </agent>
-  <agent>
     <agent_id><![CDATA[35380]]></agent_id>
     <first_name><![CDATA[Melissa]]></first_name>
     <last_name><![CDATA[Rowe]]></last_name>
@@ -3073,7 +2949,7 @@
     <first_name><![CDATA[Gracie]]></first_name>
     <last_name><![CDATA[Whitlock]]></last_name>
     <email><![CDATA[gwhitlock@c21scheetz.com]]></email>
-    <photo><![CDATA[http://www.century21scheetz.com/Users/Default/broker_220/320px.jpg]]></photo>
+    <photo><![CDATA[http://www.century21scheetz.com/Users/pic84578.jpg]]></photo>
     <company><![CDATA[CENTURY 21 Scheetz - 96th Street]]></company>
     <address1><![CDATA[4929 East 96th]]></address1>
     <city><![CDATA[Indianapolis]]></city>
@@ -3092,7 +2968,7 @@
     <first_name><![CDATA[Steve]]></first_name>
     <last_name><![CDATA[Barnes]]></last_name>
     <email><![CDATA[sbarnes@c21scheetz.com]]></email>
-    <photo><![CDATA[http://www.century21scheetz.com/Users/Default/broker_220/320px.jpg]]></photo>
+    <photo><![CDATA[http://www.century21scheetz.com/Users/pic85192.jpg]]></photo>
     <company><![CDATA[CENTURY 21 Scheetz - 96th Street]]></company>
     <address1><![CDATA[4929 East 96th]]></address1>
     <city><![CDATA[Indianapolis]]></city>
@@ -3102,9 +2978,28 @@
     <phone_one_name><![CDATA[Cell]]></phone_one_name>
     <phone_two><![CDATA[3177052500]]></phone_two>
     <phone_two_name><![CDATA[Office]]></phone_two_name>
-    <phone_three><![CDATA[3175735182]]></phone_three>
+    <phone_three><![CDATA[8662454820]]></phone_three>
     <phone_three_name><![CDATA[Fax]]></phone_three_name>
     <website><![CDATA[http://www.century21scheetz.com/sbarnes]]></website>
+  </agent>
+  <agent>
+    <agent_id><![CDATA[23673]]></agent_id>
+    <first_name><![CDATA[Julie]]></first_name>
+    <last_name><![CDATA[Kniptash]]></last_name>
+    <email><![CDATA[julie@c21scheetz.com]]></email>
+    <photo><![CDATA[http://www.century21scheetz.com/Users/pic85280.jpg]]></photo>
+    <company><![CDATA[CENTURY 21 Scheetz - 96th Street]]></company>
+    <address1><![CDATA[4929 East 96th]]></address1>
+    <city><![CDATA[Indianapolis]]></city>
+    <state><![CDATA[IN]]></state>
+    <zip><![CDATA[46240]]></zip>
+    <phone_one><![CDATA[3177052500]]></phone_one>
+    <phone_one_name><![CDATA[Office]]></phone_one_name>
+    <phone_two><![CDATA[3175735182]]></phone_two>
+    <phone_two_name><![CDATA[Fax]]></phone_two_name>
+    <phone_three><![CDATA[3174406285]]></phone_three>
+    <phone_three_name><![CDATA[Cell]]></phone_three_name>
+    <website><![CDATA[http://www.century21scheetz.com/julie]]></website>
   </agent>
   <agent>
     <agent_id><![CDATA[36190]]></agent_id>
@@ -3130,7 +3025,7 @@
     <first_name><![CDATA[Travis]]></first_name>
     <last_name><![CDATA[Feldman]]></last_name>
     <email><![CDATA[tfeldman@c21scheetz.com]]></email>
-    <photo><![CDATA[http://www.century21scheetz.com/Users/Default/broker_220/320px.jpg]]></photo>
+    <photo><![CDATA[http://www.century21scheetz.com/Users/pic85368.jpg]]></photo>
     <company><![CDATA[CENTURY 21 Scheetz - 96th Street]]></company>
     <address1><![CDATA[4929 East 96th]]></address1>
     <city><![CDATA[Indianapolis]]></city>
@@ -3143,6 +3038,101 @@
     <phone_three><![CDATA[3177052500]]></phone_three>
     <phone_three_name><![CDATA[Office]]></phone_three_name>
     <website><![CDATA[http://www.century21scheetz.com/tfeldman]]></website>
+  </agent>
+  <agent>
+    <agent_id><![CDATA[36588]]></agent_id>
+    <first_name><![CDATA[Anne]]></first_name>
+    <last_name><![CDATA[Barnes]]></last_name>
+    <email><![CDATA[abarnes@c21scheetz.com]]></email>
+    <photo><![CDATA[http://www.century21scheetz.com/Users/pic85521.jpg]]></photo>
+    <company><![CDATA[CENTURY 21 Scheetz - 96th Street]]></company>
+    <address1><![CDATA[4929 East 96th]]></address1>
+    <city><![CDATA[Indianapolis]]></city>
+    <state><![CDATA[IN]]></state>
+    <zip><![CDATA[46240]]></zip>
+    <phone_one><![CDATA[3178473014]]></phone_one>
+    <phone_one_name><![CDATA[Cell]]></phone_one_name>
+    <phone_two><![CDATA[3175735182]]></phone_two>
+    <phone_two_name><![CDATA[Fax]]></phone_two_name>
+    <phone_three><![CDATA[3177052500]]></phone_three>
+    <phone_three_name><![CDATA[Office]]></phone_three_name>
+    <website><![CDATA[http://www.century21scheetz.com/abarnes]]></website>
+  </agent>
+  <agent>
+    <agent_id><![CDATA[36615]]></agent_id>
+    <first_name><![CDATA[Kenneth]]></first_name>
+    <last_name><![CDATA[Brown]]></last_name>
+    <email><![CDATA[kbrown@c21scheetz.com]]></email>
+    <photo><![CDATA[http://www.century21scheetz.com/Users/pic85561.jpg]]></photo>
+    <company><![CDATA[CENTURY 21 Scheetz - 96th Street]]></company>
+    <address1><![CDATA[4929 East 96th]]></address1>
+    <city><![CDATA[Indianapolis]]></city>
+    <state><![CDATA[IN]]></state>
+    <zip><![CDATA[46240]]></zip>
+    <phone_one><![CDATA[3173624166]]></phone_one>
+    <phone_one_name><![CDATA[Cell]]></phone_one_name>
+    <phone_two><![CDATA[3177052500]]></phone_two>
+    <phone_two_name><![CDATA[Office]]></phone_two_name>
+    <phone_three><![CDATA[3175735182]]></phone_three>
+    <phone_three_name><![CDATA[Fax]]></phone_three_name>
+    <website><![CDATA[http://www.century21scheetz.com/kbrown]]></website>
+  </agent>
+  <agent>
+    <agent_id><![CDATA[36614]]></agent_id>
+    <first_name><![CDATA[Steve]]></first_name>
+    <last_name><![CDATA[Commiskey]]></last_name>
+    <email><![CDATA[scommiskey@c21scheetz.com]]></email>
+    <photo><![CDATA[http://www.century21scheetz.com/Users/Default/broker_220/320px.jpg]]></photo>
+    <company><![CDATA[CENTURY 21 Scheetz - 96th Street]]></company>
+    <address1><![CDATA[4929 East 96th]]></address1>
+    <city><![CDATA[Indianapolis]]></city>
+    <state><![CDATA[IN]]></state>
+    <zip><![CDATA[46240]]></zip>
+    <phone_one><![CDATA[3176700640]]></phone_one>
+    <phone_one_name><![CDATA[Cell]]></phone_one_name>
+    <phone_two><![CDATA[3175735182]]></phone_two>
+    <phone_two_name><![CDATA[Fax]]></phone_two_name>
+    <phone_three><![CDATA[3177052500]]></phone_three>
+    <phone_three_name><![CDATA[Office]]></phone_three_name>
+    <website><![CDATA[http://www.century21scheetz.com/scommiskey]]></website>
+  </agent>
+  <agent>
+    <agent_id><![CDATA[33671]]></agent_id>
+    <first_name><![CDATA[Kris]]></first_name>
+    <last_name><![CDATA[Elliott]]></last_name>
+    <email><![CDATA[kelliott@c21scheetz.com]]></email>
+    <photo><![CDATA[http://www.century21scheetz.com/Users/Default/broker_220/320px.jpg]]></photo>
+    <company><![CDATA[CENTURY 21 Scheetz - 96th Street]]></company>
+    <address1><![CDATA[4929 East 96th]]></address1>
+    <city><![CDATA[Indianapolis]]></city>
+    <state><![CDATA[IN]]></state>
+    <zip><![CDATA[46240]]></zip>
+    <phone_one><![CDATA[3179022293]]></phone_one>
+    <phone_one_name><![CDATA[Cell]]></phone_one_name>
+    <phone_two><![CDATA[3175735182]]></phone_two>
+    <phone_two_name><![CDATA[Fax]]></phone_two_name>
+    <phone_three><![CDATA[3177052500]]></phone_three>
+    <phone_three_name><![CDATA[Office]]></phone_three_name>
+    <website><![CDATA[http://www.century21scheetz.com/kelliott]]></website>
+  </agent>
+  <agent>
+    <agent_id><![CDATA[36642]]></agent_id>
+    <first_name><![CDATA[Kristin]]></first_name>
+    <last_name><![CDATA[Bender]]></last_name>
+    <email><![CDATA[kbender@c21scheetz.com]]></email>
+    <photo><![CDATA[http://www.century21scheetz.com/Users/Default/broker_220/320px.jpg]]></photo>
+    <company><![CDATA[CENTURY 21 Scheetz - 96th Street]]></company>
+    <address1><![CDATA[4929 East 96th]]></address1>
+    <city><![CDATA[Indianapolis]]></city>
+    <state><![CDATA[IN]]></state>
+    <zip><![CDATA[46240]]></zip>
+    <phone_one><![CDATA[5134488318]]></phone_one>
+    <phone_one_name><![CDATA[Cell]]></phone_one_name>
+    <phone_two><![CDATA[3175735182]]></phone_two>
+    <phone_two_name><![CDATA[Fax]]></phone_two_name>
+    <phone_three><![CDATA[3177052500]]></phone_three>
+    <phone_three_name><![CDATA[Office]]></phone_three_name>
+    <website><![CDATA[http://www.century21scheetz.com/kbender]]></website>
   </agent>
   <agent>
     <agent_id><![CDATA[22534]]></agent_id>
@@ -3287,6 +3277,8 @@
     <zip><![CDATA[46077]]></zip>
     <phone_one><![CDATA[3173199012]]></phone_one>
     <phone_one_name><![CDATA[Cell]]></phone_one_name>
+    <phone_two><![CDATA[3178731009]]></phone_two>
+    <phone_two_name><![CDATA[Fax]]></phone_two_name>
     <website><![CDATA[http://www.century21scheetz.com/tlord]]></website>
   </agent>
   <agent>
@@ -3416,21 +3408,6 @@
     <phone_one><![CDATA[3173314170]]></phone_one>
     <phone_one_name><![CDATA[Cell]]></phone_one_name>
     <website><![CDATA[http://www.century21scheetz.com/bdenton]]></website>
-  </agent>
-  <agent>
-    <agent_id><![CDATA[34149]]></agent_id>
-    <first_name><![CDATA[Trene]]></first_name>
-    <last_name><![CDATA[Banks]]></last_name>
-    <email><![CDATA[tbanks@c21scheetz.com]]></email>
-    <photo><![CDATA[http://www.century21scheetz.com/Users/pic76295.jpg]]></photo>
-    <company><![CDATA[CENTURY 21 Scheetz - Zionsville]]></company>
-    <address1><![CDATA[135 East Sycamore Street]]></address1>
-    <city><![CDATA[Zionsville]]></city>
-    <state><![CDATA[IN]]></state>
-    <zip><![CDATA[46077]]></zip>
-    <phone_one><![CDATA[3176029009]]></phone_one>
-    <phone_one_name><![CDATA[Cell]]></phone_one_name>
-    <website><![CDATA[http://www.century21scheetz.com/tbanks]]></website>
   </agent>
   <agent>
     <agent_id><![CDATA[34276]]></agent_id>
@@ -3574,21 +3551,6 @@
     <website><![CDATA[http://www.century21scheetz.com/redwards]]></website>
   </agent>
   <agent>
-    <agent_id><![CDATA[35973]]></agent_id>
-    <first_name><![CDATA[Zanna]]></first_name>
-    <last_name><![CDATA[Medlin]]></last_name>
-    <email><![CDATA[zanna@c21scheetz.com]]></email>
-    <photo><![CDATA[http://www.century21scheetz.com/Users/pic82430.jpg]]></photo>
-    <company><![CDATA[CENTURY 21 Scheetz - Zionsville]]></company>
-    <address1><![CDATA[135 East Sycamore Street]]></address1>
-    <city><![CDATA[Zionsville]]></city>
-    <state><![CDATA[IN]]></state>
-    <zip><![CDATA[46077]]></zip>
-    <phone_one><![CDATA[3179147554]]></phone_one>
-    <phone_one_name><![CDATA[Cell]]></phone_one_name>
-    <website><![CDATA[http://www.century21scheetz.com/zanna]]></website>
-  </agent>
-  <agent>
     <agent_id><![CDATA[36155]]></agent_id>
     <first_name><![CDATA[Michael]]></first_name>
     <last_name><![CDATA[Botkin]]></last_name>
@@ -3653,7 +3615,7 @@
     <first_name><![CDATA[Crystal]]></first_name>
     <last_name><![CDATA[Hamberg]]></last_name>
     <email><![CDATA[chamberg@c21scheetz.com]]></email>
-    <photo><![CDATA[http://www.century21scheetz.com/Users/Default/broker_220/320px.jpg]]></photo>
+    <photo><![CDATA[http://www.century21scheetz.com/Users/pic85408.jpg]]></photo>
     <company><![CDATA[CENTURY 21 Scheetz - Zionsville]]></company>
     <address1><![CDATA[135 East Sycamore Street]]></address1>
     <city><![CDATA[Zionsville]]></city>
@@ -4156,21 +4118,6 @@
     <website><![CDATA[http://www.century21scheetz.com/HZhao]]></website>
   </agent>
   <agent>
-    <agent_id><![CDATA[24228]]></agent_id>
-    <first_name><![CDATA[Michael]]></first_name>
-    <last_name><![CDATA[Case]]></last_name>
-    <email><![CDATA[mcase@c21scheetz.com]]></email>
-    <photo><![CDATA[http://www.century21scheetz.com/Users/pic72487.jpg]]></photo>
-    <company><![CDATA[CENTURY 21 Scheetz - Carmel]]></company>
-    <address1><![CDATA[270 E. Carmel Drive]]></address1>
-    <city><![CDATA[Carmel]]></city>
-    <state><![CDATA[IN]]></state>
-    <zip><![CDATA[46032]]></zip>
-    <phone_one><![CDATA[3178487072]]></phone_one>
-    <phone_one_name><![CDATA[Cell]]></phone_one_name>
-    <website><![CDATA[http://www.century21scheetz.com/mcase]]></website>
-  </agent>
-  <agent>
     <agent_id><![CDATA[15356]]></agent_id>
     <first_name><![CDATA[Jeanne]]></first_name>
     <last_name><![CDATA[Morton]]></last_name>
@@ -4237,23 +4184,6 @@
     <phone_two><![CDATA[3178287040]]></phone_two>
     <phone_two_name><![CDATA[Cell]]></phone_two_name>
     <website><![CDATA[http://www.century21scheetz.com/rspidel]]></website>
-  </agent>
-  <agent>
-    <agent_id><![CDATA[33068]]></agent_id>
-    <first_name><![CDATA[Michelle]]></first_name>
-    <last_name><![CDATA[Jellison Brown]]></last_name>
-    <email><![CDATA[mjbrown@c21scheetz.com]]></email>
-    <photo><![CDATA[http://www.century21scheetz.com/Users/pic72498.jpg]]></photo>
-    <company><![CDATA[CENTURY 21 Scheetz - Carmel]]></company>
-    <address1><![CDATA[270 E. Carmel Drive]]></address1>
-    <city><![CDATA[Carmel]]></city>
-    <state><![CDATA[IN]]></state>
-    <zip><![CDATA[46032]]></zip>
-    <phone_one><![CDATA[3178148210]]></phone_one>
-    <phone_one_name><![CDATA[Direct]]></phone_one_name>
-    <phone_two><![CDATA[3176915102]]></phone_two>
-    <phone_two_name><![CDATA[Cell]]></phone_two_name>
-    <website><![CDATA[http://www.century21scheetz.com/mjbrown]]></website>
   </agent>
   <agent>
     <agent_id><![CDATA[26013]]></agent_id>
@@ -4461,7 +4391,7 @@
     <first_name><![CDATA[Jonathan]]></first_name>
     <last_name><![CDATA[Adams]]></last_name>
     <email><![CDATA[jadams@c21scheetz.com]]></email>
-    <photo><![CDATA[http://www.century21scheetz.com/Users/Default/broker_220/320px.jpg]]></photo>
+    <photo><![CDATA[http://www.century21scheetz.com/Users/pic72552.jpg]]></photo>
     <company><![CDATA[CENTURY 21 Scheetz - Carmel]]></company>
     <address1><![CDATA[270 E. Carmel Drive]]></address1>
     <city><![CDATA[Carmel]]></city>
@@ -4746,23 +4676,6 @@
     <phone_two><![CDATA[3172251771]]></phone_two>
     <phone_two_name><![CDATA[Cell]]></phone_two_name>
     <website><![CDATA[http://www.century21scheetz.com/kohara]]></website>
-  </agent>
-  <agent>
-    <agent_id><![CDATA[29992]]></agent_id>
-    <first_name><![CDATA[Julia]]></first_name>
-    <last_name><![CDATA[Evinger]]></last_name>
-    <email><![CDATA[jevinger@c21scheetz.com]]></email>
-    <photo><![CDATA[http://www.century21scheetz.com/Users/pic72615.jpg]]></photo>
-    <company><![CDATA[CENTURY 21 Scheetz - Carmel]]></company>
-    <address1><![CDATA[270 E. Carmel Drive]]></address1>
-    <city><![CDATA[Carmel]]></city>
-    <state><![CDATA[IN]]></state>
-    <zip><![CDATA[46032]]></zip>
-    <phone_one><![CDATA[3178148265]]></phone_one>
-    <phone_one_name><![CDATA[Direct]]></phone_one_name>
-    <phone_two><![CDATA[3174376544]]></phone_two>
-    <phone_two_name><![CDATA[Cell]]></phone_two_name>
-    <website><![CDATA[http://www.century21scheetz.com/jevinger]]></website>
   </agent>
   <agent>
     <agent_id><![CDATA[11547]]></agent_id>
@@ -5302,23 +5215,6 @@
     <website><![CDATA[http://www.century21scheetz.com/jmiller]]></website>
   </agent>
   <agent>
-    <agent_id><![CDATA[25688]]></agent_id>
-    <first_name><![CDATA[Jen]]></first_name>
-    <last_name><![CDATA[Short]]></last_name>
-    <email><![CDATA[jshort@c21scheetz.com]]></email>
-    <photo><![CDATA[http://www.century21scheetz.com/Users/pic83325.jpg]]></photo>
-    <company><![CDATA[CENTURY 21 Scheetz - Carmel]]></company>
-    <address1><![CDATA[270 E. Carmel Drive]]></address1>
-    <city><![CDATA[Carmel]]></city>
-    <state><![CDATA[IN]]></state>
-    <zip><![CDATA[46032]]></zip>
-    <phone_one><![CDATA[3176406709]]></phone_one>
-    <phone_one_name><![CDATA[Cell]]></phone_one_name>
-    <phone_two><![CDATA[3178145383]]></phone_two>
-    <phone_two_name><![CDATA[Office]]></phone_two_name>
-    <website><![CDATA[http://www.century21scheetz.com/jshort]]></website>
-  </agent>
-  <agent>
     <agent_id><![CDATA[36158]]></agent_id>
     <first_name><![CDATA[Matt]]></first_name>
     <last_name><![CDATA[Whitlock]]></last_name>
@@ -5362,21 +5258,6 @@
     <phone_one><![CDATA[3179098513]]></phone_one>
     <phone_one_name><![CDATA[Cell]]></phone_one_name>
     <website><![CDATA[http://www.century21scheetz.com/priya]]></website>
-  </agent>
-  <agent>
-    <agent_id><![CDATA[35158]]></agent_id>
-    <first_name><![CDATA[Marc]]></first_name>
-    <last_name><![CDATA[Marshall]]></last_name>
-    <email><![CDATA[mmarshall@c21scheetz.com]]></email>
-    <photo><![CDATA[http://www.century21scheetz.com/Users/pic84375.jpg]]></photo>
-    <company><![CDATA[CENTURY 21 Scheetz - Carmel]]></company>
-    <address1><![CDATA[270 E. Carmel Drive]]></address1>
-    <city><![CDATA[Carmel]]></city>
-    <state><![CDATA[IN]]></state>
-    <zip><![CDATA[46032]]></zip>
-    <phone_one><![CDATA[3175905144]]></phone_one>
-    <phone_one_name><![CDATA[Cell]]></phone_one_name>
-    <website><![CDATA[http://www.century21scheetz.com/mmarshall]]></website>
   </agent>
   <agent>
     <agent_id><![CDATA[33492]]></agent_id>

@@ -35,6 +35,20 @@
                 </ul>
             </li>
             @endif
+        <li class="{{setActive('agents')}} treeview">
+            <a href="#">
+                <i class="fa fa-users"></i>
+                <span>Agents</span>
+                <i class="fa fa-angle-left pull-right"></i>
+            </a>
+            <ul class="treeview-menu">
+                <li><a href="{{url('admin/agents')}}">All Agents</a></li>
+                @if(Auth::user()->can(['can_access_leadrouter']))
+                    <li><a href="{{url('admin/ftp')}}">Manual Agent Sync</a></li>
+                    @endif
+
+            </ul>
+        </li>
         @if(Auth::user()->can(['can_access_leadrouter']))
             <li class="{{setActive('create_text_message')}}">
                 <a href="{{url('admin/create_text_message')}}">
