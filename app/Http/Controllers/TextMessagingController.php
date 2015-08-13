@@ -107,7 +107,7 @@ class TextMessagingController extends Controller
             $appointmentMessage->responses = 1;
             $appointmentMessage->agent_id = $agent->id;
             $appointmentMessage->save();
-            event(new AppointmentWasAssigned($agent));
+            //event(new AppointmentWasAssigned($agent));
             return response()->view('admin.messaging.responses.lead_accepted',compact('zipcode','from_phone'))->header('Content-Type','text/xml');
         }
         // Always assume failure and return the response
