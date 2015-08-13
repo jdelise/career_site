@@ -93,19 +93,20 @@ class TextMessagingController extends Controller
         $inboundRequest = $request->all();
         $body = $inboundRequest['Body'];
         $from_phone = $inboundRequest['From'];
-        $appoinmentMessage = Appointment_Message::find($body);
-        $agent = Agents::where('mobile_phone',$from_phone)->with('messages')->first();
-        $agent->messages()->attach($appoinmentMessage->id);
-        $zipcode = $appoinmentMessage->zipcode;
-        // No message exists, tell the user the wrong code was entered
-        if(!$appoinmentMessage){
+        $appointmentMessage = Appointment_Message::find($body);
+        if(!$appointmentMessage){
             return response()->view('admin.messaging.responses.wrong_code')->header('Content-Type', 'text/xml');
         }
+        $agent = Agents::where('mobile_phone',$from_phone)->with('messages')->first();
+        $agent->messages()->attach($appointmentMessage->id);
+        $zipcode = $appointmentMessage->zipcode;
+        // No message exists, tell the user the wrong code was entered
+
         //Other wise, give the user feedback, fire an event and return xml to the user
-        if($appoinmentMessage->responses === 0){
-            $appoinmentMessage->responses = 1;
-            $appoinmentMessage->agent_id = $agent->id;
-            $appoinmentMessage->save();
+        if($appointmentMessage->responses == 0){
+            $appointmentMessage->responses = 1;
+            $appointmentMessage->agent_id = $agent->id;
+            $appointmentMessage->save();
             event(new AppointmentWasAssigned($agent));
             return response()->view('admin.messaging.responses.lead_accepted',compact('zipcode','from_phone'))->header('Content-Type','text/xml');
         }

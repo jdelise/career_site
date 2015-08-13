@@ -50,7 +50,7 @@ class TwilioRepo implements TextMessagingInterface {
             DB::raw("agent_id,zip,agent_id, COUNT(CASE WHEN source IN ('S','B') THEN 1 END) as closings,COUNT(CASE WHEN source IN ('O') THEN 1 END) as office,COUNT(CASE WHEN source IN ('H') THEN 1 END) as home,COUNT(CASE WHEN source IN ('A') THEN 1 END) as other")
         ])->toArray();
         $array_pop = $this->filterAgentsForCollection($agents, $zipcode);
-        $agent_collection = Agents::where('mobile_phone','!=','')->where('is_active',0)->where('days_red','<=',$zipcode->min_red)->orderBy('agent_order','ASC')->find($array_pop);
+        $agent_collection = Agents::where('mobile_phone','!=','')->where('is_active',1)->where('days_red','<=',$zipcode->min_red)->orderBy('agent_order','ASC')->find($array_pop);
         $agent_collection->add([
             'messageId' => $messageId->id
         ]);
