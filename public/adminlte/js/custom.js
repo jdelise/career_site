@@ -33,7 +33,7 @@ var Custom = function () {
                 var i = 0;
                 action = function(){
                     if(i < data.length){
-                        //console.log(messageNumber.messageId);
+
 
                         $.ajax({
                             type: method,
@@ -50,10 +50,12 @@ var Custom = function () {
                                 liveFeed.append('<li>Stoped!</li>');
                             },
                             success : function(){
+                                //console.log(i);
                                 liveFeed.append('<li>' + data[i].last_name+ ', ' + data[i].first_name + '</li>');
+                                i++;
                             }
                         })
-                        i++;
+
                         actionTimer = setTimeout(action, 10000);
                     }
                 };
