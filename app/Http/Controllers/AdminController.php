@@ -9,6 +9,7 @@ use App\Tasks\TaskRepo;
 use Carbon\Carbon;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\Input;
 
 class AdminController extends Controller {
 
@@ -42,5 +43,13 @@ class AdminController extends Controller {
            return view('admin.pages.dashboard',compact('leads','users','overdue_tasks','calls','appointments','experienced_agents','new_agents'));
        }
         return redirect('admin/recruiting/dashboard');
+    }
+    public function search(){
+        $query = Input::get('q');
+        $recruits = Recruits::where('last_name','like','%' . $query . '%')
+            ->orWhere('first_name','like','%' . $query . '%')
+            ->get();
+        return view('admin.search_results',compact('recruits'));
+
     }
 }

@@ -299,7 +299,7 @@
                     checkboxClass: 'icheckbox_minimal-blue',
                     radioClass: 'iradio_minimal-blue'
                 });
-                $('#daterange-btn').daterangepicker(
+               /* $('#daterange-btn').daterangepicker(
                         {
                             ranges: {
                                 'This Year': [moment().startOf('year'), moment().endOf('month')],
@@ -317,7 +317,7 @@
                             $('#end_date').val(end.format('YYYY-MM-DD'));
                             $('#reportrange span').html(start.format('MMMM D, YYYY') + ' - ' + end.format('MMMM D, YYYY'));
                         }
-                );
+                );*/
                 var data = [
                     {
                         value: "<?php echo $numbers['listings_sold']->sum('ClosePrice');?>",

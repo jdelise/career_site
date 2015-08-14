@@ -45,6 +45,9 @@ Route::get('admin/leadrouter/dashboard',[
     'as' => 'leadrouter_dashboard',
     'uses' => 'LeadRouterController@dashboard']
 );
+Route::get('admin/search','AdminController@search');
+Route::get('admin/tasks/edit/{id}','TaskController@viewTask');
+Route::post('admin/tasks/update/{id}','TaskController@updateTask');
 Route::patch('admin/leadrouter','LeadRouterController@update');
 Route::post('admin/leadrouter/getLeadAcceptanceTypes','LeadRouterController@getLeadAcceptanceTypes');
 Route::get('admin/leadrouter/import','LeadRouterController@upload');

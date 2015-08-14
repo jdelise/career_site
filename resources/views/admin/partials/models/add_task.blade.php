@@ -39,8 +39,16 @@
                     </div>
                     <div class="row" style="margin-top:10px">
                         <div class="col-sm-6">
-                            <label for="due_date">Due Date:</label>
-                            <input type="text" class="form-control date-picker" name="due_date">
+                            <div class="form-group">
+                                <label for="due_date">Due Date:</label>
+                                <div class="input-group date" id="datetimepicker1">
+                                    <input type='text' class="form-control" name="due_date"/>
+                                 <span class="input-group-addon">
+                                 <span class="glyphicon glyphicon-calendar"></span>
+                                </span>
+                                </div>
+                            </div>
+
                         </div>
                         <div class="col-sm-6">
                             <label for="completed">Completed?</label>
@@ -49,9 +57,9 @@
                                 <!--   <label class="checkbox-inline">
                                 <div class="checker" id="uniform-inlineCheckbox1"><span><input type="checkbox" id="inlineCheckbox1" value="no"></span></div>No</label> -->
                                 <label class="checkbox-inline">
-                                    <input type="checkbox" name="completed" id="inlineCheckbox2" value="1">Yes</label>
+                                    <input type="radio" name="completed" id="inlineCheckbox2" value="1">Yes</label>
                                 <label class="checkbox-inline">
-                                    <input type="checkbox" name="completed" id="inlineCheckbox2" checked value="0">No</label>
+                                    <input type="radio" name="completed" id="inlineCheckbox2" checked value="0">No</label>
 
                             </div>
 

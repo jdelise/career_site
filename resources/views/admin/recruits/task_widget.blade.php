@@ -15,7 +15,7 @@
                 <ul class="task-list">
 
                     @foreach ($tasks as $task)
-                        @if($task->user_id == Auth::user()->id or Auth::user()->id == 1)
+                        @if($task->user_id == Auth::user()->id or Auth::user()->can('can_view_dashboard'))
                             <li class="clearfix">
                                 <div class="task-title">
                             <span class="task-title-sp">
@@ -45,7 +45,7 @@
                                                         Complete </a>
                                                 </li>
                                                 <li>
-                                                    <a href="#">
+                                                    <a href="{{url('admin/tasks/edit')}}/{{$task->id}}">
                                                         <i class="fa fa-pencil"></i>
                                                         Edit </a>
                                                 </li>

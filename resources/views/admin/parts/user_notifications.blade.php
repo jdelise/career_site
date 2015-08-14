@@ -13,7 +13,7 @@
             <ul class="menu">
                 @foreach($userTasks as $task)
                     <li>
-                        <a href="{{url('admin/recruiting')}}/{{$task->recruit->id}}">
+                        <a href="{{url('admin/tasks/edit')}}/{{$task->id}}">
                             {{$task->name}} - {{$task->due_date->diffForHumans()}}
                         </a>
                     </li>

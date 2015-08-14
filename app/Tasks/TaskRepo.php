@@ -23,7 +23,7 @@ class TaskRepo {
      * @return static
      */
     public function createTask(array $args){
-        $task = Task::create($args);
+        $task = Task::updateOrCreate($args);
         return $task;
     }
     public function assignTaskToUser(array $args){

@@ -5,10 +5,12 @@ use App\Http\Requests;
 use App\Http\Controllers\Controller;
 
 use App\Task;
+use App\TaskName;
 use App\Tasks\TaskRepo;
 use Carbon\Carbon;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\Input;
 use Illuminate\Support\Facades\Mail;
 use Laracasts\Flash\Flash;
 
@@ -79,8 +81,17 @@ class TaskController extends Controller {
         Flash::success("A new $task_name was successfully added");
         return redirect('admin/recruiting/' . $this->request->input('recruit_id'));
     }
-    public function editTask($task_id){
-        return $this->taskRepo->editTask($task_id);
+    public function viewTask($id){
+        $task_names = TaskName::all();
+        $users = User::where('can_recruit','1')->get();
+        $task = Task::where('id',$id)->with('recruit')->first();
+        return view('admin.tasks.view_task',compact('task','task_names','users'));
+    }
+    public function updateTask($id){
+        $task = Task::find($id);
+        $task->update(Input::all());
+        Flash::success('Task was updated');
+        return redirect()->back();
     }
     protected function isTaskAssignedFromOtherUser($user_id,$task){
         if($user_id != Auth::user()->id){

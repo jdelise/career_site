@@ -86,7 +86,7 @@
 <!-- jQuery Knob Chart -->
 <script src="{{asset('adminlte/plugins/knob/jquery.knob.js')}}" type="text/javascript"></script>
 <!-- daterangepicker -->
-<script src="{{asset('adminlte/plugins/daterangepicker/daterangepicker.js')}}" type="text/javascript"></script>
+{{--<script src="{{asset('adminlte/plugins/daterangepicker/daterangepicker.js')}}" type="text/javascript"></script>--}}
 <!-- datepicker -->
 <script src="{{asset('adminlte/plugins/datepicker/bootstrap-datepicker.js')}}" type="text/javascript"></script>
 <!-- Bootstrap WYSIHTML5 -->
@@ -98,6 +98,8 @@
 <script src="{{asset('adminlte/plugins/iCheck/icheck.min.js')}}" type="text/javascript"></script>
 <!-- FastClick -->
 <script src='{{asset('adminlte/plugins/fastclick/fastclick.min.js')}}'></script>
+<script src="{{asset('adminlte/js/moment.min.js')}}" type="text/javascript"></script>
+<script src="{{asset('adminlte/js/bootstrap-datetimepicker.js')}}" type="text/javascript"></script>
 <!-- AdminLTE App -->
 <script src="{{asset('adminlte/js/app.min.js')}}" type="text/javascript"></script>
 
@@ -105,13 +107,16 @@
 {{-- Custom csss--}}
 <script src="{{asset('adminlte/js/custom.js')}}" type="text/javascript"></script>
 @yield('footer-content')
-
+@yield('models')
 <script>
     $(document).ready(function(){
+        $('#datetimepicker1').datetimepicker({
+            format: 'YYYY-MM-DD HH:mm:ss'
+        });
         Custom.init();
         @yield('init')
     });
 </script>
-@yield('models')
+
 </body>
 </html>
