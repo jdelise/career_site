@@ -35,20 +35,21 @@
     </div>
     <div class="row">
         <div class="col-md-12">
-            {{dd($listings)}}
-            @foreach($listings['listings'] as $listing)
+           {{-- {{dd($listings)}}--}}
 
-            @endforeach
             <table class="table table-striped">
                 <tbody>
-
+                @foreach($listings['listings'] as $listing)
                     <tr>
-                        <td>1234 Main Street</td>
-                        <td>Carmel, IN</td>
-                        <td>New Listing</td>
-                        <td>Angela Delise</td>
-                        <td>$495,000</td>
+                        <td>{{$listing['StreetDirPrefix']}} {{$listing['StreetNumber']}} {{$listing['StreetName']}} {{$listing['StreetSuffix']}} {{$listing['StreetDirSuffix']}}</td>
+                        <td>{{$listing['City']}}, IN</td>
+                        <td>{{$listing['Status']}}</td>
+                        <td>{{$listing['ListAgentFullName']}}</td>
+                        <td>${{number_format($listing['ListPrice'])}}</td>
+                        <td>{{$listing['LastChangeType']}}</td>
                     </tr>
+                @endforeach
+
                 </tbody>
             </table>
         </div>
