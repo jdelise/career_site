@@ -42,6 +42,8 @@ class BusinessPlanCreated extends Command implements SelfHandling {
         if(Session::get('sub') != env('APP_NAME')){
             $user = User::where('short_name',Session::get('sub'))->first();
 
+        }elseif(Session::get('sub') == ''){
+            $user = User::where('email', Config::get('c21.recruiter.email'))->first();
         }else {
             $user = User::where('email', Config::get('c21.recruiter.email'))->first();
         }

@@ -4,7 +4,7 @@
 @section('description','The benefit to becoming a Real Estate agent is the opportunity for uncapped earning potential. By completing our interactive business plan you will find out what it will take to achieve your financial goals.')
     @stop
 @section('header_content')
-    <link rel="stylesheet" type="text/css" href="{{ asset('frontend/css/sliders.css') }}" media="screen" />
+    <link rel="stylesheet" type="text/css" href="/frontend/css/sliders.css" media="screen" />
 @stop
 @section('main-content')
     <div class="header-breadcrumb page-header default mbottom50">
@@ -93,11 +93,11 @@
     @include('frontend.partials.business_plan_model')
 @endsection
 @section('footer-scripts')
-    <script src="{{asset('global/plugins/jquery-validation/js/jquery.validate.min.js')}}"></script>
-    <script src="{{asset('global/plugins/jquery-validation/js/additional-methods.min.js')}}"></script>
-    <script src="{{asset('global/plugins/bootstrap-wizard/jquery.bootstrap.wizard.min.js')}}"></script>
-    <script src="{{asset('global/plugins/select2/select2.min.js')}}"></script>
-    <script src="{{asset('backend/pages/scripts/form-wizard.js')}}"></script>
+    <script src="/global/plugins/jquery-validation/js/jquery.validate.min.js"></script>
+    <script src="/global/plugins/jquery-validation/js/additional-methods.min.js"></script>
+    <script src="/global/plugins/bootstrap-wizard/jquery.bootstrap.wizard.min.js"></script>
+    <script src="/global/plugins/select2/select2.min.js"></script>
+    <script src="/backend/pages/scripts/form-wizard.js"></script>
     @stop
 @section('init')
     FormWizard.init();

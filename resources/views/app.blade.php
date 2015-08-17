@@ -16,12 +16,12 @@
 
     <!-- ***** Google Fonts ***** -->
     <link href='http://fonts.googleapis.com/css?family=Roboto:400,300,300italic,400,400italic,500,500italic,700,700italic' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" type="text/css" href="{{ asset('frontend/css/all.css') }}" media="screen" />
+    <link rel="stylesheet" type="text/css" href="/frontend/css/all.css" media="screen" />
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
     @yield('header_content')
     <!-- JS -->
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
-    <script>window.jQuery || document.write('<script src="{{ asset('frontend/js/jquery.min.js') }}}">\x3C/script>')</script>
+    <script>window.jQuery || document.write('<script src="/frontend/js/jquery.min.js">\x3C/script>')</script>
 </head>
 <body class="">
 <div id="page-wrapper">
@@ -183,15 +183,15 @@
 
 <!-- JavaScript at the bottom for faster page loading -->
 
-<script type="text/javascript" src="{{asset('frontend/js/modernizr.custom.js')}}"></script>
-<script type="text/javascript" src="{{asset('frontend/js/bootstrap.js')}}"></script>
-<script type="text/javascript" src="{{asset('frontend/js/jquery.easing.js')}}"></script>
-<script type="text/javascript" src="{{asset('frontend/js/clean-js-plugins.js')}}"></script>
-<script type="text/javascript" src="{{asset('frontend/js/cleanlab_script.js')}}"></script>
-<script type="text/javascript" src="{{asset('frontend/js/jquery.themepunch.plugins.min.js')}}"></script>
-<script type="text/javascript" src="{{asset('frontend/js/jquery.themepunch.revolution.min.js')}}"></script>
-<script type="text/javascript" src="{{asset('frontend/js/classie.js')}}"></script>
-<script type="text/javascript" src="{{asset('frontend/js/mlpushmenu.js')}}"></script>
+<script type="text/javascript" src="/frontend/js/modernizr.custom.js"></script>
+<script type="text/javascript" src="/frontend/js/bootstrap.js"></script>
+<script type="text/javascript" src="/frontend/js/jquery.easing.js"></script>
+<script type="text/javascript" src="/frontend/js/clean-js-plugins.js"></script>
+<script type="text/javascript" src="/frontend/js/cleanlab_script.js"></script>
+<script type="text/javascript" src="/frontend/js/jquery.themepunch.plugins.min.js"></script>
+<script type="text/javascript" src="/frontend/js/jquery.themepunch.revolution.min.js"></script>
+<script type="text/javascript" src="/frontend/js/classie.js"></script>
+<script type="text/javascript" src="/frontend/js/mlpushmenu.js"></script>
 
 @yield('footer-scripts')
 
