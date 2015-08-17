@@ -39,14 +39,9 @@ class BusinessPlanCreated extends Command implements SelfHandling {
      */
 	public function handle(Lead $lead, MailRepo $mailRepo)
 	{
-        if(Session::get('sub') != env('APP_NAME')){
-            $user = User::where('short_name',Session::get('sub'))->first();
+      
+            $user = User::where('email', Config::get('c21.recruiter.email'))->first();
 
-        }elseif(Session::get('sub') == ''){
-            $user = User::where('email', Config::get('c21.recruiter.email'))->first();
-        }else {
-            $user = User::where('email', Config::get('c21.recruiter.email'))->first();
-        }
        // dd($user->id);
         $args = [
             'email' =>  $this->request->input('email'),
