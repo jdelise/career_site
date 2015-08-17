@@ -35,6 +35,15 @@
                     </div>
                 </div>
                 <div class="form-group">
+                    <label class="control-label col-md-3">Can user recruit?</label>
+                    <div class="col-md-9">
+                        <select name="can_recruit" id="" class="">
+                            <option value="0" {{setSelected($user->can_recruit,0)}}>No</option>
+                            <option value="1" {{setSelected($user->can_recruit,1)}}>Yes</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="form-group">
                     <label class="control-label col-md-3">Office?</label>
                     <div class="col-md-9">
                         {!! Form::select('office_id',$offices,$user->office_id)!!}

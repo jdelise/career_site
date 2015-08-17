@@ -58,6 +58,7 @@ class UsersController extends Controller {
             'last_name' => $request['last_name'],
             'email' => $request['email'],
             'office_id' => $request['office_id'],
+            'can_recruit' => $request['can_recruit'],
             'password' => bcrypt($request['password']),
         ])->attachRole(array('id' => $request['role_list']));
         return redirect('admin/users');
@@ -104,6 +105,7 @@ class UsersController extends Controller {
         $user->first_name = $request['first_name'];
         $user->last_name = $request['last_name'];
         $user->office_id = $request['office_id'];
+        $user->can_recruit = $request['can_recruit'];
         $user->save();
         $user->roles()->sync($request->input('role_list'));
 
