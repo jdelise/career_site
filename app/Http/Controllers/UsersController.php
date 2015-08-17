@@ -10,6 +10,7 @@ use App\Office;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Input;
+use Illuminate\Support\Facades\Validator;
 use Intervention\Image\Facades\Image;
 use Laracasts\Flash\Flash;
 
@@ -75,7 +76,19 @@ class UsersController extends Controller {
         $users = User::with('roles.perms')->find($id);
         return $users;
 	}
-
+    public function postResetPassword($id, Request $request){
+        $validator = Validator::make($request->all(),[
+            'password' => 'required|confirmed'
+        ]);
+        if($validator->fails()){
+            Flash::error('The password fields must match');
+            return redirect()->back()->withErrors($validator)->withInput();
+        }
+        $user = User::where('id',$id)->first();
+        $user->password = bcrypt($request['password']);
+        $user->save();
+        return redirect('auth/logout');
+    }
 	/**
 	 * Show the form for editing the specified resource.
 	 *

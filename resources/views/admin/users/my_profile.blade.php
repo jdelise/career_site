@@ -18,117 +18,134 @@
                             <div class="box-header tabbable-line">
                                 <div class="caption caption-md">
                                     <h3 class="box-title">{{$user->first_name}} {{$user->last_name}}</h3>
+                                    <ul class="nav nav-tabs pull-right">
+                                        <li class="active">
+                                            <a href="#personal_data" data-toggle="tab" aria-expanded="true">Personal Info</a>
+                                        </li>
+                                        <li>
+                                            <a href="#password" data-toggle="tab">Change Password</a>
+                                        </li>
+                                    </ul>
                                 </div>
                             </div>
                             <div class="box-body">
                                 <div class="tab-content">
-                                    <!-- PERSONAL INFO TAB -->
+                                    <div class="tab-pane active" id="personal_data">
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                <input type="hidden" class="uid" value="<?php echo $user->id; ?>">
+                                                <input type="hidden" id="_token" name="_token" value="{{csrf_token()}}"/>
+                                                <table id="user" class="table table-bordered table-striped">
+                                                    <tbody>
+                                                    <tr>
+                                                        <td style="width:25%">
+                                                            First Name
+                                                        </td>
+                                                        <td style="width:75%">
+                                                            <a href="#" id="first_name" data-type="text"
+                                                               data-pk="<?php echo $user->id; ?>"
+                                                               data-placement="right"
+                                                               data-placeholder="Required"
+                                                               data-original-title="Enter first Name">
+                                                                <?php echo $user->first_name; ?>
+                                                            </a>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td style="width:25%">
+                                                            Last Name
+                                                        </td>
+                                                        <td style="width:75%">
+                                                            <a href="#" id="last_name" data-type="text"
+                                                               data-pk="<?php echo $user->id; ?>"
+                                                               data-placement="right"
+                                                               data-placeholder="Required"
+                                                               data-original-title="Enter lastname">
+                                                                <?php echo $user->last_name; ?>
+                                                            </a>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td style="width:25%">
+                                                            E-Mail
+                                                        </td>
+                                                        <td style="width:75%">
+                                                            <a href="#" id="email" data-type="text"
+                                                               data-pk="<?php echo $user->id; ?>"
+                                                               data-placement="right"
+                                                               data-placeholder="Required"
+                                                               data-original-title="Enter email address">
+                                                                <?php echo $user->email; ?>
+                                                            </a>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td style="width:25%">
+                                                            Experienced Agent Goal
+                                                        </td>
+                                                        <td style="width:75%">
+                                                            <a href="#" id="experienced_agent_goal" data-type="text"
+                                                               data-pk="<?php echo $user->id; ?>"
+                                                               data-placement="right"
+                                                               data-placeholder="Required"
+                                                               data-original-title="Experienced Agent Goal">
+                                                                <?php echo $user->experienced_agent_goal; ?>
+                                                            </a>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td style="width:25%">
+                                                            New Agent Goal
+                                                        </td>
+                                                        <td style="width:75%">
+                                                            <a href="#" id="new_agent_goal" data-type="text"
+                                                               data-pk="<?php echo $user->id; ?>"
+                                                               data-placement="right"
+                                                               data-placeholder="Required"
+                                                               data-original-title="New Agent Goal">
+                                                                <?php echo $user->new_agent_goal; ?>
+                                                            </a>
+                                                        </td>
+                                                    </tr>
 
-                                    <div class="row">
-                                        <div class="col-md-12">
-                                            <input type="hidden" class="uid" value="<?php echo $user->id; ?>">
-                                            <input type="hidden" id="_token" name="_token" value="{{csrf_token()}}"/>
-                                            <table id="user" class="table table-bordered table-striped">
-                                                <tbody>
-                                                <tr>
-                                                    <td style="width:25%">
-                                                        First Name
-                                                    </td>
-                                                    <td style="width:75%">
-                                                        <a href="#" id="first_name" data-type="text"
-                                                           data-pk="<?php echo $user->id; ?>"
-                                                           data-placement="right"
-                                                           data-placeholder="Required"
-                                                           data-original-title="Enter first Name">
-                                                            <?php echo $user->first_name; ?>
-                                                        </a>
-                                                    </td>
-                                                </tr>
-                                                <tr>
-                                                    <td style="width:25%">
-                                                        Last Name
-                                                    </td>
-                                                    <td style="width:75%">
-                                                        <a href="#" id="last_name" data-type="text"
-                                                           data-pk="<?php echo $user->id; ?>"
-                                                           data-placement="right"
-                                                           data-placeholder="Required"
-                                                           data-original-title="Enter lastname">
-                                                            <?php echo $user->last_name; ?>
-                                                        </a>
-                                                    </td>
-                                                </tr>
-                                                <tr>
-                                                    <td style="width:25%">
-                                                        E-Mail
-                                                    </td>
-                                                    <td style="width:75%">
-                                                        <a href="#" id="email" data-type="text"
-                                                           data-pk="<?php echo $user->id; ?>"
-                                                           data-placement="right"
-                                                           data-placeholder="Required"
-                                                           data-original-title="Enter email address">
-                                                            <?php echo $user->email; ?>
-                                                        </a>
-                                                    </td>
-                                                </tr>
-                                                <tr>
-                                                    <td style="width:25%">
-                                                        Experienced Agent Goal
-                                                    </td>
-                                                    <td style="width:75%">
-                                                        <a href="#" id="experienced_agent_goal" data-type="text"
-                                                           data-pk="<?php echo $user->id; ?>"
-                                                           data-placement="right"
-                                                           data-placeholder="Required"
-                                                           data-original-title="Experienced Agent Goal">
-                                                            <?php echo $user->experienced_agent_goal; ?>
-                                                        </a>
-                                                    </td>
-                                                </tr>
-                                                <tr>
-                                                    <td style="width:25%">
-                                                        New Agent Goal
-                                                    </td>
-                                                    <td style="width:75%">
-                                                        <a href="#" id="new_agent_goal" data-type="text"
-                                                           data-pk="<?php echo $user->id; ?>"
-                                                           data-placement="right"
-                                                           data-placeholder="Required"
-                                                           data-original-title="New Agent Goal">
-                                                            <?php echo $user->new_agent_goal; ?>
-                                                        </a>
-                                                    </td>
-                                                </tr>
-
-                                                <tr>
-                                                    <td style="width:25%">
-                                                        Office
-                                                    </td>
-                                                    <td style="width: 75%;">
-                                                        <a href="#" id="office_id" data-type="select"
-                                                           data-pk="<?php echo $user->id; ?>" data-value=""
-                                                           data-original-title="Select status">
-                                                            <?php echo $user->office->name; ?> </a>
-                                                    </td>
-                                                </tr>
-                                                </tbody>
-                                            </table>
-                                        </div>
-
-                                    </div>
-                                    <div class="row">
-                                        <div class="col-md-12">
-
+                                                    <tr>
+                                                        <td style="width:25%">
+                                                            Office
+                                                        </td>
+                                                        <td style="width: 75%;">
+                                                            <a href="#" id="office_id" data-type="select"
+                                                               data-pk="<?php echo $user->id; ?>" data-value=""
+                                                               data-original-title="Select status">
+                                                                <?php echo $user->office->name; ?> </a>
+                                                        </td>
+                                                    </tr>
+                                                    </tbody>
+                                                </table>
+                                            </div>
 
                                         </div>
                                     </div>
-                                    <div class="row">
-                                        <div class="col-md-12">
+                                    <div class="tab-pane" id="password">
+                                        <form action="{{url('admin/users/reset-password')}}/{{$user->id}}" method="post">
+                                            <input type="hidden" name="_token" value="{{csrf_token()}}"/>
 
-                                        </div>
+                                            <div class="form-group">
+                                                <label class="control-label">New Password</label>
+                                                <input type="password" name="password" class="form-control">
+                                            </div>
+                                            <div class="form-group">
+                                                <label class="control-label">Re-type New Password</label>
+                                                <input type="password" name="password_confirmation" class="form-control">
+                                            </div>
+                                            <div class="margin-top-10">
+                                                <input type="submit" class="btn btn-primary" value="Change Password"/>
+                                                <a href="{{url('admin/users/my-profile')}}/{{$user->id}}" class="btn btn-warning">
+                                                    Cancel </a>
+                                            </div>
+                                        </form>
                                     </div>
                                 </div>
+
                             </div>
                         </div>
                     </div>
