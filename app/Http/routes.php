@@ -274,5 +274,6 @@ Route::get('api',function(){
     $xml = $response->xml();
     dd($xml);
 });
+Route::get('production-report','RetsController@office_production');
 
 

@@ -42,7 +42,23 @@ class Rets
     {
         $this->rets->Disconnect();
     }
+    public function runOfficeProductionQuery()
+    {
+        if ($this->connect() == true) {
+            $now = Carbon::now()->subDays(30)->format('Y-m-d\T00:00:00');
+            $records = [];
+            $records['listings'] = [];
+            $search = $this->rets->SearchQuery('Property', 'Listing', "(ListOfficeMLSID = |CESC01,CESC02,CESC03,CESC04,CESC05,CESC07),(Status =|A,S,P),(OriginalEntryTimestamp = $now+)", array('Limit' => 1000));
+            $records['number'] = $this->rets->TotalRecordsFound();
+            while ($listing = $this->rets->FetchRow($search)) {
+                array_push( $records['listings'],$listing);
 
+            }
+            return $records;
+        } else {
+            return false;
+        }
+    }
     public function runListingQuery($office,$daysBack,$timeframe)
     {
         if ($this->connect() == true) {

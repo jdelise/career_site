@@ -23,6 +23,10 @@ class RetsController extends Controller {
 
         $this->rets = $rets;
     }
+    public function office_production(){
+        $listings = $this->rets->runOfficeProductionQuery();
+        return view('frontend.rets.production_report',compact('listings'));
+    }
 	public function buyerQuery($office = '|CESC01,CESC02,CESC03,CESC04,CESC05,CESC07',$start = 1,$end = 1)
 	{
         //return $this->rets->runOfficeQuery();
