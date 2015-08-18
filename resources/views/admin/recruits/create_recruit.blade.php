@@ -15,7 +15,7 @@
                             <div class="col-md-4">
                                 <div class="form-group">
                                     <label for="first_name">First Name:</label>
-                                    <input type="text" name="first_name" class="form-control"  placeholder="First Name"/>
+                                    <input type="text" name="first_name" class="form-control" required  placeholder="First Name"/>
                                 </div>
                             </div>
                             <div class="col-md-4">
