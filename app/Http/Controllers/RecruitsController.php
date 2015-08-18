@@ -22,6 +22,7 @@ use Illuminate\Support\Facades\File;
 use Illuminate\Support\Facades\Input;
 use Illuminate\Support\Facades\Mail;
 use Illuminate\Support\Facades\Storage;
+use Illuminate\Support\Facades\Validator;
 use Intervention\Image\Facades\Image;
 use Laracasts\Flash\Flash;
 
@@ -87,6 +88,13 @@ class RecruitsController extends Controller
      */
     public function store(Request $request)
     {
+        $validator = Validator::make($request->all(),[
+            'email' => 'required|email'
+        ]);
+        if($validator->fails()){
+            Flash::error('You must enter an email address');
+            return redirect()->back()->withErrors($validator)->withInput();
+        }
         $recruit = Recruits::where('email', $request->input('email'))->with('user')->first();
         if($recruit){
             Flash::error('That recruit is already assigned to ' . $recruit->user->first_name . ' ' . $recruit->user->last_name);
