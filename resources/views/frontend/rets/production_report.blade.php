@@ -21,7 +21,14 @@
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
     <style>
+        .color-box{
+            width: 100%;
 
+        }
+        .color-box h3{
+            margin: 0;
+            text-align: center;
+        }
     </style>
 </head>
 
@@ -30,7 +37,7 @@
 <div class="container-fluid">
     <div class="row">
         <div class="col-md-12">
-            <h2>Production Report</h2>
+            <h2 style="text-align: center;margin-bottom: 30px;">Production for <span style="color:#b0c3e3">{{Carbon\Carbon::now()->format('F d, Y')}}</span></h2>
         </div>
     </div>
     <div class="row">
@@ -39,14 +46,18 @@
 
             <table class="table table-striped">
                 <tbody>
+              <?php $i=1; ?>
                 @foreach($listings['listings'] as $listing)
                     <tr>
+                        <td>{{$i}}</td>
                         <td>{{$listing['StreetDirPrefix']}} {{$listing['StreetNumber']}} {{$listing['StreetName']}} {{$listing['StreetSuffix']}} {{$listing['StreetDirSuffix']}}</td>
                         <td>{{$listing['City']}}, IN</td>
                         <td>{{$listing['Status']}}</td>
                         <td>{{$listing['ListAgentFullName']}}</td>
+                        <td>{{$listing['ListOfficeMLSID']}}</td>
                         <td>${{number_format($listing['ListPrice'])}}</td>
                         <td>{{$listing['LastChangeType']}}</td>
+                        <?php $i++;?>
                     </tr>
                 @endforeach
 

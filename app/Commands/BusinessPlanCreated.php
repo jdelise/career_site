@@ -39,7 +39,7 @@ class BusinessPlanCreated extends Command implements SelfHandling {
      */
 	public function handle(Lead $lead, MailRepo $mailRepo)
 	{
-      
+
             $user = User::where('email', Config::get('c21.recruiter.email'))->first();
 
        // dd($user->id);
