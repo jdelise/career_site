@@ -18,7 +18,7 @@ class UsersController extends Controller {
     public function __construct()
     {
         $this->middleware('auth');
-        $this->middleware('users',['except'=>['getMyProfile','patchEditProfile','postEditImg']]);
+        $this->middleware('users',['except'=>['getMyProfile','patchEditProfile','postEditImg','postResetPassword']]);
     }
 	/**
 	 * Display a listing of the resource.
