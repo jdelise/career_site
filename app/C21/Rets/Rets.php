@@ -52,6 +52,16 @@ class Rets
             $records['number'] = $this->rets->TotalRecordsFound();
             while ($listing = $this->rets->FetchRow($search)) {
                 array_push( $records['listings'],$listing);
+                $args = [
+                    'blc_id' => $listing['MLSNumber'],
+                    'address' => $listing['StreetNumber'] . ' ' . $listing['StreetName'],
+                    'city' => $listing['City'],
+                    'zip' => $listing['ZipCode'],
+                    'source' => 'S',
+                    'selling_broker' => $listing['ListOfficeMLSID'],
+                    'agent_id' => $listing['ListAgentMLSID']
+                ];
+                Extra_Data::updateOrCreate(['blc_id' => $listing['MLSNumber']], $args);
 
             }
             return $records;

@@ -46,7 +46,7 @@ class SurveyController extends Controller {
         return view('admin.surveys.complete_survey',compact('survey'));
     }
     public function store(Request $request,MailRepo $mailRepo){
-        $survey = Survey::where($request->input('id'),'id')->with('recruit')->first();
+        $survey = Survey::where('id',$request->input('id'))->with('recruit')->first();
 
         $survey->updateOrCreate(['id' => $request->input('id')],$request->all());
         $mailRepo->emailAdmin('Survey Complete','Survey was completed',[
