@@ -89,16 +89,12 @@ class RecruitsController extends Controller
     public function store(Request $request)
     {
         $validator = Validator::make($request->all(),[
-            'email' => 'required|email'
+            'email' => 'required|email|unique:recruits',
+            'first_name' => 'required',
+            'last_name' => 'required'
         ]);
         if($validator->fails()){
-            Flash::error('You must enter an email address');
             return redirect()->back()->withErrors($validator)->withInput();
-        }
-        $recruit = Recruits::where('email', $request->input('email'))->with('user')->first();
-        if($recruit){
-            Flash::error('That recruit is already assigned to ' . $recruit->user->first_name . ' ' . $recruit->user->last_name);
-            return redirect('admin/recruiting/create_recruit');
         }
         $recruit = Recruits::create($request->all());
         Flash::success('Recruit has been added');

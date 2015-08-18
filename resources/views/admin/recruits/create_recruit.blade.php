@@ -8,19 +8,20 @@
                     <h3 class="box-title">Add a new recruit</h3>
                 </div>
                 <div class="box-body">
+                    @include('admin/partials/forms/errors')
                     <form action="{{url('admin/recruiting/add_recruit')}}" method="post">
                         <input type="hidden" name="_token" value="{{csrf_token()}}"/>
                         <div class="row">
                             <div class="col-md-4">
                                 <div class="form-group">
                                     <label for="first_name">First Name:</label>
-                                    <input type="text" name="first_name" class="form-control" placeholder="First Name"/>
+                                    <input type="text" name="first_name" class="form-control"  placeholder="First Name"/>
                                 </div>
                             </div>
                             <div class="col-md-4">
                                 <div class="form-group">
                                     <label for="first_name">Last Name:</label>
-                                    <input type="text" name="last_name" class="form-control" placeholder="Last Name"/>
+                                    <input type="text" name="last_name" class="form-control" required placeholder="Last Name"/>
                                 </div>
                             </div>
                             <div class="col-md-4">
@@ -36,7 +37,7 @@
                             <div class="col-md-6">
                                 <div class="form-group">
                                     <label for="email">Email Address</label>
-                                    <input type="text" class="form-control" name="email" placeholder="Email Address"/>
+                                    <input type="text" class="form-control" name="email" required placeholder="Email Address"/>
                                 </div>
                             </div>
                             <div class="col-md-6">
